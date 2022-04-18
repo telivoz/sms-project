@@ -1,3 +1,4 @@
+@auth
 <!-- HEADER MOBILE-->
 <header class="header-mobile d-block d-lg-none">
     <div class="header-mobile__bar">
@@ -121,8 +122,7 @@
             <div class="container-fluid">
                 <div class="header-wrap">
                     <form class="form-header" action="" method="POST">
-                        <input class="au-input au-input--xl" type="text" name="search"
-                            placeholder="Search for datas &amp; reports..." />
+                        <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
                         <button class="au-btn--submit" type="submit">
                             <i class="zmdi zmdi-search"></i>
                         </button>
@@ -146,26 +146,37 @@
                                             <span class="time"></span>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="mess__footer">
                                         <a href="#">View all messages</a>
                                     </div>
                                 </div>
                             </div>
-                          
-                        <div class="account-wrap">
-                            <div class="account-item clearfix js-item-menu">
-                                <div class="image">
-                                    <img src="images/icon/207-2070782_new-svg-image-login-icon.png" alt="" />
-                                </div>
-                                <div class="content">
-                                    <a class="js-acc-btn" href="#">{{$user ?? 'User'}}</a>
-                                </div>
-                                <div class="account-dropdown js-dropdown">
-                                    <div class="info clearfix">                                        
-                                       <a><strong>Balance: </strong> $ {{$balance??'0.00'}}</a>
+
+                            <div class="account-wrap">
+                                <div class="account-item clearfix js-item-menu">
+                                    <div class="image">
+                                        <img src="images/icon/207-2070782_new-svg-image-login-icon.png" alt="" />
                                     </div>
-                                    <!--div class="account-dropdown__body">
+                                    <div class="content">
+                                        <a class="js-acc-btn" href="#">{{ auth()->user()->name ?? 'User'}}</a>
+                                    </div>
+                                    <div class="account-dropdown js-dropdown">
+                                        <div class="info clearfix">
+                                            <a><strong>Balance: </strong> $ {{ auth()->user()->balance ?? '0.00'}}</a>
+                                        </div>
+                                        <div class="info clearfix">
+                                            @if (auth()->user()->profile == 1)
+                                            <a>Adminstrator</a>
+                                            @endif
+                                            @if (auth()->user()->profile == 2)
+                                            <a>NOC</a>
+                                            @endif
+                                            @if (auth()->user()->profile == 3)
+                                            <a>Customer</a>
+                                            @endif
+                                        </div>
+                                        <!--div class="account-dropdown__body">
                                         <div class="account-dropdown__item">
                                             <a href="#">
                                                 <i class="zmdi zmdi-account"></i>Account</a>
@@ -179,9 +190,14 @@
                                                 <i class="zmdi zmdi-money-box"></i>Billing</a>
                                         </div>
                                     </div-->
-                                    <div class="account-dropdown__footer">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-power"></i>Logout</a>
+                                        <div class="account-dropdown__footer">
+                                            <form action="/logout" method="POST">
+                                                @csrf
+                                                <a href="/logout" class="zmdi zmdi-power" onclick="event.preventDefault(); this.closest('form').submit();">
+                                                    Logout
+                                                </a>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -189,6 +205,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <!-- END HEADER DESKTOP-->
+    @endauth
