@@ -59,7 +59,16 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
+		<li class="active has-sub">
+                    <a class="js-arrow" href="#">
+                        <i class="far fa-check-square"></i>Logs <i class="bi bi-sort-down"></i></a>
+                    <ul class="list-unstyled navbar__sub-list js-sub-list">
+                        <li>
+                            <a href="/logs">SMS Gateway Logs</a>
+                        </li>
+                    </ul>
+                </li>
+	    </ul>
         </nav>
     </div>
 </aside>

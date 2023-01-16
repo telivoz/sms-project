@@ -47,7 +47,7 @@ class SubmitLogs extends Migration
             $table->char('uid',15);
             $table->integer('trials')->nullable(true);
             $table->timestamp('created_at',$precision = 0);
-            $table->timestamp('status_at',$precision = 0);
+            //$table->timestamp('status_at',$precision = 0);
         });
         DB::statement('ALTER TABLE submit_logs ADD CONSTRAINT submit_log_pdu_count_check CHECK ((pdu_count >= 0))');
         DB::statement('ALTER TABLE submit_logs ADD CONSTRAINT submit_log_trials_check CHECK ((trials >= 0))');

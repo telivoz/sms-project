@@ -12,6 +12,8 @@ use App\Models\Customer;
 #use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\Request;
 
+use Khill\Lavacharts\Lavacharts;
+$lava = new Lavacharts; // See note below for Laravel
 class Controller extends BaseController
 {
     
@@ -127,7 +129,10 @@ class Controller extends BaseController
         return redirect('/connector');
     }
     public function Mtrouter() {        
-        return view('mt-router');
+        $routers = shell_exec("python3 /opt/jasmin/cli/mt-router.py | awk '{print $1}' | sed 's/#//g'");
+        $routers = explode("\n", $routers);
+        return view('mt-router', 
+         ['routers' => $routers]);   
     }
     public function addMtrouter() {        
         return view('addMtrouter');
@@ -188,4 +193,16 @@ class Controller extends BaseController
         $submit_log::where('msgid',$id);
         return view('details',['details' => $submit_log->get()]);
     }
+    public function logs() {
+	    $arrFiles = array();
+	    $handle = opendir('/var/log/jasmin');
+	    if ($handle) {
+		    while (($entry = readdir($handle)) !== FALSE) {
+			    $arrFiles[] = $entry;
+		    }
+	    }
+	    closedir($handle);
+	    return view('logs', ['files' => $arrFiles]);
+    }
+
 }

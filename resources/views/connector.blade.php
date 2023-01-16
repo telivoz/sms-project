@@ -16,22 +16,19 @@ tbody tr:hover {
     </tr>
   </thead>
   <tbody>
-    @foreach($connectores as $connector)      
-      @php 
-        $it = ($loop->count-3);
-      @endphp
-      @if (($loop->index > 1) && ($loop->index < $it))
-        <tr><td>{{$connector}}</td>
-        <td>
-        <!--a href="/connector/edit/{{ $connector }}" class="bi bi-pencil-square"></a-->
-          <form action="/connector/delete/{{  $connector }}" method="POST">
-          @csrf
-          @method('delete')
-          <button type="submit" style="color:red;" class="bi bi-trash3"></button>
-          </form>          
-        </td>
+  @foreach ($connectores as $connector)      
+  @if ($connector != "")
+	<tr><td>{{$connector}}</td>
+	<td>
+	  <a href="/connector/edit/{{ $connector }}" class="bi bi-pencil-square"></a>
+	  <form action="/connector/delete/{{  $connector }}" method="POST">
+	  @csrf
+	  @method('delete')
+	  <button type="submit" style="color:red;" class="bi bi-trash3"></button>
+	  </form>          
+	</td>
       </tr>
-      @endif
+    @endif
     @endforeach
   </tbody>
 </table>

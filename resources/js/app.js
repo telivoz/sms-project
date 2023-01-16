@@ -1,4 +1,6 @@
-require('./bootstrap');
+import './bootstrap';
+
+import './mychart.js';
 
 import Alpine from 'alpinejs';
 

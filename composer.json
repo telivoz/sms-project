@@ -6,17 +6,19 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "consoletvs/charts": "7.*",
+        "consoletvs/charts": "^6.5",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/fortify": "^1.14",
         "laravel/framework": "^8.75",
-        "laravel/jetstream": "^2.7",
+        "laravel/jetstream": "^2.9",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "livewire/livewire": "^2.5"
+        "livewire/livewire": "^2.5",
+    	"khill/lavacharts" : "3.1.*"
     },
     "require-dev": {
-        "facade/ignition": "^2.5",
+        "facade/ignition": "^2.14",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
