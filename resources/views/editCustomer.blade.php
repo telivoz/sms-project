@@ -7,12 +7,16 @@
 @method('PUT')
   <div class="form-group">
     <label for="uid">UID:</label>
-    <input type="text" class="form-control" id="uid" placeholder="Enter UID" name="uid" value="{{ $customer->uid }}">
+    <input type="text" class="form-control" id="uid" placeholder="Enter User to send SMS" name="uid" value="{{ $customer->uid }}">
   </div>
   <div class="form-group">
     <label for="pwd">Name:</label>
     <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" value="{{ $customer->name }}">
   </div> 
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="pwd" class="form-control" id="password" placeholder="Enter Password" name="password">
+  </div>
   <div class="form-group">
     <label for="pwd">E-mail:</label>
     <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email" value="{{ $customer->email }}">

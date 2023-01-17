@@ -22,15 +22,14 @@ class Controller extends BaseController
         return view('home');
     }
     public function customer() {        
-        $customer = new \App\Models\User();
+        $customer = new \App\Models\Customer();
         return view('customer',['customers' => $customer->all()]);
     }    
     public function storeCustomer(Request $request){
-        $customer = new  \App\Models\User();
+        $customer = new  \App\Models\Customer();
         $customer->uid = $request->uid;
         $customer->name = $request->name;
         $customer->email = $request->email;
-        shell_exec("");
         $customer->password = Hash::make($request->password); 
         $customer->address = $request->address;
         $customer->phone = $request->phone;
@@ -39,7 +38,8 @@ class Controller extends BaseController
         $customer->rate = "0.0000";
         $customer->currency = "$";
         $customer->balance = "0.0000";
-        $customer->save();
+	$customer->save();
+	shell_exec("python3 /opt/jasmin/cli/createUser.py '$request->uid' '$request->password'");
         return redirect('/customer');
     }
     public function storeProvider(Request $request){
@@ -65,24 +65,26 @@ class Controller extends BaseController
         return view('editProvider');
     }
     public function editCustomer($id) { 
-        $customer = new  \App\Models\User();
+        $customer = new  \App\Models\Customer();
         $customer::findOrfail($id);
         return view('editCustomer', ['customers' => $customer->all()]);
     }
     public function updateCustomer(Request $request) { 
-        $customer = new  \App\Models\User();
+    	$customer = new  \App\Models\Customer();
         $customer::where('id',$request->id)->update([
         'uid' => $request->uid,
         'name' => $request->name, 
         'email' => $request->email, 
+        'password' => Hash::make($request->password),
         'address' => $request->address,
         'phone' => $request->phone,
         'company' => $request->company,
-        'profile' => $request->profile]);        
+        'profile' => $request->profile]);
+        shell_exec("python3 /opt/jasmin/cli/updateUser.py '$request->uid' '$request->password'");       
         return redirect('/customer');
     }
     public function destroyCustomer($id) {       
-        $customer = new  \App\Models\User();
+        $customer = new  \App\Models\Customer();
         $customer::findOrfail($id)->delete();
         return redirect('/customer');
     }
