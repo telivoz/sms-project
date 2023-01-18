@@ -47,6 +47,17 @@ Route::post('/mt-router', [Controller::class, 'storeMtrouter']);
 Route::get('/mt-router/delete/{id}', [Controller::class, 'destroyMtrouter']);
 Route::get('/mt-router/add', [Controller::class, 'addMtrouter']);
 
+Route::get('/rates-provider', [Controller::class, 'ratesProvider']);
+Route::post('/rates-provider', [Controller::class, 'storeRatesProvider']);
+Route::get('/rates-provider/delete/{id}', [Controller::class, 'destroyRatesProvider']);
+Route::get('/rates-provider/add', [Controller::class, 'addRatesProvider']);
+
+Route::get('/rates-customer', [Controller::class, 'ratesCustomer']);
+Route::post('/rates-customer', [Controller::class, 'storeRatesCustomer']);
+Route::get('/rates-customer/delete/{id}', [Controller::class, 'destroyRatesCustomer']);
+Route::get('/rates-customer/add', [Controller::class, 'addRatesCustomer']);
+
+
 Route::get('/filters', [Controller::class, 'filter']);
 Route::post('/filters', [Controller::class, 'storeFilter']);
 Route::get('/filters/delete/{id}', [Controller::class, 'destroyFilter']);

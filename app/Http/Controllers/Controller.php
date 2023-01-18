@@ -24,7 +24,41 @@ class Controller extends BaseController
     public function customer() {        
         $customer = new \App\Models\Customer();
         return view('customer',['customers' => $customer->all()]);
-    }    
+    }
+    public function ratesProvider() {
+        $rates = new \App\Models\RateProvider();
+    	return view('rates-provider',['rates' => $rates->all()]);
+    } 
+    public function ratesCustomer() {
+	$rates = new \App\Models\RateCustomer();
+        return view('rates-customer',['rates' => $rates->all()]);
+    }
+    public function addRatesProvider() {
+	$provider = new \App\Models\Provider();
+    	return view('addProviderRate', ['providers' => $provider->all()]);
+    }
+    public function addRatesCustomer() {
+	$customer = new \App\Models\Customer();
+        return view('addCustomerRate',['customers' => $customer->all()]);
+    }
+    public function storeRatesCustomer(Request $request) {
+    	$rates = new \App\Models\RateCustomer();
+	$rates->code = $request->code;
+	$rates->destination = $request->destination;
+        $rates->company = $request->company;
+        $rates->cost = $request->cost;
+	$rates->save();
+	return redirect('/rates-customer');
+    }
+    public function storeRatesProvider(Request $request) {
+        $rates = new \App\Models\RateProvider();
+        $rates->code = $request->code;
+	$rates->destination = $request->destination;
+	$retes->company = $request->company;
+        $rates->cost = $request->cost;
+        $rates->save();
+        return redirect('/rates-provider');
+    }
     public function storeCustomer(Request $request){
         $customer = new  \App\Models\Customer();
         $customer->uid = $request->uid;
