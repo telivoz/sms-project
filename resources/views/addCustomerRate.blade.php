@@ -13,11 +13,11 @@
   </div>
   <div class="form-group">
     <label for="company">COMPANY:</label>
- @foreach($customers as $customer) 
  	<select class="form-select" id="company" name="company">
+ @foreach($customers as $customer) 
 		<option value="<?php echo $customer->id?>"><?php echo $customer->name?></option>
-    	</select>
 @endforeach
+    	</select>
   </div>
   <div class="form-group">
     <label for="cost">COST:</label>

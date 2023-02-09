@@ -253,5 +253,21 @@ class Controller extends BaseController
 	    closedir($handle);
 	    return view('logs', ['files' => $arrFiles]);
     }
+    public function refill() {
+    	$customer = new \App\Models\Customer();
+        return view('refill',['customers' => $customer->all()]);
+    }
+    public function addRefill($id) {
+	    return view('addRefill', ['id' => $id]);
+    }
+    public function updateRefill(Request $request) {
+	    $customer = new  \App\Models\Customer();
+	    $rate = $customer::where('id',$request->id)->value('balance') + $request->refillValue;
+        $customer::where('id',$request->id)->update([
+		'balance' => $rate]);
+
+	return redirect('/refil');
+
+    }
 
 }

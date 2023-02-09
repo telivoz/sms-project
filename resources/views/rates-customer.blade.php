@@ -13,7 +13,7 @@
     <tr>
       <th>CODE</th>
       <th>DESTINATION</th>
-      <th>Company</th>
+      <th>Customer</th>
       <th>COST</th>
       <th>Actions</th>
     </tr>
@@ -24,7 +24,7 @@
 <tr>
       <td>{{ $rate->code }}</td>
       <td>{{ $rate->destination }}</td>
-      <td>{{ $rate->company }}</td>
+      <td> <?php $customer = DB::table('customers')->where('id', "$rate->company")->value('name'); echo $customer;?></td>
       <td>{{ $rate->cost }}</td>
       <td>
           <a href="/rates-customer/edit/" class="bi bi-pencil-square"></a>

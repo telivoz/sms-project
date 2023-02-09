@@ -68,6 +68,9 @@ Route::get('/dashboard', [Controller::class, 'dashboard']);
 
 Route::get('/logs', [Controller::class, 'logs']);
 
+Route::get('/refil', [Controller::class, 'refill']);
+Route::get('/refill/add/{id}', [Controller::class, 'addRefill']);
+Route::post('/refil/update/{id}', [Controller::class, 'updateRefill']);
 /*Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

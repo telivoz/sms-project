@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @guest 
 <script>
   window.location.href = "/login";
@@ -28,7 +29,20 @@
                 <li>
                     <a href="/provider">
                         <i class="fas fa-industry"></i>Providers</a>
+		</li>
+                <li class="active has-sub">
+                    <a class="js-arrow" href="#">
+                        <i class="fa fa-money"></i>Billing <i class="bi bi-sort-down"></i></a>
+                    <ul class="list-unstyled navbar__sub-list js-sub-list">
+                        <li>
+                            <a href="/invoices">Invoices</a>
+                        </li>
+                        <li>
+                            <a href="/refil">Refill</a>
+                        </li>
+                    </ul>
                 </li>
+ 
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="bi bi-receipt-cutoff"></i>Rates <i class="bi bi-sort-down"></i></a>
@@ -61,12 +75,16 @@
                 </li>
 		<li class="active has-sub">
                     <a class="js-arrow" href="#">
-                        <i class="far fa-check-square"></i>Logs <i class="bi bi-sort-down"></i></a>
+                        <i class="fas fa-compass"></i>Logs <i class="bi bi-sort-down"></i></a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
                             <a href="/logs">SMS Gateway Logs</a>
                         </li>
                     </ul>
+		</li>
+		<li>
+                <a href="/firewall">
+                        <i class="fas fa-fire-extinguisher"></i>Firewall</a>
                 </li>
 	    </ul>
         </nav>
