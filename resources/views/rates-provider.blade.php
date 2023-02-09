@@ -28,7 +28,7 @@
       <td>{{ $rate->cost }}</td>
       <td>
           <a href="/rates-customer/edit/" class="bi bi-pencil-square"></a>
-          <form action="/rates-customer/delete/" method="POST">
+          <form action="/rates-customer/delete/{{ $rate->id }}" method="POST">
           @csrf
           @method('delete')
           <button type="submit" style="color:red;" class="bi bi-trash3"></button>

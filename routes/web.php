@@ -50,12 +50,12 @@ Route::get('/mt-router/add', [Controller::class, 'addMtrouter']);
 
 Route::get('/rates-provider', [Controller::class, 'ratesProvider']);
 Route::post('/rates-provider', [Controller::class, 'storeRatesProvider']);
-Route::get('/rates-provider/delete/{id}', [Controller::class, 'destroyRatesProvider']);
+Route::delete('/rates-provider/delete/{id}', [Controller::class, 'deleteRateProvider']);
 Route::get('/rates-provider/add', [Controller::class, 'addRatesProvider']);
 
 Route::get('/rates-customer', [Controller::class, 'ratesCustomer']);
 Route::post('/rates-customer', [Controller::class, 'storeRatesCustomer']);
-Route::get('/rates-customer/delete/{id}', [Controller::class, 'destroyRatesCustomer']);
+Route::delete('/rates-customer/delete/{id}', [Controller::class, 'deleteRateCustomer']);
 Route::get('/rates-customer/add', [Controller::class, 'addRatesCustomer']);
 
 

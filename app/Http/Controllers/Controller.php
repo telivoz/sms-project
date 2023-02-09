@@ -59,6 +59,16 @@ class Controller extends BaseController
         $rates->save();
         return redirect('/rates-provider');
     }
+    public function deleteRateCustomer($id) {
+        $provider = new  \App\Models\RateCustomer();
+        $provider::findOrfail($id)->delete();
+        return redirect('/rates-customer');
+    }
+    public function deleteRateProvider($id) {
+        $provider = new  \App\Models\RateProvider();
+        $provider::findOrfail($id)->delete();
+        return redirect('/rates-provider');
+    }
     public function storeCustomer(Request $request){
         $customer = new  \App\Models\Customer();
         $customer->uid = $request->uid;
