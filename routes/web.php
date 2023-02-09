@@ -40,6 +40,7 @@ Route::get('/connector/edit/{id}', [Controller::class, 'editConnector']);
 Route::get('/connector', [Controller::class, 'MtConnector']);
 Route::get('/connector/add', [Controller::class, 'addConnector']);
 Route::post('/connector', [Controller::class, 'storeConnector']);
+Route::post('/connector/update/{id}', [Controller::class, 'updateConnector']);
 
 
 Route::get('/mt-router', [Controller::class, 'Mtrouter']);

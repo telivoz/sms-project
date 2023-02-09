@@ -103,6 +103,19 @@ class Controller extends BaseController
         $customer::findOrfail($id);
         return view('editCustomer', ['customers' => $customer->all()]);
     }
+    public function editConnector($id) { 
+	$infoConn = shell_exec("python3 /opt/jasmin/cli/getConnector.py $id");
+        return view('editConnector', ['conn' => $infoConn, 'id' => $id]);
+    }
+    public function updateConnector(request $request) {
+    	$cid = $request->cid;
+	$host = $request->host;
+	$port = $request->port;
+	$username = $request->username;
+	$password = $request->password;
+	shell_exec("python3 /opt/jasmin/cli/updateConnector.py '$cid' '$host' '$port' '$username' '$password'");
+	return redirect('/connector');
+    }
     public function updateCustomer(Request $request) { 
     	$customer = new  \App\Models\Customer();
         $customer::where('id',$request->id)->update([
@@ -227,7 +240,7 @@ class Controller extends BaseController
     public function details($id) {
         $submit_log = new \App\Models\Submit_log();
         $submit_log::where('msgid',$id);
-        return view('details',['details' => $submit_log->get()]);
+        return view('details',['details' => $submit_log::where('msgid',$id)->get()->toArray(), 'id' => $id]);
     }
     public function logs() {
 	    $arrFiles = array();
