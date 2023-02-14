@@ -10,6 +10,10 @@
 <div class="card-body"><strong>routed_cid:</strong> <?php print_r($detail['routed_cid']);?></div>
 <div class="card-body"><strong>source_addr:</strong> <?php print_r($detail['source_addr']);?></div>
 <div class="card-body"><strong>destination_addr:</strong> <?php print_r($detail['destination_addr']);?></div>
+<div class="card-body"><strong>Customer Rate:</strong> <?php print_r($detail['ratecustomer']);?></div>
+<div class="card-body"><strong>Customer Rate:</strong> <?php print_r($detail['ratedestcustomer']);?></div>
+<div class="card-body"><strong>Provider Rate:</strong> <?php print_r($detail['rateprovider']);?></div>
+<div class="card-body"><strong>Provider Rate:</strong> <?php print_r($detail['ratedestprovider']);?></div>
 <div class="card-body"><strong>short_message:</strong> <?php print_r($detail['short_message']);?></div>
 <div class="card-body"><strong>status:</strong> <?php print_r($detail['status']);?></div>
     @endforeach

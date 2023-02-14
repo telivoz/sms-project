@@ -11,7 +11,7 @@ use app\Models;
 use App\Models\Customer;
 #use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\Request;
-
+use Auth;
 use Khill\Lavacharts\Lavacharts;
 $lava = new Lavacharts; // See note below for Laravel
 class Controller extends BaseController
@@ -110,8 +110,8 @@ class Controller extends BaseController
     }
     public function editCustomer($id) { 
         $customer = new  \App\Models\Customer();
-        $customer::findOrfail($id);
-        return view('editCustomer', ['customers' => $customer->all()]);
+        $customer = $customer::findOrfail($id);
+        return view('editCustomer', ['customers' => $customer::findOrfail($id)]);
     }
     public function editConnector($id) { 
 	$infoConn = shell_exec("python3 /opt/jasmin/cli/getConnector.py $id");
@@ -157,6 +157,21 @@ class Controller extends BaseController
     public function reports() {
         $reports = new \App\Models\Submit_log();
         return view('reports',['reports' => $reports->paginate(15)]);
+    }
+    public function reports_customer() {
+	$id = auth()->user()->id;
+	$reports = new \App\Models\Submit_log();
+	$customer = new \App\Models\Customer();
+	$uid = $customer::findOrfail($id)->get();
+	foreach ($uid as $uidUser) {
+		$id = $uidUser->uid;
+	}
+	$reportsGetId = $reports::where('uid',$id);
+        return view('reports-customer',['reports' => $reports::where('uid',"$id")->paginate(15)]);
+    }
+    public function reports_provider() {
+        $reports = new \App\Models\Submit_log();
+        return view('reports-provider',['reports' => $reports->paginate(15)]);
     }
     public function sms() {
         return view('sms');
@@ -279,5 +294,37 @@ class Controller extends BaseController
 	return redirect('/refil');
 
     }
+    public function firewall() {
+	    $firewall = new \App\Models\Iptables();
+	    return view('firewall', ['rules' => $firewall->all()]);
+    }
 
+    public function addFirewall() {
+	    return view('addFirewall');
+    }
+    public function storeFirewall(Request $request) {
+	$firewall = new \App\Models\Iptables();	
+	$firewall->ip = $request->ip;
+	$ip = $request->ip;
+        $firewall->identify = $request->desc;
+        $firewall->rule = $request->type;
+	$firewall->save();
+	if ($firewall->rule == True) {
+		$rule = 'ACCEPT';
+	} else {
+		$rule = 'DROP';
+	}
+	shell_exec("sudo /sbin/iptables -A INPUT -s $ip -j $rule");
+	return redirect('/firewall');
+    }
+    public function deleteFirewall($id) { 
+	$firewall = new \App\Models\Iptables();
+	$IP=$firewall::findOrfail($id)->get();
+	foreach($IP as $ip) {
+		$num=shell_exec("sudo /sbin/iptables -L -n -v --line-numbers | grep '$ip->ip' |awk {'print $1'}");
+	}
+	shell_exec("sudo /sbin/iptables -D INPUT $num");
+	$firewall::findOrfail($id)->delete();	
+	return redirect('/firewall');
+    }
 }

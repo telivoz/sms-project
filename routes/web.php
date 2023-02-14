@@ -31,6 +31,8 @@ Route::get('/provider/edit', [Controller::class, 'editProvider']);
 Route::delete('/provider/delete/{id}', [Controller::class, 'destroyProvider']);
 
 Route::get('/reports', [Controller::class, 'reports']);
+Route::get('/reports-customer', [Controller::class, 'reports_customer']);
+Route::get('/reports-provider', [Controller::class, 'reports_provider']);
 Route::get('/details/{id}', [Controller::class, 'details']);
 
 Route::get('/', [Controller::class, 'sms']);
@@ -71,6 +73,11 @@ Route::get('/logs', [Controller::class, 'logs']);
 Route::get('/refil', [Controller::class, 'refill']);
 Route::get('/refill/add/{id}', [Controller::class, 'addRefill']);
 Route::post('/refil/update/{id}', [Controller::class, 'updateRefill']);
+
+Route::get('/firewall', [Controller::class, 'firewall']);
+Route::get('/firewall/add/', [Controller::class, 'addFirewall']);
+Route::post('/firewall/add/', [Controller::class, 'storeFirewall']);
+Route::delete('/firewall/delete/{id}', [Controller::class, 'deleteFirewall']);
 /*Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

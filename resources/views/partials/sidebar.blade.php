@@ -18,9 +18,20 @@
                     <a href="/dashboard">
                         <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                 </li>
-                <li>
-                    <a href="/reports">
-                        <i class="fas fa-chart-bar"></i>Reports</a>
+		<li class="active has-sub">
+                    <a class="js-arrow" href="#">
+                        <i class="bi bi-receipt-cutoff"></i>Reports <i class="bi bi-sort-down"></i></a>
+                    <ul class="list-unstyled navbar__sub-list js-sub-list">
+                        <li>
+                            <a href="/reports-customer">Customers Reports</a>
+                        </li>
+                        <li>
+                            <a href="/reports-provider">Providers Reports</a>
+			</li>
+			<li>
+			    <a href="/reports">All Reports</a>
+			</li>
+                    </ul>
                 </li>
                 <li>
                     <a href="/customer">
