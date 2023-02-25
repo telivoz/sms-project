@@ -5,24 +5,23 @@
 <h1>Dashboard</h1>
 <form id="countSMS" action="">
   <input type="radio" id="day" name="countSMS" value="day" checked="checked">
-  <label for="html">Per Day</label>
+  <label for="html"> Day</label>
   <input type="radio" id="month" name="countSMS" value="month">
-  <label for="html">Per Month</label>
+  <label for="html"> Month</label>
   <input type="radio" id="year" name="countSMS" value="year">
-  <label for="html">Per Year</label>
+  <label for="html"> Year</label>
 </form>
-<canvas id="deliver" style=""></canvas>
+<canvas id="deliver" style="width:10px !important; height:4px !important;"></canvas>
 
 <script>
-let obj;
-
+var graphProd;
 function createGraph(delivered, failure, ok, others) {
-	var xValues = ["Delivered", "Failure", "Ok", "Others"];
-	console.log(obj.ok);
+	var xValues = ["Delivered", "Failure", "Sent", "Others"];
 	var yValues = [delivered, failure, ok, others];
 	var barColors = ["green", "red", "blue","orange"];
-
-	new Chart("deliver", {
+	var labels = ["Delivered", "Failure/Undelivered/UNKNOWN", "OK", "Others"];
+	
+	graph = new Chart("deliver", {
 	type: "bar",
 		data: {
 		labels: xValues,
@@ -32,19 +31,19 @@ function createGraph(delivered, failure, ok, others) {
 	}]
 	},
 		options: {
-		legend: {display: true},
+		responsive: true,
+		legend: {display: false},
 			title: {
 			display: true,
 				text: "SMS Delivery"
 	}
 	}
 	});
+	return graph;
 
 }
-
 var val = $('input[name=countSMS]:checked', '#countSMS').val();
 console.log(val);
-if (val === 'day') {
 	$.get("/dashboardAPI",
 {
 	countSMS : val
@@ -55,14 +54,12 @@ if (val === 'day') {
 		const myJson = JSON.stringify(txt);
 		localStorage.setItem("testJSON", myJson);
 		let text = localStorage.getItem("testJSON");
-		obj = JSON.parse(text);
-		var xValues = ["Delivered", "Failure", "Ok", "Others"];
+		let obj = JSON.parse(text);
 
 		console.log(obj.ok);
-		createGraph(0, 0, obj.ok, 10);
+		graphProd = createGraph(obj.delivered, obj.failure, obj.ok, obj.others);
 		//alert("Data: " + obj.ok + " - " + obj.price + "\nStatus: " + status);
 	});
-}
 $('#countSMS input').on('change', function() {
 	var val = $('input[name=countSMS]:checked', '#countSMS').val();
 	console.log(val);
@@ -76,8 +73,12 @@ $('#countSMS input').on('change', function() {
 			const myJson = JSON.stringify(txt);
 			localStorage.setItem("testJSON", myJson);
 			let text = localStorage.getItem("testJSON");
-			obj = JSON.parse(text);
-			createGraph(0, 0, obj.ok, 10);
+			let obj = JSON.parse(text);
+			graphProd.data.datasets[0].data[0] = obj.delivered;
+			graphProd.data.datasets[0].data[1] = obj.failure;
+			graphProd.data.datasets[0].data[2] = obj.ok;
+			graphProd.data.datasets[0].data[3] = obj.others;
+			graphProd.update();
 		});
 });
 

@@ -14,6 +14,7 @@ use App\Models\Customer;
 use Illuminate\Http\Request;
 use Auth;
 use Khill\Lavacharts\Lavacharts;
+
 $lava = new Lavacharts; // See note below for Laravel
 class Controller extends BaseController
 {
@@ -254,23 +255,40 @@ class Controller extends BaseController
         return redirect('filters');
     }
     public function dashboardAPI() {
+	    \DB::enableQueryLog(); // Enable query log
 	$countSMS = $_GET['countSMS'];
 	$customer = new  \App\Models\Submit_log();
 	$uid =  auth()->user()->uid;
 	if ($countSMS ==  'day') {
+        	$statusDelivered = $customer::where('status','like','DELI%')->where("uid","$uid")->whereDate('created_at', Carbon::today())->get()->count();
+		$statusFailure = $customer::where("uid","$uid")->whereDate('created_at', Carbon::today())->where(function($query) { 
+			$query->where('status','like','REJ%')->orWhere('status','like','UND%')->orWhere('status','like','FAIL%');})->get()->count();
         	$statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->whereDate('created_at', Carbon::today())->get()->count();
+			$statusOthers = $customer::where('status','!=','CommandStatus.ESME_ROK')->where('status','!=','CommandStatus.')->where("uid","$uid")->whereDate('created_at', Carbon::today())->get()->count();
+			//dd(\DB::getQueryLog()); // Show results of log
 	}
 	if ($countSMS ==  'month') {
-                $statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->where('created_at','LIKE',Carbon::now()->year.'-'.Carbon::now()->month.'%')->get()->count();
+		\DB::enableQueryLog(); // Enable query log
+		$statusDelivered = $customer::where('status','like','DELI%')->where("uid","$uid")->where('created_at','LIKE',Carbon::now()->year.'-'.  date('m') .'%')->get()->count();
+		$statusFailure = $customer::where("uid","$uid")->where('created_at','LIKE',Carbon::now()->year.'-'. date('m') .'%')->where(function($query) {
+			$query->where('status','like','REJ%')->orWhere('status','like','UND%')->orWhere('status','like','FAIL%');})->get()->count();
+			$statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->where('created_at','LIKE',Carbon::now()->year.'-'. date('m').'%')->get()->count();
+			$statusOthers = $customer::where('status','!=','CommandStatus.ESME_ROK')->where('status','!=','CommandStatus.')->where("uid","$uid")->where('created_at', 'LIKE',Carbon::now()->year.'-'.  date('m') .'%')->get()->count();
+			//dd(\DB::getQueryLog());
 	}
 	if ($countSMS ==  'year') {
-                $statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
+		$statusDelivered = $customer::where('status','like','DELI%')->where("uid","$uid")->whereYear('created_at',Carbon::now()->year)->get()->count();
+                $statusFailure = $customer::where("uid","$uid")->whereYear('created_at',Carbon::now()->year)->where(function($query) {
+                        $query->where('status','like','REJ%')->orWhere('status','like','UND%')->orWhere('status','like','FAIL%');})->get()->count();
+			$statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
+			$statusOthers = $customer::where('status','!=','CommandStatus.ESME_ROK')->where('status','!=','CommandStatus.')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
         }
 	$data = [
-            
-                'ok'   => $statusOk,
-                'price'  => $countSMS,
-                'amount' => Carbon::now()->month
+           	'delivered' => $statusDelivered,
+	        'failure' => $statusFailure,	
+		'ok'   => $statusOk,
+		'others' => $statusOthers,
+                'type'  => $countSMS,
             
         ];
 
