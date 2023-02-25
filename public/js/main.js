@@ -221,7 +221,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [78, 81, 80, 65, 58, 75, 60, 75, 65, 60, 60, 75],
               borderColor: "transparent",
               borderWidth: "0",
@@ -265,7 +265,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', ''],
           datasets: [
             {
-              label: 'My First dataset',
+              label: 'Delivered',
               backgroundColor: brandService,
               borderColor: 'transparent',
               pointHoverBackgroundColor: '#fff',
@@ -340,7 +340,7 @@
         data: {
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [60, 40],
               backgroundColor: [
                 '#00b5e9',
@@ -412,7 +412,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', ''],
           datasets: [
             {
-              label: 'My First dataset',
+              label: 'Delivered',
               backgroundColor: brandService2,
               borderColor: bd_brandService2,
               pointHoverBackgroundColor: '#fff',
@@ -506,7 +506,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', ''],
           datasets: [
             {
-              label: 'My First dataset',
+              label: 'Delivered',
               backgroundColor: brandService3,
               borderColor: bd_brandService3,
               pointHoverBackgroundColor: '#fff',
@@ -587,7 +587,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [78, 81, 80, 64, 65, 80, 70, 75, 67, 85, 66, 68],
               borderColor: "transparent",
               borderWidth: "0",
@@ -629,7 +629,7 @@
         data: {
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [60, 40],
               backgroundColor: [
                 '#00b5e9',
@@ -885,7 +885,7 @@
           labels: ["January", "February", "March", "April", "May", "June", "July"],
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [65, 59, 80, 81, 56, 55, 40],
               borderColor: "rgba(0, 123, 255, 0.9)",
               borderWidth: "0",
@@ -946,7 +946,7 @@
           defaultFontFamily: 'Poppins',
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [65, 59, 66, 45, 56, 55, 40],
               borderColor: "rgba(0, 123, 255, 0.6)",
               borderWidth: "1",
@@ -996,7 +996,7 @@
           defaultFontFamily: "Poppins",
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               borderColor: "rgba(0,0,0,.09)",
               borderWidth: "1",
               backgroundColor: "rgba(0,0,0,.07)",
@@ -1210,7 +1210,7 @@
           labels: ["Sun", "Mon", "Tu", "Wed", "Th", "Fri", "Sat"],
           datasets: [
             {
-              label: "My First dataset",
+              label: "Delivered",
               data: [40, 55, 75, 81, 56, 55, 40],
               borderColor: "rgba(0, 123, 255, 0.9)",
               borderWidth: "0",

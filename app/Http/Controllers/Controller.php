@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use app\Models;
+use Carbon\Carbon;
 use App\Models\Customer;
 #use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\Request;
@@ -252,7 +253,30 @@ class Controller extends BaseController
         shell_exec("python3 /opt/jasmin/cli/persistent.py");
         return redirect('filters');
     }
+    public function dashboardAPI() {
+	$countSMS = $_GET['countSMS'];
+	$customer = new  \App\Models\Submit_log();
+	$uid =  auth()->user()->uid;
+	if ($countSMS ==  'day') {
+        	$statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->whereDate('created_at', Carbon::today())->get()->count();
+	}
+	if ($countSMS ==  'month') {
+                $statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->where('created_at','LIKE',Carbon::now()->year.'-'.Carbon::now()->month.'%')->get()->count();
+	}
+	if ($countSMS ==  'year') {
+                $statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
+        }
+	$data = [
+            
+                'ok'   => $statusOk,
+                'price'  => $countSMS,
+                'amount' => Carbon::now()->month
+            
+        ];
 
+        return response()->json($data, 200);
+
+    }
     public function dashboard(){
         $customer = new  \App\Models\Submit_log();
         $uid =  auth()->user()->uid;

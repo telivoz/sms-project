@@ -67,6 +67,7 @@ Route::get('/filters/delete/{id}', [Controller::class, 'destroyFilter']);
 Route::get('/filters/add', [Controller::class, 'addFilter']);
 
 Route::get('/dashboard', [Controller::class, 'dashboard']);
+Route::get('/dashboardAPI', [Controller::class, 'dashboardAPI']);
 
 Route::get('/logs', [Controller::class, 'logs']);
 

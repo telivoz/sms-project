@@ -5026,7 +5026,7 @@ var labels = ['January', 'February', 'March', 'April', 'May', 'June'];
 var data = {
   labels: labels,
   datasets: [{
-    label: 'My First dataset',
+    label: 'Delivered',
     backgroundColor: 'rgb(255, 99, 132)',
     borderColor: 'rgb(255, 99, 132)',
     data: [0, 10, 5, 2, 20, 30, 45]
@@ -5038,6 +5038,22 @@ var config = {
   options: {}
 };
 new chart_js_auto__WEBPACK_IMPORTED_MODULE_0__["default"](document.getElementById('myChart'), config);
+var data2 = {
+  labels: labels,
+  datasets: [{
+    label: 'Failure',
+    backgroundColor: 'rgb(255, 99, 132)',
+    borderColor: 'rgb(255, 99, 132)',
+    data: [0, 10, 5, 2, 20, 30, 45]
+  }]
+};
+var config2 = {
+  type: 'line',
+  data: data2,
+  options: {}
+};
+new chart_js_auto__WEBPACK_IMPORTED_MODULE_0__["default"](document.getElementById('myChart2'), config);
+
 
 /***/ }),
 
