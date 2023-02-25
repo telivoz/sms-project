@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', [Controller::class, 'index']);
+Route::get('/', [Controller::class, 'dashboard']);
 
 Route::get('/customer', [Controller::class, 'customer']);
 Route::post('/customer', [Controller::class, 'storeCustomer']);
@@ -35,7 +35,6 @@ Route::get('/reports-customer', [Controller::class, 'reports_customer']);
 Route::get('/reports-provider', [Controller::class, 'reports_provider']);
 Route::get('/details/{id}', [Controller::class, 'details']);
 
-Route::get('/', [Controller::class, 'sms']);
 
 Route::delete('/connector/delete/{id}', [Controller::class, 'destroyConnector']);
 Route::get('/connector/edit/{id}', [Controller::class, 'editConnector']);

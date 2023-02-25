@@ -24,15 +24,15 @@
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
                             <a href="/reports-customer">Customers Reports</a>
-                        </li>
-                        <li>
-                            <a href="/reports-provider">Providers Reports</a>
 			</li>
+			@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 2))
 			<li>
 			    <a href="/reports">All Reports</a>
 			</li>
+			@endif
                     </ul>
-                </li>
+		</li>
+@if (auth()->user()->profile == 1)
                 <li>
                     <a href="/customer">
                         <i class="fas fa-address-card"></i>Customers</a>
@@ -41,6 +41,8 @@
                     <a href="/provider">
                         <i class="fas fa-industry"></i>Providers</a>
 		</li>
+@endif
+@if (auth()->user()->profile == 1)
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="fa fa-money"></i>Billing <i class="bi bi-sort-down"></i></a>
@@ -52,8 +54,9 @@
                             <a href="/refil">Refill</a>
                         </li>
                     </ul>
-                </li>
- 
+		</li>
+@endif
+		@if (auth()->user()->profile == 1)	
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="bi bi-receipt-cutoff"></i>Rates <i class="bi bi-sort-down"></i></a>
@@ -65,7 +68,9 @@
                             <a href="/rates-provider">Providers Rates</a>
                         </li>
                     </ul>
-                </li>
+		</li>
+		@endif
+		@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 2))
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="far fa-check-square"></i>SMS System <i class="bi bi-sort-down"></i></a>
@@ -96,7 +101,8 @@
 		<li>
                 <a href="/firewall">
                         <i class="fas fa-fire-extinguisher"></i>Firewall</a>
-                </li>
+		</li>
+		@endif
 	    </ul>
         </nav>
     </div>

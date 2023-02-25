@@ -296,6 +296,10 @@ class Controller extends BaseController
 
     }
     public function dashboard(){
+
+	if (!isset(auth()->user()->uid)) {
+		return redirect('/login');
+	}
         $customer = new  \App\Models\Submit_log();
         $uid =  auth()->user()->uid;
         $statusOk = $customer::where('status','OK')->where("uid","$uid")->get()->count();
