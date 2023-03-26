@@ -10,14 +10,26 @@
   <label for="html"> Month</label>
   <input type="radio" id="year" name="countSMS" value="year">
   <label for="html"> Year</label>
+@if (auth()->user()->profile == 1)
+  <label for"html"> - Customer</label>
+  <select id="customer" name="customer">
+	<?php 
+		$customer = new  \App\Models\Customer();
+		$customers = $customer->all();
+		foreach ($customers as $customer) {
+			echo "<option value='$customer->uid'>$customer->name</option>";
+		}
+	?>
+  </select>
+@endif
 </form>
 <canvas id="deliver" style="width:10px !important; height:4px !important;"></canvas>
 
 <script>
 var graphProd;
-function createGraph(delivered, failure, ok, others) {
-	var xValues = ["Delivered", "Failure", "Sent", "Others"];
-	var yValues = [delivered, failure, ok, others];
+function createGraph(delivered, failure, ok) {
+	var xValues = ["Delivered", "Failure", "Sent"];
+		var yValues = [delivered, failure, ok];
 	var barColors = ["green", "red", "blue","orange"];
 	var labels = ["Delivered", "Failure/Undelivered/UNKNOWN", "OK", "Others"];
 	
@@ -43,23 +55,45 @@ function createGraph(delivered, failure, ok, others) {
 
 }
 var val = $('input[name=countSMS]:checked', '#countSMS').val();
+var customer = $('#customer').val();
+console.log("Customer: " + customer);
+        $.get("/dashboardAPI",
+{
+	countSMS : val,
+	customer : customer
+},
+        function(data,status){
+
+                const txt = data;
+                const myJson = JSON.stringify(txt);
+                localStorage.setItem("testJSON", myJson);
+                let text = localStorage.getItem("testJSON");
+                let obj = JSON.parse(text);
+
+                console.log(obj.ok);
+                graphProd = createGraph(obj.delivered, obj.failure, obj.ok);
+                //alert("Data: " + obj.ok + " - " + obj.price + "\nStatus: " + status);
+        });
+   setInterval(function(){  
+var val = $('input[name=countSMS]:checked', '#countSMS').val();
 console.log(val);
 	$.get("/dashboardAPI",
 {
 	countSMS : val
 },
 	function(data,status){
+                        const txt = data;
+                        const myJson = JSON.stringify(txt);
+                        localStorage.setItem("testJSON", myJson);
+                        let text = localStorage.getItem("testJSON");
+                        let obj = JSON.parse(text);
+                        graphProd.data.datasets[0].data[0] = obj.delivered;
+                        graphProd.data.datasets[0].data[1] = obj.failure;
+                        graphProd.data.datasets[0].data[2] = obj.ok;
+                        graphProd.update();
 
-		const txt = data;
-		const myJson = JSON.stringify(txt);
-		localStorage.setItem("testJSON", myJson);
-		let text = localStorage.getItem("testJSON");
-		let obj = JSON.parse(text);
-
-		console.log(obj.ok);
-		graphProd = createGraph(obj.delivered, obj.failure, obj.ok, obj.others);
-		//alert("Data: " + obj.ok + " - " + obj.price + "\nStatus: " + status);
 	});
+   },30000);
 $('#countSMS input').on('change', function() {
 	var val = $('input[name=countSMS]:checked', '#countSMS').val();
 	console.log(val);
@@ -77,11 +111,9 @@ $('#countSMS input').on('change', function() {
 			graphProd.data.datasets[0].data[0] = obj.delivered;
 			graphProd.data.datasets[0].data[1] = obj.failure;
 			graphProd.data.datasets[0].data[2] = obj.ok;
-			graphProd.data.datasets[0].data[3] = obj.others;
 			graphProd.update();
 		});
 });
-
 
 </script>
 @endsection

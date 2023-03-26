@@ -4,41 +4,50 @@
 <form action="/customer" method="POST">
   @csrf
   <div class="form-group">
-    <label for="uid">UID:</label>
-    <input type="text" class="form-control" id="uid" placeholder="Enter UID" name="uid">
+    <label for="uid">SMPP User:</label>
+    <input required type="text" class="form-control" id="uid" placeholder="Enter UID" name="uid">
+  </div>
+  <div class="form-group">
+    <label for="uid">SMPP Password (Max Length 8):</label>
+    <input required type="text" class="form-control" id="uidpass" placeholder="Enter Password" name="uidpass" maxlength="8">
   </div>
   <div class="form-group">
     <label for="pwd">Name:</label>
-    <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+    <input required type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
   </div>
   <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="pwd" class="form-control" id="password" placeholder="Enter Password" name="password">
-  </div>
-  <div class="form-group">
-    <label for="pwd">E-mail:</label>
+    <label for="pwd">E-mail (Web Login):</label>
     <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email">
   </div>
   <div class="form-group">
+    <label for="pwd">Password (Web Login):</label>
+    <input required type="pwd" class="form-control" id="password" placeholder="Enter Password" name="password">
+  </div>
+  <div class="form-group">
     <label for="pwd">Address:</label>
-    <input type="text" class="form-control" id="address" placeholder="Enter Address" name="address">
+    <input required type="text" class="form-control" id="address" placeholder="Enter Address" name="address">
   </div>
   <div class="form-group">
     <label for="pwd">Phone:</label>
-    <input type="phone" class="form-control" id="phone" placeholder="Enter Phone" name="phone">
+    <input required type="phone" class="form-control" id="phone" placeholder="Enter Phone" name="phone">
   </div>
   <div class="form-group">
     <label for="pwd">Company:</label>
-    <input type="text" class="form-control" id="company" placeholder="Enter Company" name="company">
+    <input required type="text" class="form-control" id="company" placeholder="Enter Company" name="company">
   </div>  
   <div class="form-group">
     <label for="pwd">Profile:</label>
     <select class="form-control" id="profile" name="profile">
+      <option value="4">Sales</option>
       <option value="3">Customer</option>
       <option value="2">NOC</option>
       <option value="1">Adminstrator</option>
     </select>
   </div>
+  <div class="form-group">
+    <label for="pwd">TPS:</label>
+    <input required type="number" class="form-control" id="tps" placeholder="Throughput Per Second" name="tps">
+  </div>  
   <button type="submit" class="btn btn-success">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/customer" ype="button" class="btn btn-default">Cancel</a>
 </form>
 @endsection

@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <img style="width: 75px;" src="images/cropped-logo1.png" alt="TeliVoz" />
+            <img style="width: 75px;" src="images/cropped-logo1.png" alt="" />
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />

@@ -24,11 +24,15 @@
     <input type="password" class="form-control" id="password" placeholder="Enter Password" name="password">
 	 <input type="checkbox" onclick="myFunction()"> Show Password 
   </div>
+  <div class="form-group">
+    <label for="pwd">TPS:</label>
+    <input type="number" class="form-control" id="tps" placeholder="Throughput Per Second" name="tps">
+  </div>
   <button type="submit" class="btn btn-success">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/connector" ype="button" class="btn btn-default">Cancel</a>
 </form>
 <?php
         $connInfo = explode("\n", $conn);
-        foreach ($connInfo as $key => $value) {
+	foreach ($connInfo as $key => $value) {
 		if(strpos($value, 'port') !== false){
 			$port = explode(" ",$value);
 			$port = $port[1];
@@ -48,7 +52,13 @@
                         $host = explode(" ",$value);
 			$host = $host[1];
 			$host = str_replace(array("\r", "\n"), '', $host);
+		}
+		if(strpos($value, 'submit_throughput') !== false){
+                        $tps = explode(" ",$value);
+			$tps = $tps[1];
+			$tps = str_replace(array("\r", "\n"), '', $tps);
                 }
+
 	}
 	                echo "<script>
                         function myFunction() {
@@ -64,6 +74,7 @@
         	document.getElementById('port').value = '$port';
 	        document.getElementById('username').value = '$username';
         	document.getElementById('password').value = '$password';
+        	document.getElementById('tps').value = '$tps';
                         </script>";
 ?>
 @endsection

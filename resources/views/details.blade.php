@@ -12,9 +12,12 @@
 <div class="card-body"><strong>destination_addr:</strong> <?php print_r($detail['destination_addr']);?></div>
 <div class="card-body"><strong>Customer Rate:</strong> <?php print_r($detail['ratecustomer']);?></div>
 <div class="card-body"><strong>Customer Rate:</strong> <?php print_r($detail['ratedestcustomer']);?></div>
+@if ((auth()->user()->profile == 1))
 <div class="card-body"><strong>Provider Rate:</strong> <?php print_r($detail['rateprovider']);?></div>
 <div class="card-body"><strong>Provider Rate:</strong> <?php print_r($detail['ratedestprovider']);?></div>
+@endif
 <div class="card-body"><strong>short_message:</strong> <?php print_r($detail['short_message']);?></div>
+<div class="card-body"><strong>Size Message:</strong> <?php print_r($detail['sizemessage']);?></div>
 <div class="card-body"><strong>status:</strong> <?php print_r($detail['status']);?></div>
     @endforeach
 </div>

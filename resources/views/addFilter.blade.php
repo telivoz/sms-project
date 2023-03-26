@@ -5,7 +5,7 @@
   @csrf
   <div class="form-group">
     <label for="fid">FID:</label>
-    <input type="text" class="form-control" id="fid" placeholder="Enter Filter ID" name="fid" >
+    <input required type="text" class="form-control" id="fid" placeholder="Enter Filter ID" name="fid" >
   </div>
   <div class="form-group">
     <label for="type">Type:</label>
@@ -34,7 +34,7 @@
   </div> 
   <div class="form-group">
     <label for="parameter">Parameter:</label>
-    <input type="text" class="form-control" id="parameter" placeholder="Enter Parameter" name="parameter" >
+    <input required type="text" class="form-control" id="parameter" placeholder="Enter Parameter" name="parameter" >
   </div>
   <button type="submit" class="btn btn-success">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/filters" ype="button" class="btn btn-default">Cancel</a>
 </form>

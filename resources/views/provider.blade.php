@@ -1,6 +1,6 @@
 <style>
 tbody tr:hover {
-  background-color: #5f94cb;
+  background-color: white;
   color: black;
 }
 </style>
@@ -23,7 +23,7 @@ tbody tr:hover {
       <td>{{ $provider->name }}</td>
       <td>{{ $provider->company }}</td>     
       <td>{{$provider->balance}}</td>
-      <td><a href="/provider/edit" class="bi bi-pencil-square"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/provider/delete" style="color:red;" class="bi bi-trash3"></a></td>
+      <td><a href="/provider/edit/{{ $provider->id }}" class="bi bi-pencil-square"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/provider/delete" style="color:red;" class="bi bi-trash3"></a></td>
     </tr>
     @endforeach
   </tbody>

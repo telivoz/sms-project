@@ -1,6 +1,6 @@
 <style>
 tbody tr:hover {
-  background-color: #5f94cb;
+  background-color: white;
   color: black;
 }
 </style>
@@ -11,7 +11,9 @@ tbody tr:hover {
 <table class="table">
   <thead>
     <tr>      
-      <th>NAME</th>          
+      <th>Name</th> 
+	<th>Status</th>
+	<th>Action</th>
       <th>Edit</th>
     </tr>
   </thead>
@@ -19,6 +21,9 @@ tbody tr:hover {
   @foreach ($connectores as $connector)      
   @if ($connector != "")
 	<tr><td>{{$connector}}</td>
+	<td><?php $status = shell_exec("python3 /opt/jasmin/cli/getConnectorStatus.py | grep $connector");
+		echo $status;?></td>
+	<td><a href="/connector/start/{{ $connector }}" class="bi bi-play-circle-fill"></a>&ensp;&ensp;<a  href="/connector/stop/{{ $connector }}" class="bi bi-pause-circle"></a></td>
 	<td>
 	  <a href="/connector/edit/{{ $connector }}" class="bi bi-pencil-square"></a>
 	  <form action="/connector/delete/{{  $connector }}" method="POST">

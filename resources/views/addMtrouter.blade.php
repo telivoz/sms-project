@@ -23,7 +23,7 @@
     <div class="alert alert-alert">
     Order <strong>0</strong> is reserved for DefaultRoute only. 
   </div>
-    <input type="number" class="form-control" id="order" placeholder="Enter Order" name="order" min="0" max="1000" value="0">
+    <input required type="number" class="form-control" id="order" placeholder="Enter Order" name="order" min="0" max="1000" value="0">
   </div>
   <div class="form-group">
     <label for="connector">Connector:</label>

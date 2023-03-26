@@ -1,6 +1,6 @@
 <style>
 tbody tr:hover {
-  background-color: #5f94cb;
+  background-color: white;
   color: black;
 }
 </style>
@@ -14,7 +14,7 @@ tbody tr:hover {
       <th>ID</th>
       <th>Type</th>
       <th>Description</th>  
-      <td>Edit</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody>

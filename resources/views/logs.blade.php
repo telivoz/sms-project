@@ -1,6 +1,6 @@
 <style>
   tbody tr:hover {
-    background-color: #5f94cb;
+    background-color: white;
     color: black;
   }
 </style>
@@ -15,9 +15,13 @@
     </tr>
   </thead>
   <tbody>
-@foreach ($files as $file)
+  @foreach ($files as $file)
+  @if ($file == '.')
+  @elseif ($file == '..')
+  @else
 	<tr><td>{{ $file }} <td>
-	<a href="logging/{{$file}}">Donwload</a>
+	<a href="logging/{{$file}}">Downloads</a>
+	@endif
 @endforeach
 </table>
 @endsection

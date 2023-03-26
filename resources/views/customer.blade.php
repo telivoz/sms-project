@@ -1,6 +1,6 @@
 <style>
   tbody tr:hover {
-    background-color: #5f94cb;
+    background-color: white;
     color: black;
   }
 </style>
@@ -32,6 +32,9 @@
       @endif
       @if ($customer->profile == 3)
       <td>Customer</td>
+      @endif
+      @if ($customer->profile == 4)
+      <td>Sales</td>
       @endif
       <td>{{$customer->balance}}</td>
       <td>

@@ -8,7 +8,7 @@
 <aside class="menu-sidebar d-none d-lg-block">
     <div class="logo">
         <a href="#">
-            <img style="width: 75px;" src="images/cropped-logo1.png" alt="TeliVoz" />
+            <img style="width: 75px;" src="images/cropped-logo1.png" alt="{{ config('app.name', '') }}" />
         </a>
     </div>
     <div class="menu-sidebar__content js-scrollbar1">
@@ -17,7 +17,12 @@
                 <li>
                     <a href="/dashboard">
                         <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+		</li>
+                <li>
+                <a href="/sendSMS">
+                        <i class="fa fa-envelope-open-o"></i>Send SMS</a>
                 </li>
+
 		<li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="bi bi-receipt-cutoff"></i>Reports <i class="bi bi-sort-down"></i></a>
@@ -32,17 +37,19 @@
 			@endif
                     </ul>
 		</li>
-@if (auth()->user()->profile == 1)
-                <li>
+@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 4))		
+<li>
                     <a href="/customer">
                         <i class="fas fa-address-card"></i>Customers</a>
-                </li>
+		</li>
+		@endif
+		@if (auth()->user()->profile == 1)
                 <li>
                     <a href="/provider">
                         <i class="fas fa-industry"></i>Providers</a>
 		</li>
 @endif
-@if (auth()->user()->profile == 1)
+@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 4))
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="fa fa-money"></i>Billing <i class="bi bi-sort-down"></i></a>
@@ -56,17 +63,21 @@
                     </ul>
 		</li>
 @endif
-		@if (auth()->user()->profile == 1)	
+		@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 4))	
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="bi bi-receipt-cutoff"></i>Rates <i class="bi bi-sort-down"></i></a>
-                    <ul class="list-unstyled navbar__sub-list js-sub-list">
+		    <ul class="list-unstyled navbar__sub-list js-sub-list">
+		@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 4))
                         <li>
                             <a href="/rates-customer">Customers Rates</a>
-                        </li>
+			</li>
+			@endif
+			 @if (auth()->user()->profile == 1)
                         <li>
                             <a href="/rates-provider">Providers Rates</a>
-                        </li>
+			</li>
+			@endif
                     </ul>
 		</li>
 		@endif

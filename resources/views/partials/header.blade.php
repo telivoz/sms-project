@@ -121,8 +121,9 @@
         <div class="section__content section__content--p30">
             <div class="container-fluid">
                 <div class="header-wrap">
-                    <form class="form-header" action="" method="POST">
-                        <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+		    <form class="form-header" action="" method="GET">
+			@csrf
+                        <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for Dates (Ex: 2023-03-18) or MSG ID or Client/Connector: (Ex: client_1) or Address (Ex: 1234) or Messages or Status..." />
                         <button class="au-btn--submit" type="submit">
                             <i class="zmdi zmdi-search"></i>
                         </button>
@@ -174,7 +175,11 @@
                                             @endif
                                             @if (auth()->user()->profile == 3)
                                             <a>Customer</a>
+					    @endif
+                                            @if (auth()->user()->profile == 4)
+                                            <a>Sales</a>
                                             @endif
+ 
                                         </div>
                                         <!--div class="account-dropdown__body">
                                         <div class="account-dropdown__item">

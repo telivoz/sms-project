@@ -1,6 +1,6 @@
 <style>
   tbody tr:hover {
-    background-color: #5f94cb;
+    background-color: white;
     color: black;
   }
 </style>
@@ -27,7 +27,7 @@
       <td> <?php $customer = DB::table('customers')->where('id', "$rate->company")->value('name'); echo $customer;?></td>
       <td>{{ $rate->cost }}</td>
       <td>
-          <a href="/rates-customer/edit/" class="bi bi-pencil-square"></a>
+          <a href="/rates-customer/edit/{{ $rate->id}}" class="bi bi-pencil-square"></a>
           <form action="/rates-customer/delete/{{ $rate->id }}" method="POST">
           @csrf
           @method('delete')
