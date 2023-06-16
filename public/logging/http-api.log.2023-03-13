@@ -1,0 +1,36 @@
+2023-03-17 11:36:27 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:c0bb8ecd-ff26-40e6-93fd-de0e5857abbd] [prio:0] [dlr:No] [from:b'otp'] [to:b'5548988034304'] [content:b'teste codigo 1234']
+2023-03-17 11:44:07 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:1e788dc0-04bf-4961-b368-bb52d5775861] [prio:0] [dlr:No] [from:b'otp'] [to:b'5548988034304'] [content:b'teste codigo 1234']
+2023-03-17 11:45:46 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:fd3aefe6-f07a-4421-9d4f-3b76783abfa0] [prio:0] [dlr:No] [from:b'otp'] [to:b'5548988034304'] [content:b'teste codigo 1234']
+2023-03-17 11:46:27 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:ecd51612-9b89-4072-8025-f9b253d1b1bc] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'teste codigo 1234']
+2023-03-17 11:47:53 ERROR    222 Error: 400: UrlArgsValidationError (content or hex-content not present.)
+2023-03-17 11:48:15 ERROR    222 Error: 400: UrlArgsValidationError (b'Argument [short_message] is unknown.')
+2023-03-17 11:48:23 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:e3df9b0b-9a81-4b9e-9958-12e797551be8] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 11:49:45 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:9332642b-77fb-437a-904a-2e2004245eca] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 11:57:45 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:ab805d4a-8ad0-44cc-9d5c-c196766402ad] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 12:00:37 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:7200e7d7-d384-40d6-952e-ae155ae2cd75] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 12:01:38 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:f05842f8-1934-4cad-b866-70e29b401eab] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 14:07:15 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:9eaa83cc-dfeb-40bf-8a94-85efee431f45] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 14:07:40 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:a1dcb5a1-3838-421e-94ce-b945ca4d4732] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-17 14:14:52 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:dc324d5f-0b26-4a9e-ad2a-efeb86446790] [prio:0] [dlr:All] [from:b'otp'] [to:b'5548988034304'] [content:b'Teste 1234']
+2023-03-18 12:19:15 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:c9dcd360-cb4d-4ee5-8a7e-f75b0d030aea] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Bia, responde essa mensagem']
+2023-03-18 12:22:12 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:41bcfb9c-5719-4913-921f-70a8f21b959a] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:22:20 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:b71c2168-d0e5-4dac-81e9-f56e0f433c6d] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:22:26 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:94fcdac7-38bd-41be-8809-d108dd25c2a2] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:22:28 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:3c49c4ff-48e3-4fa1-b1ec-db6b48048f9c] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:24:36 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:f64f7520-bdfd-417f-9a6d-fccface8fc94] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:25:30 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:94c0ab3b-9b22-4e67-8a9c-c025360ff2bf] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:26:59 INFO     222 SMS-MT [uid:mario] [cid:testserver] [msgid:559650ae-cbfa-4dd8-a77b-b386e6e68d75] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:28:34 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:171b52dc-2702-43ef-9248-a9330d50d049] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:28:52 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:17b684eb-aacb-4db6-9660-616e385d8ea9] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:36:06 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:cf3e5986-96f6-41de-91b3-662a69b480ea] [prio:0] [dlr:All] [from:b'otp'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:36:29 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:3c74fd00-929e-49ce-a2d5-c87439e9b29e] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:50:11 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:04793e73-d467-401f-93c0-e2819b9b6a59] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:50:54 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:da506fea-e622-43b2-aace-b50957987853] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-18 12:51:10 ERROR    220 Interceptor script returned 520 http_status error.
+2023-03-18 12:51:10 ERROR    220 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-03-18 12:51:17 ERROR    220 Interceptor script returned 520 http_status error.
+2023-03-18 12:51:17 ERROR    220 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-03-18 13:05:50 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:fe6029b2-5f86-41fd-9907-12a952e7b04f] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-19 13:15:00 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:e9bf1f62-246f-441d-b891-791b72859f1f] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-19 13:29:37 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:30ce4214-c163-4845-9e7a-36e5ef071dd8] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']
+2023-03-19 13:53:36 INFO     220 SMS-MT [uid:mario] [cid:testserver] [msgid:11686f4f-3bf8-4806-bb29-4b1e5eedbb75] [prio:0] [dlr:All] [from:b'1234'] [to:b'55489880344304'] [content:b'Teste']

@@ -1,0 +1,6 @@
+2023-03-23 07:59:11 WARNING  220 Disconnecting...
+2023-03-23 07:59:11 INFO     220 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-23 07:59:11 WARNING  220 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-23 07:59:11 WARNING  220 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-23 07:59:11 INFO     220 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.

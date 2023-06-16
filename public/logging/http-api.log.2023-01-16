@@ -1,0 +1,104 @@
+2023-01-17 18:03:28 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:4c6daa29-ef00-4f7c-bb3e-eb80fdb8ff33] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:05:42 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:f905f1fc-28ea-4584-a754-d5a5df943ee2] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:09:21 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:8e45f68a-8c75-417e-9b0e-d104457a14f9] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:14:02 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:24262c5b-55d9-4af7-8e13-833a64b9f965] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:18:07 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:95b8cd6a-a0c5-4afc-8399-1e8ad10a65bf] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:19:26 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:058ada70-f490-4df8-958a-7e717d4bb1cf] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:33:10 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:72ccdfab-7428-4ba7-bed7-0a1e50d8c02e] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:34:20 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:81dadbbd-6592-44e3-93d0-b545438e414c] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:34:39 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:af8bcc40-cc81-411e-962c-27d1e22e9de0] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:35:29 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:d09719eb-a6a7-424d-b35c-e443bacb01c2] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:36:20 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:6e00adfa-f551-47b6-a6f5-ec59cf6c2241] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:37:26 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:f6e7cef5-a042-41dc-b731-db09f9cdf0a1] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:37:49 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:bbde4e0d-8bbd-4dd0-92e6-cb2cb6439f3c] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:38:17 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:e3d234dc-3b93-4a22-ad25-fe4f0ba2a847] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:38:54 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:2f9a6d67-95b2-4a9f-8ab9-b3ea591f41a9] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 18:39:41 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:eca54a25-e3bb-475c-b45c-4cf0390df0f3] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hellox']
+2023-01-17 18:57:58 ERROR    429813 InterceptorPB not set !
+2023-01-17 18:57:58 ERROR    429813 Error: 503: InterceptorNotSetError (InterceptorPB not set !)
+2023-01-17 18:58:08 ERROR    429813 InterceptorPB not set !
+2023-01-17 18:58:08 ERROR    429813 Error: 503: InterceptorNotSetError (InterceptorPB not set !)
+2023-01-17 18:58:12 ERROR    429813 InterceptorPB not set !
+2023-01-17 18:58:12 ERROR    429813 Error: 503: InterceptorNotSetError (InterceptorPB not set !)
+2023-01-17 19:00:04 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:b98cfc38-c150-49be-952a-a436391a31bd] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:00:08 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:a8467b3d-9025-4ffa-af61-b0cd890778f2] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:00:10 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:d62f6613-1e1d-412c-91f2-211bc923f362] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:00:27 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:a58d1cd9-8888-4d6d-af52-094b3d5f1e31] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:00:33 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:f9e718b7-6cbb-478c-ac64-9ab95755a5b8] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:04:07 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:0f3703b7-84ff-42b4-9f2f-cae8a146f99a] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:08:09 INFO     2805403 SMS-MT [uid:mario] [cid:testserver] [msgid:0dcd2b1e-da8e-460f-bcee-efeb298c601f] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:16:24 INFO     2806391 SMS-MT [uid:mario] [cid:testserver] [msgid:d713a060-14b7-4436-abd7-8b7161515ee8] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-17 19:48:10 ERROR    2806391 Failed running interception script, got the following return: False
+2023-01-17 19:48:10 ERROR    2806391 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:48:20 ERROR    2806391 Failed running interception script, got the following return: False
+2023-01-17 19:48:20 ERROR    2806391 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:49:47 ERROR    2806391 Failed running interception script, got the following return: False
+2023-01-17 19:49:47 ERROR    2806391 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:50:58 ERROR    2806391 Failed running interception script, got the following return: False
+2023-01-17 19:50:58 ERROR    2806391 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:55:01 ERROR    2808682 Failed running interception script, got the following return: False
+2023-01-17 19:55:01 ERROR    2808682 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:55:03 ERROR    2808682 Failed running interception script, got the following return: False
+2023-01-17 19:55:03 ERROR    2808682 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:55:49 ERROR    2808742 Failed running interception script, got the following return: False
+2023-01-17 19:55:49 ERROR    2808742 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:55:56 ERROR    2808742 Failed running interception script, got the following return: False
+2023-01-17 19:55:56 ERROR    2808742 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:56:14 ERROR    2808742 Failed running interception script, got the following return: False
+2023-01-17 19:56:14 ERROR    2808742 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:56:47 ERROR    2808823 Failed running interception script, got the following return: False
+2023-01-17 19:56:47 ERROR    2808823 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:57:02 ERROR    2808823 Failed running interception script, got the following return: False
+2023-01-17 19:57:02 ERROR    2808823 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:57:06 ERROR    2808823 Failed running interception script, got the following return: False
+2023-01-17 19:57:06 ERROR    2808823 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 19:58:19 ERROR    2808823 Failed running interception script, got the following return: False
+2023-01-17 19:58:19 ERROR    2808823 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-17 20:53:57 ERROR    2812209 Failed running interception script, got the following return: False
+2023-01-17 20:53:57 ERROR    2812209 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 11:38:39 ERROR    2812209 Failed running interception script, got the following return: False
+2023-01-18 11:38:39 ERROR    2812209 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 11:39:18 INFO     2812209 SMS-MT [uid:mario] [cid:testserver] [msgid:e7bd238f-c46a-4912-88d0-3c9e7ce1208b] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:43:37 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:a17f1cec-c9ac-4126-bcd6-755440a0d310] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:44:21 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:d5e90cfd-75ac-456e-9d89-5984b6391c92] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:47:47 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:95274eff-f688-43ac-aef6-f81ea724e42e] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:53:02 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:e432472a-e9e3-42e7-9761-96b994159889] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:53:57 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:1f8a090f-4bfb-41a2-b320-68c09a282b88] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:54:27 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:f3c556a0-5c5a-45e7-85fe-228f4256617b] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 11:55:15 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:e1f96165-43bd-43d6-9a56-3220430b0643] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:00:04 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:80321e6c-dcb9-460c-9687-8971482dec7f] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:03:17 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:fa7a163f-2001-47ee-9fbf-70f620901fad] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:04:41 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:4293b6c6-5b7a-4702-8bdf-ebd4b510b919] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:06:25 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:b787c391-6621-4e28-99c2-fd87408807d1] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:21:26 ERROR    2864486 Failed running interception script, got the following return: False
+2023-01-18 12:21:26 ERROR    2864486 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 12:32:43 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:cc36b03c-2e11-497d-8e15-50c0181f2b69] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:38:25 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:6cd7a47d-dd3a-45f9-b09c-3cfe2994c494] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 12:38:36 ERROR    2864486 Failed running interception script, got the following return: False
+2023-01-18 12:38:36 ERROR    2864486 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 12:39:57 ERROR    2864486 Failed running interception script, got the following return: False
+2023-01-18 12:39:57 ERROR    2864486 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 12:45:30 ERROR    2864486 Failed running interception script, got the following return: False
+2023-01-18 12:45:30 ERROR    2864486 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 12:52:26 ERROR    2864486 Failed running interception script, got the following return: False
+2023-01-18 12:52:26 ERROR    2864486 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-01-18 12:58:23 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:dad88ebd-6f07-41df-935f-59d240490e8d] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-18 13:00:19 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:ba6ac75b-864f-4059-ad14-783c34857a4d] [prio:0] [dlr:All] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-19 12:16:15 ERROR    2864486 Authentication failure for username:otimi
+2023-01-19 12:16:15 ERROR    2864486 Error: 403: AuthenticationError (Authentication failure for username:otimi)
+2023-01-19 12:16:31 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:1221e325-8152-4eb0-bde9-86c5e19fb0e0] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 12:16:58 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:2d97a6a9-e0dc-4db0-a06a-864f53b23fe3] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:36:17 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:3b8c1ed0-2e0f-4dec-865a-e0a0e1139edf] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:47:41 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:c6eccb66-ca29-4625-84e6-d1972e28bafc] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:48:46 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:fb7e88e0-c66f-4f54-ab62-efe14bd6560a] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:48:50 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:f07e95d9-dd48-4b86-b4d0-d2cdd7ce3e3b] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:48:54 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:363f70fd-8486-484e-bbc9-176418fd2c44] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:13 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:f4742ee5-2b85-4ea3-8b86-bfc01c1b1d62] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:14 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:51c0d292-a4fd-4abd-a92e-86e4d0cc550f] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:16 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:f4e84152-d57e-4c6b-8ba6-e80755f31fb0] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:17 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:2bda14a8-3fe2-4024-830a-f9c890bb9a91] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:17 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:08bab34d-9000-4525-9743-23ce0d50e23b] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:18 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:4209442d-a8ef-4184-a173-a262ca453347] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:18 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:9d3ed6f0-fc92-430f-954c-28bbdf7ca240] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 17:49:18 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:a7efd5b3-5dd1-45a0-9627-283c2bab631a] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-19 23:22:39 INFO     2864486 SMS-MT [uid:mario] [cid:testserver] [msgid:e12e0be2-a967-44ea-8e42-b73b44d6530a] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']

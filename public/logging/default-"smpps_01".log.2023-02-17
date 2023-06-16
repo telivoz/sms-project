@@ -1,0 +1,21 @@
+2023-02-17 08:45:57 ERROR    1092668 Request timed out for system id mario after 60 secs: PDU [command: CommandId.enquire_link, sequence_number: 5212, command_status: CommandStatus.ESME_ROK
+]
+2023-02-17 08:45:57 WARNING  1092668 Shutdown requested...unbinding
+2023-02-17 08:45:57 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-17 08:46:27 ERROR    1092668 Request timed out for system id mario after 60 secs: PDU [command: CommandId.enquire_link, sequence_number: 5213, command_status: CommandStatus.ESME_ROK
+]
+2023-02-17 08:46:27 WARNING  1092668 Issuing unbind request
+2023-02-17 08:46:57 ERROR    1092668 Request timed out for system id mario after 30 secs: PDU [command: CommandId.unbind, sequence_number: 5214, command_status: CommandStatus.ESME_ROK
+]
+2023-02-17 08:46:57 ERROR    1092668 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out for system id mario after 30 secs: PDU [command: CommandId.unbind, sequence_number: 5214, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-02-17 08:46:57 WARNING  1092668 Disconnecting...
+2023-02-17 08:46:57 WARNING  1092668 Disconnecting...
+2023-02-17 08:46:57 WARNING  1092668 Shutdown requested...disconnecting
+2023-02-17 08:46:57 WARNING  1092668 Disconnecting...
+2023-02-17 08:46:57 INFO     1092668 Dropped CommandId.bind_transceiver bind for 'mario'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-02-17 08:46:57 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-17 08:47:07 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 2775
+2023-02-17 08:47:07 INFO     1092668 Added CommandId.bind_transceiver bind for 'mario'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.

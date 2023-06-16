@@ -18,9 +18,9 @@ tbody tr:hover {
     </tr>
   </thead>
   <tbody>
-    @php    
-    $route = shell_exec("python3 /opt/jasmin/cli/filter.py | awk {'if($1!=\"#Filter\" && $1!=\"Total\" && $1!=\"\" && $1!=\"filter\") {print \"<tr><td>\"$1\"</td><td>\"$2\"</td><td>\"$5\"</td><td><a href='\\''\/filters\/delete\/\"$1\" '\\'' class='\\''bi bi bi-trash3'\\''></a></td></tr>\"}'} | sed 's/#//g'");
-    echo $route;    
+  @php    
+    $route = shell_exec("python3 /opt/jasmin/cli/filter.py | sed 's/<U//g' | sed 's/<DA//g' | sed 's/<SA//g' | sed 's/<C//g' | sed 's/<SM//g'| sed 's/<TG//g'| sed 's/>//g' | sed 's/MT//g' | sed 's/MO//g' | awk {'print \"<tr><td>\"$1\"</td><td>\"$2\"</td><td>\" $3 \"</td><td><a href='\\''\/filters\/delete\/\"$1\" '\\'' class='\\''bi bi bi-trash3'\\''></a></td></tr>\"'} | sed 's/#//g'");
+	    echo $route;
     @endphp
   </tbody>
 </table>

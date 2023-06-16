@@ -1,0 +1,120 @@
+2023-02-18 13:33:21 ERROR    1092668 Unbind received
+2023-02-18 13:33:21 ERROR    1092668 Unbind received
+2023-02-18 13:33:21 ERROR    1092668 Unbind received
+2023-02-18 13:33:21 WARNING  1092668 Disconnecting...
+2023-02-18 13:33:21 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 34012: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 13:33:21 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 13:33:21 INFO     1092668 Reconnecting after 10 seconds ...
+2023-02-18 13:33:31 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-18 13:33:38 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 36498
+2023-02-18 13:33:38 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-18 13:33:38 WARNING  1092668 Requesting bind as transceiver
+2023-02-18 13:33:38 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-18 15:01:06 WARNING  1092668 Disconnecting...
+2023-02-18 15:01:06 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 36498: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 15:01:06 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 15:01:06 INFO     1092668 Reconnecting after 10 seconds ...
+2023-02-18 15:01:16 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-18 15:01:16 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 54142
+2023-02-18 15:01:16 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-18 15:01:16 WARNING  1092668 Requesting bind as transceiver
+2023-02-18 15:01:16 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-18 20:00:44 ERROR    1092668 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 585, command_status: CommandStatus.ESME_ROK
+]
+2023-02-18 20:00:44 WARNING  1092668 Shutdown requested...unbinding
+2023-02-18 20:00:44 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-18 20:00:44 ERROR    1092668 Unbind received
+2023-02-18 20:00:44 ERROR    1092668 Unbind received
+2023-02-18 20:00:44 ERROR    1092668 Unbind received
+2023-02-18 20:00:44 WARNING  1092668 Issuing unbind request
+2023-02-18 20:00:44 WARNING  1092668 Disconnecting...
+2023-02-18 20:00:44 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 54142: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 20:00:44 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 20:00:44 INFO     1092668 Reconnecting after 10 seconds ...
+2023-02-18 20:00:54 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-18 20:01:09 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 46820
+2023-02-18 20:01:09 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-18 20:01:09 WARNING  1092668 Requesting bind as transceiver
+2023-02-18 20:01:09 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-18 20:01:14 ERROR    1092668 Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 589, command_status: CommandStatus.ESME_ROK
+]
+2023-02-18 20:01:14 ERROR    1092668 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 589, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-02-18 20:01:14 WARNING  1092668 Disconnecting...
+2023-02-18 20:01:14 WARNING  1092668 Disconnecting...
+2023-02-18 20:01:14 WARNING  1092668 Shutdown requested...disconnecting
+2023-02-18 20:01:14 WARNING  1092668 Disconnecting...
+2023-02-18 20:44:15 ERROR    1092668 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 77, command_status: CommandStatus.ESME_ROK
+]
+2023-02-18 20:44:15 WARNING  1092668 Shutdown requested...unbinding
+2023-02-18 20:44:15 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-18 20:44:16 ERROR    1092668 Unbind received
+2023-02-18 20:44:16 ERROR    1092668 Unbind received
+2023-02-18 20:44:16 ERROR    1092668 Unbind received
+2023-02-18 20:44:16 WARNING  1092668 Issuing unbind request
+2023-02-18 20:44:16 WARNING  1092668 Disconnecting...
+2023-02-18 20:44:16 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 46820: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 20:44:16 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 20:44:16 INFO     1092668 Reconnecting after 10 seconds ...
+2023-02-18 20:44:26 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-18 20:44:26 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 36196
+2023-02-18 20:44:26 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-18 20:44:26 WARNING  1092668 Requesting bind as transceiver
+2023-02-18 20:44:26 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-18 20:44:46 ERROR    1092668 Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 81, command_status: CommandStatus.ESME_ROK
+]
+2023-02-18 20:44:46 ERROR    1092668 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 81, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-02-18 20:44:46 WARNING  1092668 Disconnecting...
+2023-02-18 20:44:46 WARNING  1092668 Disconnecting...
+2023-02-18 20:44:46 WARNING  1092668 Shutdown requested...disconnecting
+2023-02-18 20:44:46 WARNING  1092668 Disconnecting...
+2023-02-18 22:09:33 ERROR    1092668 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 165, command_status: CommandStatus.ESME_ROK
+]
+2023-02-18 22:09:33 WARNING  1092668 Shutdown requested...unbinding
+2023-02-18 22:09:33 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-18 22:09:33 ERROR    1092668 Unbind received
+2023-02-18 22:09:33 ERROR    1092668 Unbind received
+2023-02-18 22:09:33 ERROR    1092668 Unbind received
+2023-02-18 22:09:33 WARNING  1092668 Issuing unbind request
+2023-02-18 22:09:33 WARNING  1092668 Disconnecting...
+2023-02-18 22:09:33 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 36196: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 22:09:33 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 22:09:33 INFO     1092668 Reconnecting after 10 seconds ...
+2023-02-18 22:09:43 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-18 22:09:43 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 58220
+2023-02-18 22:09:43 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-18 22:09:43 WARNING  1092668 Requesting bind as transceiver
+2023-02-18 22:09:43 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-18 22:10:03 ERROR    1092668 Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 169, command_status: CommandStatus.ESME_ROK
+]
+2023-02-18 22:10:03 ERROR    1092668 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 169, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-02-18 22:10:03 WARNING  1092668 Disconnecting...
+2023-02-18 22:10:03 WARNING  1092668 Disconnecting...
+2023-02-18 22:10:03 WARNING  1092668 Shutdown requested...disconnecting
+2023-02-18 22:10:03 WARNING  1092668 Disconnecting...
+2023-02-18 22:11:19 WARNING  1092668 Disconnecting...
+2023-02-18 22:11:19 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 58220: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 22:11:19 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-18 22:11:19 INFO     1092668 Reconnecting after 10 seconds ...
+2023-02-18 22:11:29 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-18 22:11:29 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 37992
+2023-02-18 22:11:29 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-18 22:11:29 WARNING  1092668 Requesting bind as transceiver
+2023-02-18 22:11:29 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

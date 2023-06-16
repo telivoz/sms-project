@@ -1,0 +1,109 @@
+2023-03-13 15:42:58 INFO     221 Interceptor configured and ready.
+2023-03-13 15:42:59 INFO     221 Authenticated Avatar: iadmin
+2023-03-14 13:47:24 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-14 13:54:58 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-14 14:48:45 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-14 14:50:58 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-14 14:58:49 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-14 18:49:14 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-14 18:56:23 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'1234545454').
+2023-03-15 16:12:11 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-15 16:12:39 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'1234545454').
+2023-03-15 16:13:37 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-15 16:20:44 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'1234545454').
+2023-03-15 16:24:01 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-15 16:24:16 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'1234545454').
+2023-03-15 19:22:27 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-15 19:26:57 INFO     221 Running with a CommandId.submit_sm (from:b'1234545454', to:b'5548988034304').
+2023-03-15 19:28:15 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'1234545454').
+2023-03-15 19:28:33 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'1234545454').
+2023-03-15 19:34:32 INFO     221 Running with a CommandId.submit_sm (from:b'1234', to:b'923135005050').
+2023-03-15 19:34:32 INFO     221 Setting http_status to 520 when having smpp_status = 254 and http_status = None.
+2023-03-15 19:34:32 INFO     221 Returning statuses: {'http_status': 520, 'smpp_status': 254, 'extra': {}}
+2023-03-15 19:38:07 INFO     221 Running with a CommandId.submit_sm (from:b'1234', to:b'923135005050').
+2023-03-15 19:41:40 INFO     221 Running with a CommandId.submit_sm (from:b'1234', to:b'923135005050').
+2023-03-15 19:48:46 INFO     221 Running with a CommandId.deliver_sm (from:b'923135005050', to:b'1234').
+2023-03-17 11:36:27 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:44:07 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:45:46 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:46:27 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:48:23 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:49:45 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:50:59 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 11:53:50 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'923135005050').
+2023-03-17 11:54:20 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'5548988034304').
+2023-03-17 11:55:24 INFO     221 Running with a CommandId.deliver_sm (from:b'923135005050', to:b'0').
+2023-03-17 11:57:45 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 11:58:17 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'5548988034304').
+2023-03-17 11:58:33 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'0').
+2023-03-17 11:58:38 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'0').
+2023-03-17 11:59:24 INFO     221 Interceptor configured and ready.
+2023-03-17 11:59:24 INFO     221 Authenticated Avatar: iadmin
+2023-03-17 12:00:37 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 12:01:38 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 12:03:35 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 12:04:33 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 12:07:25 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 12:07:29 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 14:07:15 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 14:07:40 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 14:12:51 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 14:13:32 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 14:14:52 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'5548988034304').
+2023-03-17 14:23:31 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'otp').
+2023-03-17 14:41:40 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'5548988034304').
+2023-03-17 14:43:37 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'0').
+2023-03-17 14:44:45 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'5548988034304').
+2023-03-17 14:53:17 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'5548988034304').
+2023-03-17 14:53:47 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'0').
+2023-03-17 14:54:53 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'0').
+2023-03-17 14:58:07 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'5548988034304').
+2023-03-17 15:06:45 INFO     221 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'0').
+2023-03-18 12:19:14 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:21:09 INFO     221 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:22:12 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:22:20 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:22:26 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:22:28 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:24:36 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:25:30 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:26:59 INFO     221 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:27:36 INFO     221 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:27:52 INFO     221 Running with a CommandId.submit_sm (from:b'000', to:b'55489880344304').
+2023-03-18 12:28:08 INFO     219 Interceptor configured and ready.
+2023-03-18 12:28:08 INFO     219 Authenticated Avatar: iadmin
+2023-03-18 12:28:34 INFO     219 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:28:35 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:28:52 INFO     219 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:30:57 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:31:01 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:36:06 INFO     219 Running with a CommandId.submit_sm (from:b'otp', to:b'55489880344304').
+2023-03-18 12:36:29 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-18 12:36:52 INFO     219 Running with a CommandId.submit_sm (from:b'000', to:b'55489880344304').
+2023-03-18 12:37:05 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:37:13 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'0').
+2023-03-18 12:38:38 INFO     219 Running with a CommandId.submit_sm (from:b'000', to:b'923135005050').
+2023-03-18 12:39:41 INFO     219 Running with a CommandId.deliver_sm (from:b'923135005050', to:b'0').
+2023-03-18 12:40:16 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'otp').
+2023-03-18 12:40:47 INFO     219 Running with a CommandId.submit_sm (from:b'000', to:b'923135005050').
+2023-03-18 12:43:50 INFO     219 Running with a CommandId.deliver_sm (from:b'923135005050', to:b'0').
+2023-03-18 12:44:21 INFO     219 Running with a CommandId.deliver_sm (from:b'55489880344304', to:b'1234').
+2023-03-18 12:50:11 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-18 12:50:54 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-18 12:51:10 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-18 12:51:10 INFO     219 Setting http_status to 520 when having smpp_status = 254 and http_status = None.
+2023-03-18 12:51:10 INFO     219 Returning statuses: {'http_status': 520, 'smpp_status': 254, 'extra': {}}
+2023-03-18 12:51:17 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-18 12:51:17 INFO     219 Setting http_status to 520 when having smpp_status = 254 and http_status = None.
+2023-03-18 12:51:17 INFO     219 Returning statuses: {'http_status': 520, 'smpp_status': 254, 'extra': {}}
+2023-03-18 12:57:40 INFO     219 Running with a CommandId.submit_sm (from:b'000', to:b'55489880344304').
+2023-03-18 12:57:40 INFO     219 Setting http_status to 520 when having smpp_status = 254 and http_status = None.
+2023-03-18 12:57:40 INFO     219 Returning statuses: {'http_status': 520, 'smpp_status': 254, 'extra': {}}
+2023-03-18 12:58:00 INFO     219 Running with a CommandId.submit_sm (from:b'000', to:b'55489880344304').
+2023-03-18 12:58:00 INFO     219 Setting http_status to 520 when having smpp_status = 254 and http_status = None.
+2023-03-18 12:58:00 INFO     219 Returning statuses: {'http_status': 520, 'smpp_status': 254, 'extra': {}}
+2023-03-18 13:05:50 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-18 13:06:00 INFO     219 Running with a CommandId.submit_sm (from:b'000', to:b'55489880344304').
+2023-03-19 13:15:00 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-19 13:29:37 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').
+2023-03-19 13:53:36 INFO     219 Running with a CommandId.submit_sm (from:b'1234', to:b'55489880344304').

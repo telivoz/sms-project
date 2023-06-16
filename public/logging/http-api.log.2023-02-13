@@ -1,0 +1,101 @@
+2023-02-14 12:14:12 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:11107672-6545-4246-b0f3-c6a2e162f0b1] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:17:13 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:62095be6-37eb-4b59-91a7-d206b6187924] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:18:55 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:a41a7028-daa7-406a-9ad5-20d2770058cc] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:21:24 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:3ddba03d-46c5-4040-9567-949d9c8f14b0] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:30:43 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:1f9bebe8-724c-44cc-bea7-8bc5ceb42d39] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:37:27 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:63ee991f-6944-4654-93c9-d38da9ac186c] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:50:15 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:f7b65efb-bb39-4168-9a46-493367e82307] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:50:29 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:a6ca4254-db6b-4b72-9598-0ebe85b7d687] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:52:01 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 12:52:01 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 12:52:32 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 12:52:32 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 12:53:46 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 12:53:46 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 12:54:29 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:a6730ef9-6446-4728-b131-5e584bf4a20f] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:56:49 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:c1aa292b-7102-4ee3-b800-a08459fdb53f] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:57:28 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:503cf24d-cb28-4b16-a6db-f1e7ac3993fc] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 12:57:35 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:98bd3b9f-f228-442f-8b0d-58b948fd48ac] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 13:10:48 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 13:10:48 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 13:12:26 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 13:12:26 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 13:13:17 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 13:13:17 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 13:13:45 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 13:13:45 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 13:15:15 ERROR    3061959 Failed running interception script, got the following return: False
+2023-02-14 13:15:15 ERROR    3061959 Error: 400: InterceptorRunError (Failed running interception script, check log for details)
+2023-02-14 13:15:47 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:15:47 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:17:32 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:17:32 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:17:54 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:17:54 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:17:57 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:17:57 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:18:06 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:18:06 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:18:30 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:18:30 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:18:45 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:18:45 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:19:13 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:19:13 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:19:39 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:19:39 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:19:56 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:19:56 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:20:05 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:20:05 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:21:47 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:21:47 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:23:23 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:23:23 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:25:17 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:25:17 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:26:01 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:26:01 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:27:08 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:27:08 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:27:29 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:27:29 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:28:05 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:0e63e4db-d0a7-4d67-8c48-27de7ce45163] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 13:28:18 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:0710fd9b-390f-4ef9-8aca-1f691003beb5] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 13:29:07 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:10e2cf2c-0503-4cc6-b6e6-98db72a415df] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 13:29:23 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:29:23 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:30:26 ERROR    3061959 Interceptor script returned 520 http_status error.
+2023-02-14 13:30:26 ERROR    3061959 Error: 520: InterceptorRunError (Interception specific error code 520)
+2023-02-14 13:30:50 INFO     3061959 SMS-MT [uid:mario] [cid:testserver] [msgid:c0503fa5-7d40-48b6-9629-ac699599059a] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-14 17:43:24 ERROR    1092668 Authentication failure for username:mario
+2023-02-14 17:43:24 ERROR    1092668 Error: 403: AuthenticationError (Authentication failure for username:mario)
+2023-02-14 17:43:30 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:309b7848-ffe1-4a11-942d-49d916a0a07c] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:25:53 ERROR    1092668 Authentication failure for username:mario
+2023-02-16 17:25:53 ERROR    1092668 Error: 403: AuthenticationError (Authentication failure for username:mario)
+2023-02-16 17:25:59 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:39af4a1f-01e8-4d34-921f-03a10add321d] [prio:0] [dlr:No] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:26:47 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:f9c0eb33-bafa-4a04-b3fb-7194e395cc8b] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:27:35 ERROR    1092668 Error: 400: UrlArgsValidationError (b'Argument [dlr-url] has an invalid value: [162.213.195.82/dlr/index.php].')
+2023-02-16 17:27:58 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:c7d8cfcc-23d8-4d03-ac9b-872af0617a2f] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:28:26 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:69373083-c405-4f60-b6c2-dca88e449455] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:30:24 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:f1ebda65-8aa0-44a5-9dcf-14684bac6c62] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:32:04 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:d96fc0f0-ecbb-4415-8612-bf8b6a12cb83] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:32:22 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:d6c477d5-c439-422f-b460-b77221859449] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:33:15 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:1f9e59b9-37c2-42a3-b2e1-ba8f7337cc80] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:35:50 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:f356dc37-0f84-4ab0-b1f6-1b45a7dc5128] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:57:07 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:0e81626a-1285-42b0-8ab4-73bdc7927369] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:57:16 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:afc96b29-65b7-4b00-afb9-3e9f11240a8e] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:57:23 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:411f514d-dfa9-4954-ad1f-54c74648eef6] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 17:57:28 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:0f3aae8e-9aeb-4786-b1a0-57fd4799017b] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 18:22:58 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:f1e4b6cd-390f-44db-ad47-5b44272755e1] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 18:41:10 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:3989a4cc-6f11-4da8-9c1f-21e803392693] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 18:51:15 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:76f4d836-bc5e-4e5b-9418-7b2b33152177] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 18:52:09 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:14cbdecc-1eed-4889-9a22-fa4a9adfdb5d] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:00:53 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:7996c2e1-6dc9-4323-9f55-e2e99a773c39] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:00:54 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:4852d9b4-836a-4238-b053-2263805aff6e] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:00:55 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:06b4362e-90d7-4728-98d5-cdc16605373c] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:00:55 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:44de35be-b303-43f9-b4df-26b73805643f] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:06:01 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:09bf3e80-9e00-4561-aeba-de1b58c429d3] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:06:01 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:6dee8cab-fb66-4859-b92d-a99240639641] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:06:02 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:2addbc82-6618-42c2-bd3a-0231d73b9c20] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-02-16 19:06:02 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:c5662184-8b26-46d1-9d41-7d2f3e9bc58c] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']

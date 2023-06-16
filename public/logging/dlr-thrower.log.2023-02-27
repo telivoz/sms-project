@@ -1,0 +1,12 @@
+2023-03-01 14:04:24 INFO     1092669 Throwed DLR [msgid:2d930764-4d01-44ea-b411-47e3c9bdca94] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:05:09 INFO     1092669 Throwed DLR [msgid:c2250775-380a-4c9d-a910-f7e422aecc25] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:05:31 INFO     1092669 Throwed DLR [msgid:2d930764-4d01-44ea-b411-47e3c9bdca94] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:12:46 INFO     1092669 Throwed DLR [msgid:c2250775-380a-4c9d-a910-f7e422aecc25] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:21:36 INFO     1092669 Throwed DLR [msgid:853345c8-982d-47e2-8397-3d6c31fbccb2] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:21:38 INFO     1092669 Throwed DLR [msgid:ef9e08b5-4d85-45ef-8d5a-87ab6c5fcec6] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:25:14 INFO     1092669 Throwed DLR [msgid:853345c8-982d-47e2-8397-3d6c31fbccb2] to http://162.213.195.82/dlr/index.php.
+2023-03-01 14:33:03 INFO     1092669 Throwed DLR [msgid:ef9e08b5-4d85-45ef-8d5a-87ab6c5fcec6] to http://162.213.195.82/dlr/index.php.
+2023-03-02 12:31:49 INFO     373 Thrower configured and ready.
+2023-03-02 12:31:49 INFO     373 Added a perspectivebroker access to SMPPServerFactory
+2023-03-02 12:31:49 INFO     373 Added amqpBroker
+2023-03-02 12:31:49 INFO     373 Consuming from routing key: dlr_thrower.*

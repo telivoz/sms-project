@@ -23,7 +23,7 @@
 <tr>
       <td>{{ $rate->code }}</td>
       <td>{{ $rate->destination }}</td>
-      <td><?php $idProvider = DB::table('connectors')->where('name', "$rate->company")->value('provider'); $providerName = DB::table('providers')->where('id',"$idProvider")->value('name'); echo$providerName;?> / {{ $rate->company }}</td>
+      <td><?php $idProvider = DB::table('connectors')->where('name', "$rate->company")->value('provider'); $providerName = DB::table('providers')->where('id',$idProvider)->value('name'); echo$providerName;?> / {{ $rate->company }}</td>
       <td>{{ $rate->cost }}</td>
       <td>
           <a href="/rates-provider/edit/{{ $rate->id }}" class="bi bi-pencil-square"></a>

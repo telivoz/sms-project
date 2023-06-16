@@ -1,0 +1,17 @@
+2023-03-17 11:50:59 INFO     224 DLR [cid:testserver] [smpp-msgid:8BCD4EC7-468F-4769-91E7-1BAF9F4B52BB] [status:DELIVRD] [submit date:2303171148] [done date:2303171150] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 11:55:24 INFO     224 DLR [cid:testserver] [smpp-msgid:78C5405D-85AD-439A-8E10-148639A3CE8C] [status:DELIVRD] [submit date:2303171153] [done date:2303171155] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 11:58:33 INFO     224 DLR [cid:testserver] [smpp-msgid:8EDB96DA-82FA-4DF6-B80F-A83D54E93D30] [status:DELIVRD] [submit date:2303171158] [done date:2303171158] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 11:58:38 INFO     224 DLR [cid:testserver] [smpp-msgid:EAABA74-171B-4151-87D4-B72EFC195B5A] [status:DELIVRD] [submit date:2303171154] [done date:2303171158] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 11:59:34 INFO     224 Started DLRLookup #dlrlookupd-01.
+2023-03-17 11:59:34 INFO     224 DLRLookup (dlrlookupd-01) is ready.
+2023-03-17 12:03:35 INFO     224 DLR [cid:testserver] [smpp-msgid:EA623D81-F40C-4758-BDB8-F7AFF43B2900] [status:DELIVRD] [submit date:2303171149] [done date:2303171203] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 12:04:33 INFO     224 DLR [cid:testserver] [smpp-msgid:77437ED2-7E74-453A-826A-EDF8625A4836] [status:DELIVRD] [submit date:2303171200] [done date:2303171204] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 12:07:25 INFO     224 DLR [cid:testserver] [smpp-msgid:2290C25B-0768-4D9C-9FE3-B5BC72984D6A] [status:DELIVRD] [submit date:2303171201] [done date:2303171207] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 12:07:29 INFO     224 DLR [cid:testserver] [smpp-msgid:750F3985-A793-4942-95CA-AB4228118311] [status:DELIVRD] [submit date:2303171157] [done date:2303171207] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 14:12:51 INFO     224 DLR [cid:testserver] [smpp-msgid:FE75A273-BBD5-49A1-ADE3-B1C1701A1125] [status:DELIVRD] [submit date:2303171410] [done date:2303171412] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 14:13:33 INFO     224 DLR [cid:testserver] [smpp-msgid:F3E24CDE-85D3-45EE-88B3-6A1871D9FDF8] [status:DELIVRD] [submit date:2303171408] [done date:2303171413] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 14:23:31 INFO     224 DLR [cid:testserver] [smpp-msgid:4F0A5382-4A22-47D5-94B8-B3618452359B] [status:DELIVRD] [submit date:2303171416] [done date:2303171423] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 14:43:37 INFO     224 DLR [cid:testserver] [smpp-msgid:BD0FB739-CC62-4E8F-9CBE-E81EABCABA48] [status:DELIVRD] [submit date:2303171443] [done date:2303171443] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 14:53:47 INFO     224 DLR [cid:testserver] [smpp-msgid:7A847402-3170-4C04-960D-5338672B1486] [status:DELIVRD] [submit date:2303171446] [done date:2303171453] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 14:54:53 INFO     224 DLR [cid:testserver] [smpp-msgid:790E0FE-61F2-4920-BCC2-17DE45A5FB57] [status:DELIVRD] [submit date:2303171454] [done date:2303171454] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-17 15:06:46 INFO     224 DLR [cid:testserver] [smpp-msgid:FBD03A34-C884-4420-873D-358693B0AC3D] [status:DELIVRD] [submit date:2303171459] [done date:2303171506] [sub/dlvrd messages:ND/ND] [err:000] [content:'']

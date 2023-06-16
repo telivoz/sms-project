@@ -1,0 +1,3047 @@
+2023-01-18 12:32:43,892 INFO Got pdu: PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+]
+2023-01-18 12:38:25,274 INFO Got pdu: PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+]
+2023-01-18 12:58:23,368 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeeca90>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 18, 12, 58, 23, 366824)}
+2023-01-18 13:00:19,354 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed600>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 18, 13, 0, 19, 352630)}
+2023-01-19 12:16:31,912 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed870>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 12, 16, 31, 910805)}
+2023-01-19 12:16:58,303 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeedff0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 12, 16, 58, 302014)}
+2023-01-19 17:36:17,401 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeedb70>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 36, 17, 400232)}
+2023-01-19 17:47:41,125 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeece20>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 47, 41, 124013)}
+2023-01-19 17:48:46,090 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed870>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 48, 46, 89292)}
+2023-01-19 17:48:50,268 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeedab0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 48, 50, 267298)}
+2023-01-19 17:48:54,072 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed480>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 48, 54, 71519)}
+2023-01-19 17:49:13,589 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed990>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 13, 588379)}
+2023-01-19 17:49:14,960 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeedab0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 14, 959272)}
+2023-01-19 17:49:16,385 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeee5c0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 16, 384012)}
+2023-01-19 17:49:17,000 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeece20>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 16, 998403)}
+2023-01-19 17:49:17,514 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeee590>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 17, 512903)}
+2023-01-19 17:49:18,028 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed9c0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 18, 26653)}
+2023-01-19 17:49:18,486 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeed480>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 18, 484474)}
+2023-01-19 17:49:18,814 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeedc60>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 17, 49, 18, 813433)}
+2023-01-19 23:22:39,218 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'short'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5511993647983'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7f489aeeda20>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 1, 19, 23, 22, 39, 217518)}
+2023-02-09 12:31:59,014 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'55489880343404'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34850>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 12, 31, 59, 8587)}
+2023-02-09 12:32:26,999 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'55489880343404'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d358d0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 12, 32, 26, 998267)}
+2023-02-09 15:03:02,557 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34f70>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 15, 3, 2, 555929)}
+2023-02-09 15:03:23,049 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35120>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 15, 3, 23, 48205)}
+2023-02-09 15:03:32,198 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34ee0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 15, 3, 32, 197118)}
+2023-02-09 15:13:35,981 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35120>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 15, 13, 35, 980317)}
+2023-02-09 19:20:11,397 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35f90>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 19, 20, 11, 395786)}
+2023-02-09 19:23:24,969 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35fc0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 19, 23, 24, 967779)}
+2023-02-09 19:24:29,791 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34880>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 19, 24, 29, 789613)}
+2023-02-09 19:24:51,050 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35f60>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 19, 24, 51, 48983)}
+2023-02-09 19:25:45,981 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34ee0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 19, 25, 45, 980403)}
+2023-02-09 20:11:46,853 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34ee0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 11, 46, 851841)}
+2023-02-09 20:15:36,869 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35120>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 15, 36, 867871)}
+2023-02-09 20:16:13,740 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35000>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 16, 13, 738995)}
+2023-02-09 20:18:33,204 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36020>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 18, 33, 203501)}
+2023-02-09 20:20:10,690 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35900>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 20, 10, 689283)}
+2023-02-09 20:21:15,403 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35030>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 21, 15, 402463)}
+2023-02-09 20:21:56,081 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36020>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 21, 56, 79652)}
+2023-02-09 20:22:40,537 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d360b0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 22, 40, 535721)}
+2023-02-09 20:23:16,719 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35120>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 23, 16, 718014)}
+2023-02-09 20:25:55,410 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36080>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 25, 55, 409275)}
+2023-02-09 20:26:38,675 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34f70>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 26, 38, 673799)}
+2023-02-09 20:26:58,079 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35900>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 26, 58, 77805)}
+2023-02-09 20:27:07,729 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34eb0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 27, 7, 728046)}
+2023-02-09 20:27:28,591 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34850>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 27, 28, 590064)}
+2023-02-09 20:28:53,454 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35f90>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 28, 53, 453258)}
+2023-02-09 20:29:08,759 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d360e0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 29, 8, 757674)}
+2023-02-09 20:29:56,259 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35ff0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 29, 56, 257921)}
+2023-02-09 20:30:29,521 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d350f0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 30, 29, 520275)}
+2023-02-09 20:31:00,276 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d34f70>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 31, 0, 274859)}
+2023-02-09 20:31:12,521 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35000>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 31, 12, 520122)}
+2023-02-09 20:31:14,773 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36080>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 31, 14, 772357)}
+2023-02-09 20:31:16,301 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36140>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 31, 16, 300271)}
+2023-02-09 20:40:51,469 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35030>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 40, 51, 468267)}
+2023-02-09 20:40:55,406 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36e00>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 40, 55, 404613)}
+2023-02-09 20:40:57,663 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d350f0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 40, 57, 662220)}
+2023-02-09 20:40:59,310 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36da0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 9, 20, 40, 59, 308544)}
+2023-02-14 12:14:12,693 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36ec0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 14, 12, 14, 12, 691766)}
+2023-02-14 12:17:13,821 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d35030>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 14, 12, 17, 13, 820411)}
+2023-02-14 12:18:55,110 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d360e0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 14, 12, 18, 55, 109315)}
+2023-02-14 12:21:24,152 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d37010>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 14, 12, 21, 24, 151335)}
+2023-02-14 12:30:43,539 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d36d40>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 14, 12, 30, 43, 538646)}
+2023-02-14 12:37:27,252 INFO {'_tags': [], 'pdu': PDU [command: CommandId.submit_sm, sequence_number: None, command_status: CommandStatus.ESME_ROK
+service_type: None
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548984487878'
+dest_addr_ton: <AddrTon.INTERNATIONAL: 2>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548988034304'
+esm_class: EsmClass[mode: EsmClassMode.STORE_AND_FORWARD, type: EsmClassType.DEFAULT, gsmFeatures: set()]
+protocol_id: None
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: 0
+sm_default_msg_id: 0
+short_message: b'hello'
+], 'user': <jasmin.routing.jasminApi.User object at 0x7feeb8d360e0>, '_pdu_locks': [], 'datetime': datetime.datetime(2023, 2, 14, 12, 37, 27, 251106)}
+2023-02-14 12:56:49,357 INFO mario
+2023-02-14 12:57:28,143 INFO 419.9759999999999
+2023-02-14 12:57:35,634 INFO 419.9759999999999
+2023-02-14 13:10:48,051 INFO 419.9759999999999
+2023-02-14 13:12:26,285 INFO 419.9759999999999
+2023-02-14 13:13:17,428 INFO 419.9759999999999
+2023-02-14 13:13:45,967 INFO 419.9759999999999
+2023-02-14 13:15:15,428 INFO 419.9759999999999
+2023-02-14 13:15:47,327 INFO 419.9759999999999
+2023-02-14 13:15:47,327 INFO 5548988034304
+2023-02-14 13:17:32,953 INFO 419.9759999999999
+2023-02-14 13:17:32,953 INFO 5548988034304
+2023-02-14 13:17:54,650 INFO 419.9759999999999
+2023-02-14 13:17:54,650 INFO 5548988034304
+2023-02-14 13:17:57,022 INFO 419.9759999999999
+2023-02-14 13:17:57,022 INFO 5548988034304
+2023-02-14 13:18:06,738 INFO 419.9759999999999
+2023-02-14 13:18:06,738 INFO 5548988034304
+2023-02-14 13:18:30,812 INFO 419.9759999999999
+2023-02-14 13:18:30,812 INFO 5548988034304
+2023-02-14 13:18:45,778 INFO 419.9759999999999
+2023-02-14 13:18:45,778 INFO 5548988034304
+2023-02-14 13:19:13,029 INFO 419.9759999999999
+2023-02-14 13:19:13,030 INFO 5548988034304
+2023-02-14 13:19:39,608 INFO 419.9759999999999
+2023-02-14 13:19:39,608 INFO 5548988034304
+2023-02-14 13:19:56,310 INFO 419.9759999999999
+2023-02-14 13:19:56,310 INFO 5548988034304
+2023-02-14 13:20:05,375 INFO 419.9759999999999
+2023-02-14 13:20:05,375 INFO 5548988034304
+2023-02-14 13:21:47,161 INFO 419.9759999999999
+2023-02-14 13:21:47,164 INFO 5548988034304
+2023-02-14 13:21:47,165 INFO Nao achou RATE
+2023-02-14 13:21:47,166 INFO Nao achou RATE
+2023-02-14 13:21:47,166 INFO Nao achou RATE
+2023-02-14 13:21:47,167 INFO Nao achou RATE
+2023-02-14 13:21:47,167 INFO Nao achou RATE
+2023-02-14 13:21:47,168 INFO Nao achou RATE
+2023-02-14 13:21:47,168 INFO Nao achou RATE
+2023-02-14 13:21:47,169 INFO Nao achou RATE
+2023-02-14 13:21:47,169 INFO Nao achou RATE
+2023-02-14 13:21:47,169 INFO Nao achou RATE
+2023-02-14 13:21:47,170 INFO Nao achou RATE
+2023-02-14 13:21:47,170 INFO 5
+2023-02-14 13:23:23,643 INFO 419.9759999999999
+2023-02-14 13:23:23,644 INFO 5548988034304
+2023-02-14 13:23:23,647 INFO 5
+2023-02-14 13:25:17,062 INFO 419.9759999999999
+2023-02-14 13:25:17,065 INFO 5548988034304
+2023-02-14 13:25:17,068 INFO 5
+2023-02-14 13:26:01,114 INFO 419.9759999999999
+2023-02-14 13:26:01,115 INFO 5548988034304
+2023-02-14 13:26:01,118 INFO 5
+2023-02-14 13:27:08,213 INFO 419.9759999999999
+2023-02-14 13:27:08,214 INFO 5548988034304
+2023-02-14 13:27:08,217 INFO 5
+2023-02-14 13:27:29,743 INFO 419.9759999999999
+2023-02-14 13:27:29,744 INFO 5548988034304
+2023-02-14 13:27:29,746 INFO 5
+2023-02-14 13:28:05,370 INFO 419.9759999999999
+2023-02-14 13:28:05,371 INFO 5548988034304
+2023-02-14 13:28:05,374 INFO 5
+2023-02-14 13:28:18,498 INFO 419.97199999999987
+2023-02-14 13:28:18,503 INFO 5548988034304
+2023-02-14 13:28:18,506 INFO 5
+2023-02-14 13:29:07,899 INFO 419.96799999999985
+2023-02-14 13:29:07,900 INFO PASSOU BALANCE 419.96799999999985
+2023-02-14 13:29:07,900 INFO 5548988034304
+2023-02-14 13:29:07,902 INFO 5
+2023-02-14 13:29:23,561 INFO 419.9639999999998
+2023-02-14 13:29:23,561 INFO PASSOU BALANCE 419.9639999999998
+2023-02-14 13:29:23,561 INFO 5548988034304
+2023-02-14 13:29:23,564 INFO Nao achou RATE
+2023-02-14 13:30:26,593 INFO 419.9639999999998
+2023-02-14 13:30:26,594 INFO PASSOU BALANCE 419.9639999999998
+2023-02-14 13:30:26,594 INFO 5548988034304
+2023-02-14 13:30:26,597 INFO Nao achou RATE
+2023-02-14 13:30:50,745 INFO 419.9639999999998
+2023-02-14 13:30:50,746 INFO PASSOU BALANCE 419.9639999999998
+2023-02-14 13:30:50,746 INFO 5548988034304
+2023-02-14 13:30:50,748 INFO 5
+2023-02-14 14:39:46,006 INFO 419.9599999999998
+2023-02-14 14:39:46,006 INFO PASSOU BALANCE 419.9599999999998
+2023-02-14 14:39:46,006 INFO 5548988034304
+2023-02-14 14:39:46,009 INFO 5
+2023-02-14 17:43:30,035 INFO 419.9559999999998
+2023-02-14 17:43:30,035 INFO PASSOU BALANCE 419.9559999999998
+2023-02-14 17:43:30,035 INFO 5548988034304
+2023-02-14 17:43:30,038 INFO 5
+2023-02-16 17:25:59,837 INFO 419.95199999999977
+2023-02-16 17:25:59,837 INFO PASSOU BALANCE 419.95199999999977
+2023-02-16 17:25:59,837 INFO 5548988034304
+2023-02-16 17:25:59,840 INFO 5
+2023-02-16 17:26:47,586 INFO 419.94799999999975
+2023-02-16 17:26:47,586 INFO PASSOU BALANCE 419.94799999999975
+2023-02-16 17:26:47,586 INFO 5548988034304
+2023-02-16 17:26:47,589 INFO 5
+2023-02-16 17:27:58,382 INFO 419.94399999999973
+2023-02-16 17:27:58,382 INFO PASSOU BALANCE 419.94399999999973
+2023-02-16 17:27:58,382 INFO 5548988034304
+2023-02-16 17:27:58,384 INFO 5
+2023-02-16 17:28:26,665 INFO 419.9399999999997
+2023-02-16 17:28:26,665 INFO PASSOU BALANCE 419.9399999999997
+2023-02-16 17:28:26,665 INFO 5548988034304
+2023-02-16 17:28:26,668 INFO 5
+2023-02-16 17:29:12,105 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3308, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:b47ba51d-420c-4240-9ef8-336626eef18f submit date:2302161728 done date:2302161729 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'b47ba51d-420c-4240-9ef8-336626eef18f'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 29, 12, 103583)}
+2023-02-16 17:30:24,484 INFO 419.9359999999997
+2023-02-16 17:30:24,485 INFO PASSOU BALANCE 419.9359999999997
+2023-02-16 17:30:24,485 INFO 5548988034304
+2023-02-16 17:30:24,487 INFO 5
+2023-02-16 17:31:05,833 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3312, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:dbf88711-a912-46f2-ab0a-0bb97a96802c submit date:2302161727 done date:2302161731 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'dbf88711-a912-46f2-ab0a-0bb97a96802c'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 31, 5, 831946)}
+2023-02-16 17:32:04,076 INFO 419.9319999999997
+2023-02-16 17:32:04,076 INFO PASSOU BALANCE 419.9319999999997
+2023-02-16 17:32:04,076 INFO 5548988034304
+2023-02-16 17:32:04,078 INFO 5
+2023-02-16 17:32:22,022 INFO 419.92799999999966
+2023-02-16 17:32:22,023 INFO PASSOU BALANCE 419.92799999999966
+2023-02-16 17:32:22,023 INFO 5548988034304
+2023-02-16 17:32:22,025 INFO 5
+2023-02-16 17:32:59,329 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3315, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:b4749114-d354-4b52-a83a-e973b5ecc809 submit date:2302161732 done date:2302161732 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'b4749114-d354-4b52-a83a-e973b5ecc809'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 32, 59, 328065)}
+2023-02-16 17:33:15,763 INFO 419.92399999999964
+2023-02-16 17:33:15,763 INFO PASSOU BALANCE 419.92399999999964
+2023-02-16 17:33:15,763 INFO 5548988034304
+2023-02-16 17:33:15,765 INFO 5
+2023-02-16 17:34:23,710 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3318, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:c1f13a34-8d42-4bd0-96f2-c11ed5384683 submit date:2302161726 done date:2302161734 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'c1f13a34-8d42-4bd0-96f2-c11ed5384683'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 34, 23, 708543)}
+2023-02-16 17:35:50,925 INFO 419.9199999999996
+2023-02-16 17:35:50,926 INFO PASSOU BALANCE 419.9199999999996
+2023-02-16 17:35:50,926 INFO 5548988034304
+2023-02-16 17:35:50,928 INFO 5
+2023-02-16 17:37:57,111 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3324, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:7078102b-0cf2-4318-b30b-b2ac929bdb1e submit date:2302161735 done date:2302161737 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'7078102b-0cf2-4318-b30b-b2ac929bdb1e'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 37, 57, 109970)}
+2023-02-16 17:40:21,685 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3328, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:e6e29a12-bf56-4215-b320-aa63d9f62e3e submit date:2302161733 done date:2302161740 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'e6e29a12-bf56-4215-b320-aa63d9f62e3e'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 40, 21, 684247)}
+2023-02-16 17:44:01,021 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3335, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:affe887b-1b26-477d-b52f-0fc763f42ab8 submit date:2302161730 done date:2302161744 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'affe887b-1b26-477d-b52f-0fc763f42ab8'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 44, 1, 19729)}
+2023-02-16 17:51:11,308 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3347, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:1a2002d3-f69c-4acf-9432-00d7769567b8 submit date:2302161732 done date:2302161751 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'1a2002d3-f69c-4acf-9432-00d7769567b8'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 51, 11, 307384)}
+2023-02-16 17:57:07,186 INFO 419.9159999999996
+2023-02-16 17:57:07,186 INFO PASSOU BALANCE 419.9159999999996
+2023-02-16 17:57:07,186 INFO 5548988034304
+2023-02-16 17:57:07,189 INFO 5
+2023-02-16 17:57:16,100 INFO 419.9119999999996
+2023-02-16 17:57:16,100 INFO PASSOU BALANCE 419.9119999999996
+2023-02-16 17:57:16,100 INFO 5548988034304
+2023-02-16 17:57:16,103 INFO 5
+2023-02-16 17:57:23,254 INFO 419.90799999999956
+2023-02-16 17:57:23,255 INFO PASSOU BALANCE 419.90799999999956
+2023-02-16 17:57:23,255 INFO 5548988034304
+2023-02-16 17:57:23,257 INFO 5
+2023-02-16 17:57:28,202 INFO 419.90399999999954
+2023-02-16 17:57:28,202 INFO PASSOU BALANCE 419.90399999999954
+2023-02-16 17:57:28,202 INFO 5548988034304
+2023-02-16 17:57:28,205 INFO 5
+2023-02-16 17:58:59,838 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3357, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:1d4cdd60-d5db-4dc6-a6c6-bb6db4b3a815 submit date:2302161757 done date:2302161758 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'1d4cdd60-d5db-4dc6-a6c6-bb6db4b3a815'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 17, 58, 59, 837437)}
+2023-02-16 18:01:22,350 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3361, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:0a5407cc-90d9-49d8-82ce-2638ae567431 submit date:2302161757 done date:2302161801 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'0a5407cc-90d9-49d8-82ce-2638ae567431'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 18, 1, 22, 349542)}
+2023-02-16 18:05:05,594 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3369, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:30baf64c-3586-4cbc-93e7-3b6e627d9f0b submit date:2302161757 done date:2302161805 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'30baf64c-3586-4cbc-93e7-3b6e627d9f0b'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 18, 5, 5, 593357)}
+2023-02-16 18:12:16,481 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3381, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:022ffe7e-3857-4729-98b0-db4b3c17de7e submit date:2302161757 done date:2302161812 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'022ffe7e-3857-4729-98b0-db4b3c17de7e'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 18, 12, 16, 479789)}
+2023-02-16 18:22:58,495 INFO 419.8999999999995
+2023-02-16 18:22:58,496 INFO PASSOU BALANCE 419.8999999999995
+2023-02-16 18:22:58,496 INFO 5548988034304
+2023-02-16 18:22:58,498 INFO 5
+2023-02-16 18:30:05,039 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3413, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:d8f61213-75f4-4335-aa32-7f99f83183a2 submit date:2302161822 done date:2302161830 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'd8f61213-75f4-4335-aa32-7f99f83183a2'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 18, 30, 5, 38018)}
+2023-02-16 18:41:10,931 INFO 419.8959999999995
+2023-02-16 18:41:10,931 INFO PASSOU BALANCE 419.8959999999995
+2023-02-16 18:41:10,931 INFO 5548988034304
+2023-02-16 18:41:10,934 INFO 5
+2023-02-16 18:51:15,463 INFO 419.8919999999995
+2023-02-16 18:51:15,464 INFO PASSOU BALANCE 419.8919999999995
+2023-02-16 18:51:15,464 INFO 5548988034304
+2023-02-16 18:51:15,467 INFO 5
+2023-02-16 18:52:09,351 INFO 419.88799999999947
+2023-02-16 18:52:09,352 INFO PASSOU BALANCE 419.88799999999947
+2023-02-16 18:52:09,352 INFO 5548988034304
+2023-02-16 18:52:09,354 INFO 5
+2023-02-16 18:55:17,857 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3460, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:911674ad-53cb-4880-b562-b47efe91112a submit date:2302161852 done date:2302161855 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'911674ad-53cb-4880-b562-b47efe91112a'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 18, 55, 17, 856020)}
+2023-02-16 19:00:53,798 INFO 419.88399999999945
+2023-02-16 19:00:53,798 INFO PASSOU BALANCE 419.88399999999945
+2023-02-16 19:00:53,798 INFO 5548988034304
+2023-02-16 19:00:53,801 INFO 5
+2023-02-16 19:00:54,621 INFO 419.8799999999994
+2023-02-16 19:00:54,621 INFO PASSOU BALANCE 419.8799999999994
+2023-02-16 19:00:54,622 INFO 5548988034304
+2023-02-16 19:00:54,624 INFO 5
+2023-02-16 19:00:55,187 INFO 419.8759999999994
+2023-02-16 19:00:55,187 INFO PASSOU BALANCE 419.8759999999994
+2023-02-16 19:00:55,187 INFO 5548988034304
+2023-02-16 19:00:55,190 INFO 5
+2023-02-16 19:00:55,753 INFO 419.8759999999994
+2023-02-16 19:00:55,753 INFO PASSOU BALANCE 419.8759999999994
+2023-02-16 19:00:55,753 INFO 5548988034304
+2023-02-16 19:00:55,756 INFO 5
+2023-02-16 19:01:04,353 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3469, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:37575c98-6650-491f-9655-0d7a6f2967b6 submit date:2302161900 done date:2302161901 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'37575c98-6650-491f-9655-0d7a6f2967b6'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 1, 4, 352675)}
+2023-02-16 19:03:01,202 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3473, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:27616a30-a917-4f3f-a6bb-3c04b057ac72 submit date:2302161900 done date:2302161903 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'27616a30-a917-4f3f-a6bb-3c04b057ac72'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 3, 1, 201261)}
+2023-02-16 19:05:22,872 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3477, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:b7cc65f2-45a7-48a8-b408-b72d3d94cbbd submit date:2302161851 done date:2302161905 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'b7cc65f2-45a7-48a8-b408-b72d3d94cbbd'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 5, 22, 871404)}
+2023-02-16 19:06:01,367 INFO 419.86799999999937
+2023-02-16 19:06:01,367 INFO PASSOU BALANCE 419.86799999999937
+2023-02-16 19:06:01,367 INFO 5548988034304
+2023-02-16 19:06:01,370 INFO 5
+2023-02-16 19:06:01,845 INFO 419.86399999999935
+2023-02-16 19:06:01,845 INFO PASSOU BALANCE 419.86399999999935
+2023-02-16 19:06:01,845 INFO 5548988034304
+2023-02-16 19:06:01,848 INFO 5
+2023-02-16 19:06:02,384 INFO 419.86399999999935
+2023-02-16 19:06:02,385 INFO PASSOU BALANCE 419.86399999999935
+2023-02-16 19:06:02,385 INFO 5548988034304
+2023-02-16 19:06:02,388 INFO 5
+2023-02-16 19:06:02,865 INFO 419.85999999999933
+2023-02-16 19:06:02,865 INFO PASSOU BALANCE 419.85999999999933
+2023-02-16 19:06:02,865 INFO 5548988034304
+2023-02-16 19:06:02,867 INFO 5
+2023-02-16 19:07:00,904 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3480, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:5ccd5ab1-a901-4d8b-b30b-2506816082de submit date:2302161900 done date:2302161907 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'5ccd5ab1-a901-4d8b-b30b-2506816082de'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 7, 0, 903341)}
+2023-02-16 19:08:13,790 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3483, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:54c1f162-b5e7-4dff-aeae-d3c27cd2852f submit date:2302161906 done date:2302161908 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'54c1f162-b5e7-4dff-aeae-d3c27cd2852f'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 8, 13, 788926)}
+2023-02-16 19:10:08,438 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3486, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:0133e95b-c213-476f-8aef-14a408371da4 submit date:2302161906 done date:2302161910 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'0133e95b-c213-476f-8aef-14a408371da4'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 10, 8, 436568)}
+2023-02-16 19:12:39,109 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3491, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:35570a85-3990-4146-8bb6-68c2976c3e1f submit date:2302161906 done date:2302161912 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'35570a85-3990-4146-8bb6-68c2976c3e1f'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 12, 39, 107650)}
+2023-02-16 19:16:06,616 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 3497, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:0010836c-e661-44ce-91cf-0c0c97da78d0 submit date:2302161906 done date:2302161916 stat:REJECTD err:001'
+message_state: <MessageState.REJECTED: 8>
+receipted_message_id: b'0010836c-e661-44ce-91cf-0c0c97da78d0'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 2, 16, 19, 16, 6, 615161)}
+2023-03-01 14:04:24,373 INFO 419.8519999999993
+2023-03-01 14:04:24,373 INFO PASSOU BALANCE 419.8519999999993
+2023-03-01 14:04:24,373 INFO 5548988034304
+2023-03-01 14:04:24,376 INFO 5
+2023-03-01 14:05:09,660 INFO 419.8479999999993
+2023-03-01 14:05:09,660 INFO PASSOU BALANCE 419.8479999999993
+2023-03-01 14:05:09,661 INFO 5548988034304
+2023-03-01 14:05:09,664 INFO 5
+2023-03-01 14:05:31,616 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2638, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:a35d0c30-ecfd-4c15-8437-3f43e0773040 submit date:2303011404 done date:2303011405 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'a35d0c30-ecfd-4c15-8437-3f43e0773040'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 1, 14, 5, 31, 614930)}
+2023-03-01 14:12:46,945 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2653, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:e2ebfd11-5f80-4e68-828c-4c1b3729613e submit date:2303011405 done date:2303011412 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'e2ebfd11-5f80-4e68-828c-4c1b3729613e'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 1, 14, 12, 46, 943857)}
+2023-03-01 14:21:35,963 INFO 419.84399999999926
+2023-03-01 14:21:35,964 INFO PASSOU BALANCE 419.84399999999926
+2023-03-01 14:21:35,964 INFO 5548988034304
+2023-03-01 14:21:35,966 INFO 5
+2023-03-01 14:21:38,255 INFO 419.83999999999924
+2023-03-01 14:21:38,255 INFO PASSOU BALANCE 419.83999999999924
+2023-03-01 14:21:38,255 INFO 5548988034304
+2023-03-01 14:21:38,258 INFO 5
+2023-03-01 14:25:14,733 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2673, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:64f24b89-82cf-4b19-a43d-16df2e254031 submit date:2303011421 done date:2303011425 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'64f24b89-82cf-4b19-a43d-16df2e254031'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 1, 14, 25, 14, 731975)}
+2023-03-01 14:33:03,744 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2689, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'5548984487878'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:dd928ead-ece6-4e36-ac56-90a9b8f47386 submit date:2303011421 done date:2303011433 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'dd928ead-ece6-4e36-ac56-90a9b8f47386'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 1, 14, 33, 3, 743249)}
+2023-03-14 13:47:24,738 INFO 1
+2023-03-14 13:47:24,738 INFO PASSOU BALANCE 1.0
+2023-03-14 13:47:24,738 INFO 5548988034304
+2023-03-14 13:47:24,742 INFO 5
+2023-03-14 13:54:58,805 INFO 1
+2023-03-14 13:54:58,805 INFO PASSOU BALANCE 1.0
+2023-03-14 13:54:58,805 INFO 5548988034304
+2023-03-14 13:54:58,808 INFO 5
+2023-03-14 14:48:45,271 INFO 1
+2023-03-14 14:48:45,271 INFO PASSOU BALANCE 1.0
+2023-03-14 14:48:45,271 INFO 5548988034304
+2023-03-14 14:48:45,274 INFO 5
+2023-03-14 14:50:58,975 INFO 0.996
+2023-03-14 14:50:58,976 INFO PASSOU BALANCE 0.996
+2023-03-14 14:50:58,976 INFO 5548988034304
+2023-03-14 14:50:58,979 INFO 5
+2023-03-14 14:58:49,747 INFO 0.992
+2023-03-14 14:58:49,747 INFO PASSOU BALANCE 0.992
+2023-03-14 14:58:49,747 INFO 5548988034304
+2023-03-14 14:58:49,750 INFO 5
+2023-03-14 18:49:14,160 INFO 0.988
+2023-03-14 18:49:14,160 INFO PASSOU BALANCE 0.988
+2023-03-14 18:49:14,160 INFO 5548988034304
+2023-03-14 18:49:14,163 INFO 5
+2023-03-14 18:56:23,645 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2977, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234545454'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:29b25acc-364c-450e-bab2-81f0e8eab657 submit date:2303141849 done date:2303141856 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'29b25acc-364c-450e-bab2-81f0e8eab657'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 14, 18, 56, 23, 644130)}
+2023-03-15 16:12:11,051 INFO 0.984
+2023-03-15 16:12:11,051 INFO PASSOU BALANCE 0.984
+2023-03-15 16:12:11,051 INFO 5548988034304
+2023-03-15 16:12:11,054 INFO 5
+2023-03-15 16:12:39,691 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 5303, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234545454'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:a2af99c5-a0bd-4d1c-985b-8319e5c3f737 submit date:2303151612 done date:2303151612 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'a2af99c5-a0bd-4d1c-985b-8319e5c3f737'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 15, 16, 12, 39, 690086)}
+2023-03-15 16:13:37,341 INFO 0.98
+2023-03-15 16:13:37,342 INFO PASSOU BALANCE 0.98
+2023-03-15 16:13:37,342 INFO 5548988034304
+2023-03-15 16:13:37,344 INFO 5
+2023-03-15 16:20:44,096 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 5317, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234545454'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:47f819fa-1483-4995-9477-e71cf6093ea4 submit date:2303151613 done date:2303151620 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'47f819fa-1483-4995-9477-e71cf6093ea4'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 15, 16, 20, 44, 95043)}
+2023-03-15 16:24:01,692 INFO 0.976
+2023-03-15 16:24:01,692 INFO PASSOU BALANCE 0.976
+2023-03-15 16:24:01,692 INFO 5548988034304
+2023-03-15 16:24:01,694 INFO 5
+2023-03-15 16:24:16,911 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 5322, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234545454'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:adede455-ec92-4d88-b922-37926bf5624e submit date:2303151624 done date:2303151624 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'adede455-ec92-4d88-b922-37926bf5624e'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 15, 16, 24, 16, 909852)}
+2023-03-15 19:22:27,871 INFO 0.972
+2023-03-15 19:22:27,871 INFO PASSOU BALANCE 0.972
+2023-03-15 19:22:27,871 INFO 5548988034304
+2023-03-15 19:22:27,874 INFO 5
+2023-03-15 19:26:58,004 INFO 0.968
+2023-03-15 19:26:58,004 INFO PASSOU BALANCE 0.968
+2023-03-15 19:26:58,004 INFO 5548988034304
+2023-03-15 19:26:58,007 INFO 5
+2023-03-15 19:28:15,198 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 5656, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234545454'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:960b8d90-01b8-4add-b493-0196f45a653b submit date:2303151926 done date:2303151928 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'960b8d90-01b8-4add-b493-0196f45a653b'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 15, 19, 28, 15, 197582)}
+2023-03-15 19:28:33,928 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 5657, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234545454'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:40b789c0-d69b-41de-a79c-0d769c087fdf submit date:2303151922 done date:2303151928 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'40b789c0-d69b-41de-a79c-0d769c087fdf'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 15, 19, 28, 33, 926746)}
+2023-03-15 19:34:32,623 INFO 0.964
+2023-03-15 19:34:32,623 INFO PASSOU BALANCE 0.964
+2023-03-15 19:34:32,623 INFO 923135005050
+2023-03-15 19:34:32,625 INFO Nao achou RATE
+2023-03-15 19:38:07,950 INFO 0.964
+2023-03-15 19:38:07,950 INFO PASSOU BALANCE 0.964
+2023-03-15 19:38:07,950 INFO 923135005050
+2023-03-15 19:38:07,953 INFO 9
+2023-03-15 19:41:40,428 INFO 0.96
+2023-03-15 19:41:40,429 INFO PASSOU BALANCE 0.96
+2023-03-15 19:41:40,429 INFO 923135005050
+2023-03-15 19:41:40,431 INFO 9
+2023-03-15 19:48:46,642 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 5690, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'923135005050'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:cc4da5de-1dc3-4ef3-bf78-a3ad9ab1466f submit date:2303151941 done date:2303151948 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'cc4da5de-1dc3-4ef3-bf78-a3ad9ab1466f'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 15, 19, 48, 46, 641073)}
+2023-03-17 11:36:27,027 INFO 419.8359999999992
+2023-03-17 11:36:27,027 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:36:27,027 INFO 5548988034304
+2023-03-17 11:36:27,030 INFO 5
+2023-03-17 11:44:07,093 INFO 419.8359999999992
+2023-03-17 11:44:07,093 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:44:07,093 INFO 5548988034304
+2023-03-17 11:44:07,096 INFO 5
+2023-03-17 11:45:46,703 INFO 419.8359999999992
+2023-03-17 11:45:46,703 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:45:46,703 INFO 5548988034304
+2023-03-17 11:45:46,705 INFO 5
+2023-03-17 11:46:27,828 INFO 419.8359999999992
+2023-03-17 11:46:27,828 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:46:27,828 INFO 5548988034304
+2023-03-17 11:46:27,831 INFO 5
+2023-03-17 11:48:23,534 INFO 419.8359999999992
+2023-03-17 11:48:23,534 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:48:23,534 INFO 5548988034304
+2023-03-17 11:48:23,536 INFO 5
+2023-03-17 11:49:45,557 INFO 419.8359999999992
+2023-03-17 11:49:45,557 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:49:45,557 INFO 5548988034304
+2023-03-17 11:49:45,560 INFO 5
+2023-03-17 11:50:59,754 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 10003, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:8bcd4ec7-468f-4769-91e7-1baf9f4b52bb submit date:2303171148 done date:2303171150 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'8bcd4ec7-468f-4769-91e7-1baf9f4b52bb'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 11, 50, 59, 753035)}
+2023-03-17 11:53:50,144 INFO 0.956
+2023-03-17 11:53:50,144 INFO PASSOU BALANCE 0.956
+2023-03-17 11:53:50,144 INFO 923135005050
+2023-03-17 11:53:50,147 INFO 9
+2023-03-17 11:54:20,426 INFO 0.956
+2023-03-17 11:54:20,426 INFO PASSOU BALANCE 0.956
+2023-03-17 11:54:20,426 INFO 5548988034304
+2023-03-17 11:54:20,429 INFO 5
+2023-03-17 11:55:24,702 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 10011, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'923135005050'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:78c5405d-85ad-439a-8e10-148639a3ce8c submit date:2303171153 done date:2303171155 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'78c5405d-85ad-439a-8e10-148639a3ce8c'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 11, 55, 24, 701422)}
+2023-03-17 11:57:45,199 INFO 419.8359999999992
+2023-03-17 11:57:45,199 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 11:57:45,199 INFO 5548988034304
+2023-03-17 11:57:45,202 INFO 5
+2023-03-17 11:58:17,072 INFO 0.956
+2023-03-17 11:58:17,072 INFO PASSOU BALANCE 0.956
+2023-03-17 11:58:17,072 INFO 5548988034304
+2023-03-17 11:58:17,075 INFO 5
+2023-03-17 11:58:33,470 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 10016, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:8edb96da-82fa-4df6-b80f-a83d54e93d30 submit date:2303171158 done date:2303171158 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'8edb96da-82fa-4df6-b80f-a83d54e93d30'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 11, 58, 33, 469563)}
+2023-03-17 11:58:38,019 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 10017, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:0eaaba74-171b-4151-87d4-b72efc195b5a submit date:2303171154 done date:2303171158 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'0eaaba74-171b-4151-87d4-b72efc195b5a'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 11, 58, 38, 18362)}
+2023-03-17 12:00:37,787 INFO 419.8359999999992
+2023-03-17 12:00:37,787 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 12:00:37,787 INFO 5548988034304
+2023-03-17 12:00:37,790 INFO 5
+2023-03-17 12:01:38,365 INFO 419.8359999999992
+2023-03-17 12:01:38,365 INFO PASSOU BALANCE 419.8359999999992
+2023-03-17 12:01:38,365 INFO 5548988034304
+2023-03-17 12:01:38,367 INFO 5
+2023-03-17 12:03:35,460 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 7, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:ea623d81-f40c-4758-bdb8-f7aff43b2900 submit date:2303171149 done date:2303171203 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'ea623d81-f40c-4758-bdb8-f7aff43b2900'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 12, 3, 35, 459245)}
+2023-03-17 12:04:33,497 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 9, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:77437ed2-7e74-453a-826a-edf8625a4836 submit date:2303171200 done date:2303171204 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'77437ed2-7e74-453a-826a-edf8625a4836'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 12, 4, 33, 496470)}
+2023-03-17 12:07:25,482 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 13, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:2290c25b-0768-4d9c-9fe3-b5bc72984d6a submit date:2303171201 done date:2303171207 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'2290c25b-0768-4d9c-9fe3-b5bc72984d6a'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 12, 7, 25, 481557)}
+2023-03-17 12:07:29,968 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 14, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:750f3985-a793-4942-95ca-ab4228118311 submit date:2303171157 done date:2303171207 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'750f3985-a793-4942-95ca-ab4228118311'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 12, 7, 29, 967487)}
+2023-03-17 14:07:15,360 INFO 419.8319999999992
+2023-03-17 14:07:15,360 INFO PASSOU BALANCE 419.8319999999992
+2023-03-17 14:07:15,360 INFO 5548988034304
+2023-03-17 14:07:15,363 INFO 5
+2023-03-17 14:07:40,384 INFO 419.8319999999992
+2023-03-17 14:07:40,384 INFO PASSOU BALANCE 419.8319999999992
+2023-03-17 14:07:40,384 INFO 5548988034304
+2023-03-17 14:07:40,387 INFO 5
+2023-03-17 14:12:51,544 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 26, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:fe75a273-bbd5-49a1-ade3-b1c1701a1125 submit date:2303171410 done date:2303171412 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'fe75a273-bbd5-49a1-ade3-b1c1701a1125'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 14, 12, 51, 543576)}
+2023-03-17 14:13:32,997 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 28, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:f3e24cde-85d3-45ee-88b3-6a1871d9fdf8 submit date:2303171408 done date:2303171413 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'f3e24cde-85d3-45ee-88b3-6a1871d9fdf8'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 14, 13, 32, 996352)}
+2023-03-17 14:14:52,950 INFO 419.8319999999992
+2023-03-17 14:14:52,950 INFO PASSOU BALANCE 419.8319999999992
+2023-03-17 14:14:52,950 INFO 5548988034304
+2023-03-17 14:14:52,953 INFO 5
+2023-03-17 14:23:31,171 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 43, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:4f0a5382-4a22-47d5-94b8-b3618452359b submit date:2303171416 done date:2303171423 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'4f0a5382-4a22-47d5-94b8-b3618452359b'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 14, 23, 31, 170224)}
+2023-03-17 14:41:40,907 INFO 0.956
+2023-03-17 14:41:40,907 INFO PASSOU BALANCE 0.956
+2023-03-17 14:41:40,907 INFO 5548988034304
+2023-03-17 14:41:40,910 INFO 5
+2023-03-17 14:43:37,151 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 80, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:bd0fb739-cc62-4e8f-9cbe-e81eabcaba48 submit date:2303171443 done date:2303171443 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'bd0fb739-cc62-4e8f-9cbe-e81eabcaba48'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 14, 43, 37, 149699)}
+2023-03-17 14:44:45,420 INFO 0.952
+2023-03-17 14:44:45,420 INFO PASSOU BALANCE 0.952
+2023-03-17 14:44:45,420 INFO 5548988034304
+2023-03-17 14:44:45,423 INFO 5
+2023-03-17 14:53:17,908 INFO 0.952
+2023-03-17 14:53:17,908 INFO PASSOU BALANCE 0.952
+2023-03-17 14:53:17,908 INFO 5548988034304
+2023-03-17 14:53:17,911 INFO 5
+2023-03-17 14:53:47,807 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 101, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:7a847402-3170-4c04-960d-5338672b1486 submit date:2303171446 done date:2303171453 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'7a847402-3170-4c04-960d-5338672b1486'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 14, 53, 47, 805464)}
+2023-03-17 14:54:53,162 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 104, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:0790e0fe-61f2-4920-bcc2-17de45a5fb57 submit date:2303171454 done date:2303171454 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'0790e0fe-61f2-4920-bcc2-17de45a5fb57'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 14, 54, 53, 160723)}
+2023-03-17 14:58:07,931 INFO 0.952
+2023-03-17 14:58:07,931 INFO PASSOU BALANCE 0.952
+2023-03-17 14:58:07,931 INFO 5548988034304
+2023-03-17 14:58:07,934 INFO 5
+2023-03-17 15:06:45,995 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 126, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'5548988034304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:fbd03a34-c884-4420-873d-358693b0ac3d submit date:2303171459 done date:2303171506 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'fbd03a34-c884-4420-873d-358693b0ac3d'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 17, 15, 6, 45, 994204)}
+2023-03-18 12:19:14,998 INFO 419.8319999999992
+2023-03-18 12:19:14,998 INFO PASSOU BALANCE 419.8319999999992
+2023-03-18 12:19:14,998 INFO 55489880344304
+2023-03-18 12:19:15,001 INFO 5
+2023-03-18 12:21:09,097 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2505, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:5fb2e610-6a80-4fe9-a1bb-8da261318778 submit date:2303181220 done date:2303181221 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'5fb2e610-6a80-4fe9-a1bb-8da261318778'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 21, 9, 96060)}
+2023-03-18 12:22:12,377 INFO 419.8279999999992
+2023-03-18 12:22:12,378 INFO PASSOU BALANCE 419.8279999999992
+2023-03-18 12:22:12,378 INFO 55489880344304
+2023-03-18 12:22:12,381 INFO 5
+2023-03-18 12:22:20,310 INFO 419.8279999999992
+2023-03-18 12:22:20,310 INFO PASSOU BALANCE 419.8279999999992
+2023-03-18 12:22:20,310 INFO 55489880344304
+2023-03-18 12:22:20,314 INFO 5
+2023-03-18 12:22:26,091 INFO 419.8279999999992
+2023-03-18 12:22:26,092 INFO PASSOU BALANCE 419.8279999999992
+2023-03-18 12:22:26,092 INFO 55489880344304
+2023-03-18 12:22:26,095 INFO 5
+2023-03-18 12:22:28,909 INFO 419.8279999999992
+2023-03-18 12:22:28,909 INFO PASSOU BALANCE 419.8279999999992
+2023-03-18 12:22:28,909 INFO 55489880344304
+2023-03-18 12:22:28,912 INFO 5
+2023-03-18 12:24:36,556 INFO 419.82399999999916
+2023-03-18 12:24:36,556 INFO PASSOU BALANCE 419.82399999999916
+2023-03-18 12:24:36,556 INFO 55489880344304
+2023-03-18 12:24:36,559 INFO 5
+2023-03-18 12:25:30,258 INFO 419.81999999999914
+2023-03-18 12:25:30,258 INFO PASSOU BALANCE 419.81999999999914
+2023-03-18 12:25:30,258 INFO 55489880344304
+2023-03-18 12:25:30,261 INFO 5
+2023-03-18 12:26:59,503 INFO 419.8159999999991
+2023-03-18 12:26:59,503 INFO PASSOU BALANCE 419.8159999999991
+2023-03-18 12:26:59,503 INFO 55489880344304
+2023-03-18 12:26:59,506 INFO 5
+2023-03-18 12:27:36,106 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 2514, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:10e677cd-e55d-4a3a-9f87-c50726276f69 submit date:2303181226 done date:2303181227 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'10e677cd-e55d-4a3a-9f87-c50726276f69'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 27, 36, 105113)}
+2023-03-18 12:27:52,645 INFO 0.944
+2023-03-18 12:27:52,645 INFO PASSOU BALANCE 0.944
+2023-03-18 12:27:52,646 INFO 55489880344304
+2023-03-18 12:27:52,649 INFO 5
+2023-03-18 12:28:34,115 INFO 419.8159999999991
+2023-03-18 12:28:34,115 INFO PASSOU BALANCE 419.8159999999991
+2023-03-18 12:28:34,115 INFO 55489880344304
+2023-03-18 12:28:34,119 INFO 5
+2023-03-18 12:28:35,290 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 1, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:e12d1865-ae60-4cc5-b490-34244b7f15e9 submit date:2303181223 done date:2303181228 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'e12d1865-ae60-4cc5-b490-34244b7f15e9'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 28, 35, 288422)}
+2023-03-18 12:28:52,991 INFO 419.8119999999991
+2023-03-18 12:28:52,991 INFO PASSOU BALANCE 419.8119999999991
+2023-03-18 12:28:52,991 INFO 55489880344304
+2023-03-18 12:28:52,994 INFO 5
+2023-03-18 12:30:57,207 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 6, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:9e354149-1391-4566-b756-5f34fa1a0d11 submit date:2303181228 done date:2303181230 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'9e354149-1391-4566-b756-5f34fa1a0d11'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 30, 57, 205872)}
+2023-03-18 12:31:01,220 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 7, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:9a8880e8-1bce-4205-9eaa-e0aa8846c17e submit date:2303181225 done date:2303181231 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'9a8880e8-1bce-4205-9eaa-e0aa8846c17e'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 31, 1, 219019)}
+2023-03-18 12:36:06,332 INFO 419.8079999999991
+2023-03-18 12:36:06,332 INFO PASSOU BALANCE 419.8079999999991
+2023-03-18 12:36:06,332 INFO 55489880344304
+2023-03-18 12:36:06,335 INFO 5
+2023-03-18 12:36:29,742 INFO 419.80399999999906
+2023-03-18 12:36:29,742 INFO PASSOU BALANCE 419.80399999999906
+2023-03-18 12:36:29,743 INFO 55489880344304
+2023-03-18 12:36:29,746 INFO 5
+2023-03-18 12:36:52,234 INFO 0.944
+2023-03-18 12:36:52,234 INFO PASSOU BALANCE 0.944
+2023-03-18 12:36:52,234 INFO 55489880344304
+2023-03-18 12:36:52,237 INFO 5
+2023-03-18 12:37:05,061 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 17, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:ed3da717-f9af-4717-a1f8-457d790e6a18 submit date:2303181236 done date:2303181237 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'ed3da717-f9af-4717-a1f8-457d790e6a18'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 37, 5, 60252)}
+2023-03-18 12:37:13,155 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 18, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:acfa0f9f-50b7-4ced-87cd-195446dd1c1b submit date:2303181236 done date:2303181237 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'acfa0f9f-50b7-4ced-87cd-195446dd1c1b'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 37, 13, 153709)}
+2023-03-18 12:38:38,767 INFO 0.94
+2023-03-18 12:38:38,768 INFO PASSOU BALANCE 0.94
+2023-03-18 12:38:38,768 INFO 923135005050
+2023-03-18 12:38:38,771 INFO 9
+2023-03-18 12:39:41,893 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 23, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'923135005050'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:97f4c1bc-8950-4771-9288-5cb48016465b submit date:2303181238 done date:2303181239 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'97f4c1bc-8950-4771-9288-5cb48016465b'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 39, 41, 891772)}
+2023-03-18 12:40:16,043 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 25, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'otp'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:9caf1128-1216-4015-9fe4-1ede3371b2ab submit date:2303181228 done date:2303181240 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'9caf1128-1216-4015-9fe4-1ede3371b2ab'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 40, 16, 42391)}
+2023-03-18 12:40:47,858 INFO 0.94
+2023-03-18 12:40:47,859 INFO PASSOU BALANCE 0.94
+2023-03-18 12:40:47,859 INFO 923135005050
+2023-03-18 12:40:47,861 INFO 9
+2023-03-18 12:43:50,632 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 32, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.NATIONAL: 3>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'923135005050'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'0'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:0e0e23eb-52a6-4432-a9ce-3bd1e79f218d submit date:2303181240 done date:2303181243 stat:DELIVRD err:000'
+message_state: <MessageState.DELIVERED: 2>
+receipted_message_id: b'0e0e23eb-52a6-4432-a9ce-3bd1e79f218d'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 43, 50, 630767)}
+2023-03-18 12:44:21,307 INFO {'_tags': [], 'pdu': PDU [command: CommandId.deliver_sm, sequence_number: 34, command_status: CommandStatus.ESME_ROK
+service_type: b''
+source_addr_ton: <AddrTon.INTERNATIONAL: 2>
+source_addr_npi: <AddrNpi.ISDN: 2>
+source_addr: b'55489880344304'
+dest_addr_ton: <AddrTon.NATIONAL: 3>
+dest_addr_npi: <AddrNpi.ISDN: 2>
+destination_addr: b'1234'
+esm_class: EsmClass[mode: EsmClassMode.DEFAULT, type: EsmClassType.SMSC_DELIVERY_RECEIPT, gsmFeatures: set()]
+protocol_id: 0
+priority_flag: <PriorityFlag.LEVEL_0: 1>
+schedule_delivery_time: None
+validity_period: None
+registered_delivery: RegisteredDelivery[receipt: RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED, smeOriginatedAcks: set(), intermediateNotification: False]
+replace_if_present_flag: <ReplaceIfPresentFlag.DO_NOT_REPLACE: 1>
+data_coding: DataCoding[scheme: DataCodingScheme.DEFAULT, schemeData: DataCodingDefault.SMSC_DEFAULT_ALPHABET]
+sm_default_msg_id: 0
+short_message: b'id:294042e7-e594-4e91-bff3-db68ed32e5b9 submit date:2303181236 done date:2303181244 stat:UNDELIV err:000'
+message_state: <MessageState.UNDELIVERABLE: 5>
+receipted_message_id: b'294042e7-e594-4e91-bff3-db68ed32e5b9'
+], 'connector': <generic Connector>, 'datetime': datetime.datetime(2023, 3, 18, 12, 44, 21, 305678)}
+2023-03-18 12:50:11,643 INFO 419.79999999999905
+2023-03-18 12:50:11,644 INFO PASSOU BALANCE 419.79999999999905
+2023-03-18 12:50:11,644 INFO 55489880344304
+2023-03-18 12:50:11,647 INFO 5
+2023-03-18 12:50:11,647 INFO 55489880344304
+2023-03-18 12:50:11,649 INFO 5
+2023-03-18 12:50:54,778 INFO 419.79999999999905
+2023-03-18 12:50:54,779 INFO PASSOU BALANCE 419.79999999999905
+2023-03-18 12:50:54,779 INFO 55489880344304
+2023-03-18 12:50:54,781 INFO 5
+2023-03-18 12:50:54,782 INFO 55489880344304
+2023-03-18 12:50:54,784 INFO 5
+2023-03-18 12:51:10,108 INFO 419.79999999999905
+2023-03-18 12:51:10,108 INFO PASSOU BALANCE 419.79999999999905
+2023-03-18 12:51:10,108 INFO 55489880344304
+2023-03-18 12:51:10,111 INFO 5
+2023-03-18 12:51:10,111 INFO 55489880344304
+2023-03-18 12:51:10,114 INFO Nao achou RATE
+2023-03-18 12:51:17,763 INFO 419.79999999999905
+2023-03-18 12:51:17,763 INFO PASSOU BALANCE 419.79999999999905
+2023-03-18 12:51:17,763 INFO 55489880344304
+2023-03-18 12:51:17,766 INFO 5
+2023-03-18 12:51:17,766 INFO 55489880344304
+2023-03-18 12:51:17,770 INFO Nao achou RATE
+2023-03-18 12:57:40,336 INFO 0.9359999999999999
+2023-03-18 12:57:40,336 INFO PASSOU BALANCE 0.9359999999999999
+2023-03-18 12:57:40,336 INFO 55489880344304
+2023-03-18 12:57:40,340 INFO 5
+2023-03-18 12:57:40,340 INFO 55489880344304
+2023-03-18 12:57:40,344 INFO Nao achou RATE
+2023-03-18 12:58:00,178 INFO 0.9359999999999999
+2023-03-18 12:58:00,178 INFO PASSOU BALANCE 0.9359999999999999
+2023-03-18 12:58:00,178 INFO 55489880344304
+2023-03-18 12:58:00,181 INFO 5
+2023-03-18 12:58:00,181 INFO 55489880344304
+2023-03-18 12:58:00,184 INFO Nao achou RATE
+2023-03-18 13:05:50,330 INFO 419.79999999999905
+2023-03-18 13:05:50,330 INFO PASSOU BALANCE 419.79999999999905
+2023-03-18 13:05:50,330 INFO 55489880344304
+2023-03-18 13:05:50,333 INFO 5
+2023-03-18 13:05:50,333 INFO 55489880344304
+2023-03-18 13:05:50,336 INFO 5
+2023-03-18 13:06:00,427 INFO 0.9359999999999999
+2023-03-18 13:06:00,427 INFO PASSOU BALANCE 0.9359999999999999
+2023-03-18 13:06:00,427 INFO 55489880344304
+2023-03-18 13:06:00,430 INFO 5
+2023-03-18 13:06:00,430 INFO 55489880344304
+2023-03-18 13:06:00,433 INFO 5
+2023-03-19 13:15:00,331 INFO 419.795999999999
+2023-03-19 13:15:00,331 INFO PASSOU BALANCE 419.795999999999
+2023-03-19 13:15:00,331 INFO 55489880344304
+2023-03-19 13:15:00,334 INFO 5
+2023-03-19 13:15:00,334 INFO 55489880344304
+2023-03-19 13:15:00,336 INFO 5
+2023-03-19 13:29:37,703 INFO 419.791999999999
+2023-03-19 13:29:37,703 INFO PASSOU BALANCE 419.791999999999
+2023-03-19 13:29:37,703 INFO 55489880344304
+2023-03-19 13:29:37,706 INFO 5
+2023-03-19 13:29:37,706 INFO 55489880344304
+2023-03-19 13:29:37,708 INFO 5
+2023-03-19 13:53:36,729 INFO 419.787999999999
+2023-03-19 13:53:36,729 INFO PASSOU BALANCE 419.787999999999
+2023-03-19 13:53:36,729 INFO 55489880344304
+2023-03-19 13:53:36,732 INFO 5
+2023-03-19 13:53:36,732 INFO 55489880344304
+2023-03-19 13:53:36,735 INFO 5
+2023-03-24 13:07:47,223 INFO 419.78399999999897
+2023-03-24 13:07:47,223 INFO PASSOU BALANCE 419.78399999999897
+2023-03-24 13:07:47,224 INFO 5548988034304
+2023-03-24 13:07:47,226 INFO 5
+2023-03-24 13:07:47,226 INFO 5548988034304
+2023-03-24 13:07:47,228 INFO 5
+2023-03-25 11:32:10,980 INFO 419.77999999999895
+2023-03-25 11:32:10,980 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:32:10,980 INFO 5548988034304
+2023-03-25 11:32:10,983 INFO 5
+2023-03-25 11:32:10,983 INFO 5548988034304
+2023-03-25 11:32:10,986 INFO 5
+2023-03-25 11:33:22,639 INFO 419.77999999999895
+2023-03-25 11:33:22,639 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:33:22,639 INFO 5548988034304
+2023-03-25 11:33:22,641 INFO 5
+2023-03-25 11:33:22,642 INFO 5548988034304
+2023-03-25 11:33:22,644 INFO 5
+2023-03-25 11:35:06,373 INFO 419.77999999999895
+2023-03-25 11:35:06,373 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:35:06,373 INFO 5548988034304
+2023-03-25 11:35:06,375 INFO 5
+2023-03-25 11:35:06,375 INFO 5548988034304
+2023-03-25 11:35:06,377 INFO 5
+2023-03-25 11:37:19,698 INFO 419.77999999999895
+2023-03-25 11:37:19,698 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:37:19,698 INFO 5548988034304
+2023-03-25 11:37:19,700 INFO 5
+2023-03-25 11:37:19,700 INFO 5548988034304
+2023-03-25 11:37:19,703 INFO 5
+2023-03-25 11:37:56,686 INFO 419.77999999999895
+2023-03-25 11:37:56,686 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:37:56,686 INFO 5548988034304
+2023-03-25 11:37:56,689 INFO 5
+2023-03-25 11:37:56,689 INFO 5548988034304
+2023-03-25 11:37:56,691 INFO 5
+2023-03-25 11:38:25,975 INFO 419.77999999999895
+2023-03-25 11:38:25,975 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:38:25,975 INFO 5548988034304
+2023-03-25 11:38:25,978 INFO 5
+2023-03-25 11:38:25,978 INFO 5548988034304
+2023-03-25 11:38:25,980 INFO 5
+2023-03-25 11:38:55,808 INFO 419.77999999999895
+2023-03-25 11:38:55,809 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:38:55,809 INFO 5548988034304
+2023-03-25 11:38:55,812 INFO 5
+2023-03-25 11:38:55,812 INFO 5548988034304
+2023-03-25 11:38:55,816 INFO 5
+2023-03-25 11:42:48,363 INFO 419.77999999999895
+2023-03-25 11:42:48,363 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:42:48,363 INFO 5548988034304
+2023-03-25 11:42:48,366 INFO 5
+2023-03-25 11:42:48,366 INFO 5548988034304
+2023-03-25 11:42:48,369 INFO 5
+2023-03-25 11:45:22,893 INFO 419.77999999999895
+2023-03-25 11:45:22,893 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:45:22,893 INFO 5548988034304
+2023-03-25 11:45:22,895 INFO 5
+2023-03-25 11:45:22,895 INFO 5548988034304
+2023-03-25 11:45:22,898 INFO 5
+2023-03-25 11:48:34,860 INFO 419.77999999999895
+2023-03-25 11:48:34,860 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:48:34,860 INFO 5548988034304
+2023-03-25 11:48:34,863 INFO 5
+2023-03-25 11:48:34,863 INFO 5548988034304
+2023-03-25 11:48:34,865 INFO 5
+2023-03-25 11:53:11,492 INFO 0.9319999999999999
+2023-03-25 11:53:11,492 INFO PASSOU BALANCE 0.9319999999999999
+2023-03-25 11:53:11,492 INFO 923135005050
+2023-03-25 11:53:11,495 INFO 9
+2023-03-25 11:53:11,495 INFO 923135005050
+2023-03-25 11:53:11,497 INFO 9
+2023-03-25 11:54:17,538 INFO 419.77999999999895
+2023-03-25 11:54:17,538 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:54:17,538 INFO 5548988034304
+2023-03-25 11:54:17,541 INFO 5
+2023-03-25 11:54:17,541 INFO 5548988034304
+2023-03-25 11:54:17,544 INFO 5
+2023-03-25 11:55:26,666 INFO 419.77999999999895
+2023-03-25 11:55:26,667 INFO PASSOU BALANCE 419.77999999999895
+2023-03-25 11:55:26,667 INFO 5548988034304
+2023-03-25 11:55:26,669 INFO 5
+2023-03-25 11:55:26,669 INFO 5548988034304
+2023-03-25 11:55:26,672 INFO 5
+2023-03-25 11:57:24,183 INFO 419.76399999999893
+2023-03-25 11:57:24,183 INFO PASSOU BALANCE 419.76399999999893
+2023-03-25 11:57:24,183 INFO 5548988034304
+2023-03-25 11:57:24,186 INFO 5
+2023-03-25 11:57:24,186 INFO 5548988034304
+2023-03-25 11:57:24,189 INFO 5
+2023-03-25 11:59:13,837 INFO 419.75199999999893
+2023-03-25 11:59:13,837 INFO PASSOU BALANCE 419.75199999999893
+2023-03-25 11:59:13,837 INFO 5548988034304
+2023-03-25 11:59:13,839 INFO 5
+2023-03-25 11:59:13,840 INFO 5548988034304
+2023-03-25 11:59:13,842 INFO 5
+2023-03-25 12:00:43,209 INFO 419.73999999999893
+2023-03-25 12:00:43,209 INFO PASSOU BALANCE 419.73999999999893
+2023-03-25 12:00:43,209 INFO 5548988034304
+2023-03-25 12:00:43,211 INFO 5
+2023-03-25 12:00:43,212 INFO 5548988034304
+2023-03-25 12:00:43,214 INFO 5
+2023-03-25 12:04:04,309 INFO 419.72799999999893
+2023-03-25 12:04:04,310 INFO PASSOU BALANCE 419.72799999999893
+2023-03-25 12:04:04,310 INFO 5548988034304
+2023-03-25 12:04:04,312 INFO 5
+2023-03-25 12:04:04,312 INFO 5548988034304
+2023-03-25 12:04:04,314 INFO 5
+2023-03-25 12:23:20,209 INFO 419.7159999999989
+2023-03-25 12:23:20,210 INFO PASSOU BALANCE 419.7159999999989
+2023-03-25 12:23:20,210 INFO 5548988034304
+2023-03-25 12:23:20,212 INFO 5
+2023-03-25 12:23:20,212 INFO 5548988034304
+2023-03-25 12:23:20,215 INFO 5
+2023-03-25 12:24:00,561 INFO 419.7159999999989
+2023-03-25 12:24:00,561 INFO PASSOU BALANCE 419.7159999999989
+2023-03-25 12:24:00,561 INFO 5548988034304
+2023-03-25 12:24:00,563 INFO 5
+2023-03-25 12:24:00,563 INFO 5548988034304
+2023-03-25 12:24:00,565 INFO 5
+2023-03-25 12:24:24,884 INFO 419.7159999999989
+2023-03-25 12:24:24,884 INFO PASSOU BALANCE 419.7159999999989
+2023-03-25 12:24:24,884 INFO 5548988034304
+2023-03-25 12:24:24,887 INFO 5
+2023-03-25 12:24:24,887 INFO 5548988034304
+2023-03-25 12:24:24,890 INFO 5
+2023-03-25 12:26:02,720 INFO 419.7159999999989
+2023-03-25 12:26:02,721 INFO PASSOU BALANCE 419.7159999999989
+2023-03-25 12:26:02,721 INFO 5548988034304
+2023-03-25 12:26:02,723 INFO 5
+2023-03-25 12:26:02,723 INFO 5548988034304
+2023-03-25 12:26:02,725 INFO 5
+2023-03-25 12:26:27,282 INFO 419.7159999999989
+2023-03-25 12:26:27,282 INFO PASSOU BALANCE 419.7159999999989
+2023-03-25 12:26:27,282 INFO 5548988034304
+2023-03-25 12:26:27,284 INFO 5
+2023-03-25 12:26:27,284 INFO 5548988034304
+2023-03-25 12:26:27,286 INFO 5
+2023-03-25 12:28:25,682 INFO 419.7159999999989
+2023-03-25 12:28:25,682 INFO PASSOU BALANCE 419.7159999999989
+2023-03-25 12:28:25,682 INFO 5548988034304
+2023-03-25 12:28:25,685 INFO 5
+2023-03-25 12:28:25,686 INFO 5548988034304
+2023-03-25 12:28:25,693 INFO 5

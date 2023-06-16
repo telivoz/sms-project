@@ -1,0 +1,11 @@
+--2023-03-26 18:01:06--  http://www.fpdf.org/en/dl.php?v=185
+Resolving www.fpdf.org (www.fpdf.org)... 213.186.33.106
+Connecting to www.fpdf.org (www.fpdf.org)|213.186.33.106|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19 [text/html]
+Saving to: ‘dl.php?v=185’
+
+dl.php?v=185                                           0%[                                                                                                                      ]       0  --.-KB/s               dl.php?v=185                                         100%[=====================================================================================================================>]      19  --.-KB/s    in 0s      
+
+2023-03-26 18:01:07 (2.71 MB/s) - ‘dl.php?v=185’ saved [19/19]
+

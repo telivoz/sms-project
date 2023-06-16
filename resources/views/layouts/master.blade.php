@@ -25,7 +25,10 @@
 <!-- Main CSS-->
 <link href="/css/theme.css" rel="stylesheet" media="all">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!--script type='text/javascript' src="js/jquery.js"></script-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.1/bootstrap3-typeahead.min.js"></script>
 
 <script src="/js/moment.js"></script>

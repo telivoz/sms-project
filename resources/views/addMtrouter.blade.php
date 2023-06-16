@@ -38,7 +38,9 @@
   </div> 
   <div class="form-group">
     <label for="filter">Filter:</label>
-    <select class="form-select" id="filter" name="filter">
+    <input required type="text" class="form-control" id="filter" placeholder="filter1;filter2" name="filter">
+    <select class="form-select" id="filter-choice" name="filter-choice">
+	<option>Choose:</option>
   @php     
     $filter = shell_exec("python3 /opt/jasmin/cli/filter.py | awk {'print \"<option value='\\''\"$1\"'\\''>\"$1\"</option>\"'} | sed 's/#//g' | sed 's/filter//g' | sed 's/Filter//g' | sed 's/Total//g'");
     echo $filter;
@@ -47,4 +49,20 @@
   </div> 
   <button type="submit" class="btn btn-success">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/mt-router" ype="button" class="btn btn-default">Cancel</a>
 </form>
+<script>
+$('#filter-choice').on('change', function() {
+        console.log('teste');
+        var selectFilter = document.getElementById("filter-choice");
+        var selectFilterValue = selectFilter.value;
+	var input = document.getElementById('filter');
+	if (selectFilterValue !== "Choose:") {
+		if (input.value != "") {
+			input.value = input.value + ";" +selectFilterValue;
+		} else {
+			input.value = selectFilterValue;
+		}
+	}
+});
+</script>
+
 @endsection

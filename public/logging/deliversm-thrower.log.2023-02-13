@@ -1,0 +1,16 @@
+2023-02-14 14:22:12 INFO     1092143 Thrower configured and ready.
+2023-02-14 14:22:12 INFO     1092143 Added a direct access to SMPPServerFactory
+2023-02-14 14:22:12 INFO     1092143 Added amqpBroker
+2023-02-14 14:22:12 INFO     1092143 Consuming from routing key: deliver_sm_thrower.*
+2023-02-14 14:24:28 INFO     1092305 Thrower configured and ready.
+2023-02-14 14:24:28 INFO     1092305 Added a direct access to SMPPServerFactory
+2023-02-14 14:24:28 INFO     1092305 Added amqpBroker
+2023-02-14 14:24:28 INFO     1092305 Consuming from routing key: deliver_sm_thrower.*
+2023-02-14 14:29:09 INFO     1092557 Thrower configured and ready.
+2023-02-14 14:29:09 INFO     1092557 Added a direct access to SMPPServerFactory
+2023-02-14 14:29:09 INFO     1092557 Added amqpBroker
+2023-02-14 14:29:09 INFO     1092557 Consuming from routing key: deliver_sm_thrower.*
+2023-02-14 14:30:39 INFO     1092668 Thrower configured and ready.
+2023-02-14 14:30:39 INFO     1092668 Added a direct access to SMPPServerFactory
+2023-02-14 14:30:39 INFO     1092668 Added amqpBroker
+2023-02-14 14:30:39 INFO     1092668 Consuming from routing key: deliver_sm_thrower.*

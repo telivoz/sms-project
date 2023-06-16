@@ -1,0 +1,243 @@
+*filter
+
+:INPUT DROP [337085:33857280]
+
+:FORWARD ACCEPT [0:0]
+
+:OUTPUT ACCEPT [10379167:1343868855]
+
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 40144 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 998 -j ACCEPT
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+###test-old-server
+-A INPUT -s 162.254.201.189 -p tcp -m tcp --dport 4775 -j ACCEPT
+###1WORLD
+-A INPUT -s 185.150.202.116 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Motion
+-A INPUT -s 43.156.147.210 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Ultranet Telecom Ghana Limited
+-A INPUT -s 194.0.137.110 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Delighten Technology Limited
+-A INPUT -s 49.0.246.231 -p tcp -m tcp --dport 4775 -j ACCEPT
+###BroadNet Technologies S.A.R.L
+-A INPUT -s 141.94.101.39 -p tcp -m tcp --dport 4775 -j ACCEPT
+###BroadNet Technologies S.A.R.L
+-A INPUT -s 51.210.118.154 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Tecomsa Telecommunication Ltd.
+-A INPUT -s 62.67.222.83 -p tcp -m tcp --dport 4775 -j ACCEPT
+###1FONE GLOBAL PTE. LTD.
+-A INPUT -s 65.108.110.252 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ASTRAL
+-A INPUT -s 65.21.198.190 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Message NOW
+-A INPUT -s 92.204.255.188 -p tcp -m tcp --dport 4775 -j ACCEPT
+###GCN Global Communications Networks LLC
+-A INPUT -s 185.106.243.243 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Titan International Wholesale Inc.
+-A INPUT -s 154.61.66.14 -p tcp -m tcp --dport 4775 -j ACCEPT
+###TEXT BULL
+-A INPUT -s 149.20.190.59 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Maxes Technologies LTD
+-A INPUT -s 149.20.188.75 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ATTECNOLOGY
+-A INPUT -s 149.20.188.74 -p tcp -m tcp --dport 4775 -j ACCEPT
+###HK MOBIPRIMA NETWORK
+-A INPUT -s 47.241.3.118 -p tcp -m tcp --dport 4775 -j ACCEPT
+###TopYing Cloud Technical Information
+-A INPUT -s 8.219.185.254 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Internet Mobile Communications Ltd trading as Bank of Telecom
+-A INPUT -s 154.51.184.93 -p tcp -m tcp --dport 4775 -j ACCEPT
+###AVRIO MOBILITY PTE LTD
+-A INPUT -s 95.216.117.152 -p tcp -m tcp --dport 4775 -j ACCEPT
+###DEVELOPER SERVER
+-A INPUT -s 162.213.195.82 -p tcp -m tcp --dport 4775 -j ACCEPT
+###HEYSPEED TECHNOLOGY CO., LIMITED
+-A INPUT -s 8.212.18.188 -p tcp -m tcp --dport 4775 -j ACCEPT
+###HICELL TELECOMMUNICATION LTD
+-A INPUT -s smpp.hicell.net -p tcp -m tcp --dport 4775 -j ACCEPT
+###ROKE TELKOM LIMITED
+-A INPUT -s 41.191.78.98 -p tcp -m tcp --dport 4775 -j ACCEPT
+###G5 TELEKOM
+-A INPUT -s 194.28.164.12 -p tcp -m tcp --dport 4775 -j ACCEPT
+###DIREQ
+-A INPUT -s 35.230.132.169 -p tcp -m tcp --dport 4775 -j ACCEPT
+###WORLDFAX
+-A INPUT -s 43.249.30.190 -p tcp -m tcp --dport 4775 -j ACCEPT
+###NXCLOUD OTP
+-A INPUT -s 8.210.11.198 -p tcp -m tcp --dport 4775 -j ACCEPT
+###NXCLOUD MKT
+-A INPUT -s 47.52.252.175 -p tcp -m tcp --dport 4775 -j ACCEPT
+###СRISP INTERNATIONAL LTD
+-A INPUT -s 49.12.241.102 -p tcp -m tcp --dport 4775 -j ACCEPT
+###MAMONTY
+-A INPUT -s 167.99.85.164 -p tcp -m tcp --dport 4775 -j ACCEPT
+###WORLDTELEMATICS
+-A INPUT -s 194.163.171.146 -p tcp -m tcp --dport 4775 -j ACCEPT
+###UNIVERSAL CALL LIMITED
+-A INPUT -s 62.67.222.155 -p tcp -m tcp --dport 4775 -j ACCEPT
+###AIMEAGLES
+-A INPUT -s 69.49.231.231 -p tcp -m tcp --dport 4775 -j ACCEPT
+###AIMEAGLES1
+-A INPUT -s 69.49.228.239 -p tcp -m tcp --dport 4775 -j ACCEPT
+###INFOTAP MOBILE
+-A INPUT -s 195.191.165.21 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Qglobal SMS LLC
+-A INPUT -s 195.191.165.10 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Vesper Technology Limited
+-A INPUT -s 72.21.24.149 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Shenzhen Ejoin Technology Co.,Ltd
+-A INPUT -s 47.243.245.51 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ASIA SUNRISE TELECOM LIMITED
+-A INPUT -s 173.201.23.2 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Volumes International Ltd
+-A INPUT -s 88.99.150.30 -p tcp -m tcp --dport 4775 -j ACCEPT
+###YX INTERNATIONAL
+-A INPUT -s 128.14.11.74 -p tcp -m tcp --dport 4775 -j ACCEPT
+###STARLINK MEDIA
+-A INPUT -s 8.217.33.230 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ACAcell
+-A INPUT -s 62.67.222.37 -p tcp -m tcp --dport 4775 -j ACCEPT
+###BBT VOICE PRIVATE LIMITED
+-A INPUT -s 62.67.222.31 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Beenet Communication
+-A INPUT -s 36.255.3.37 -p tcp -m tcp --dport 4775 -j ACCEPT
+###IGlobe Telecom Networks Pte. Ltd.
+-A INPUT -s 65.21.134.165 -p tcp -m tcp --dport 4775 -j ACCEPT
+###GoMobit
+-A INPUT -s 62.67.222.89 -p tcp -m tcp --dport 4775 -j ACCEPT
+###VX TELECOM GROUP
+-A INPUT -s 5.43.224.222 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ECON TELECOM, LLC.
+-A INPUT -s 45.55.33.225 -p tcp -m tcp --dport 4775 -j ACCEPT
+###TELEBEE LLC
+-A INPUT -s 72.21.27.6 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Vihat Technology Company Limited.
+-A INPUT -s 125.212.248.242 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Integral Worldwide Limited
+-A INPUT -s 95.216.83.214 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Quantum Global Communications
+-A INPUT -s 62.67.222.67 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Fortis Communications Inc
+-A INPUT -s 154.48.192.140 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Mobishastra Techologies LLC
+-A INPUT -s 180.179.210.40 -p tcp -m tcp --dport 4775 -j ACCEPT
+###SIGMA TELECOM
+-A INPUT -s 95.217.88.15 -p tcp -m tcp --dport 4775 -j ACCEPT
+###TELEBIZ INTERNATIONAL (LABUAN) CORPORATION
+-A INPUT -s 62.67.222.36 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Global Teknoloji
+-A INPUT -s 178.63.241.233 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Monty UK Global Ltd
+-A INPUT -s 185.135.128.114 -p tcp -m tcp --dport 4775 -j ACCEPT
+###BRM Telecom LLC
+-A INPUT -s 194.0.137.123 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Talk2all telecom (HK) limited
+-A INPUT -s 61.238.71.173 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Advaita Corp.
+-A INPUT -s 95.217.112.163 -p tcp -m tcp --dport 4775 -j ACCEPT
+###SmartTech Messaging PTE. LTD
+-A INPUT -s 62.67.222.126 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Vazq Communications Inc
+-A INPUT -s 62.67.222.124 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Icon Global Services Limited
+-A INPUT -s 88.198.51.198 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Icon Global Services Limited
+-A INPUT -s 46.4.37.208 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Green Packet Global (HK) Limited
+-A INPUT -s 194.0.137.123 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Nalia Global Technologies Ltd.
+-A INPUT -s 94.130.31.10 -p tcp -m tcp --dport 4775 -j ACCEPT
+###LONGHAIR
+-A INPUT -s 47.242.110.88 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ASTRAL
+-A INPUT -s 18.222.172.67 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ImLink Limited
+-A INPUT -s 51.250.24.170 -p tcp -m tcp --dport 4775 -j ACCEPT
+###CHINA SKYLINE
+-A INPUT -s 52.52.83.95 -p tcp -m tcp --dport 4775 -j ACCEPT
+###CHINA SKYLINE
+-A INPUT -s 54.241.190.216 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Wide International Interconnect (WII Telecom) S.A.L (Offshore)
+-A INPUT -s 66.165.245.170 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Sempico solution
+-A INPUT -s 94.130.198.32 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Sempico solution
+-A INPUT -s 176.9.0.248 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Advanced Cloud Services SL
+-A INPUT -s 194.0.137.110 -p tcp -m tcp --dport 4775 -j ACCEPT
+###MMD Smart Ltd.
+-A INPUT -s 34.78.101.115 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Apex dynasty limited
+-A INPUT -s 5.254.118.18 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Apex dynasty limited
+-A INPUT -s 5.254.118.22 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Apex dynasty limited
+-A INPUT -s 84.22.113.12 -p tcp -m tcp --dport 4775 -j ACCEPT
+###AE Telco LTD
+-A INPUT -s 149.20.190.19 -p tcp -m tcp --dport 4775 -j ACCEPT
+###MMD Smart Ltd.
+-A INPUT -s 104.199.95.213 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Six Five Networks Ltd
+-A INPUT -s 52.18.80.13 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Cloud Ten Infotech Pte Ltd
+-A INPUT -s 135.181.16.159 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Voicetec Sys Limited
+-A INPUT -s 185.49.114.52 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Monty UK Global Ltd
+-A INPUT -s 185.135.130.18 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Monty UK Global Ltd
+-A INPUT -s 185.135.130.19 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Monty UK Global Ltd
+-A INPUT -s 185.135.130.20 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Monty UK Global Ltd
+-A INPUT -s 185.135.128.115 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Monty UK Global Ltd
+-A INPUT -s 185.135.128.116 -p tcp -m tcp --dport 4775 -j ACCEPT
+###VOXPACE PTE LTD
+-A INPUT -s 65.109.83.58 -p tcp -m tcp --dport 4775 -j ACCEPT
+###ZingMax Technology Co., Ltd.
+-A INPUT -s 47.241.170.118 -p tcp -m tcp --dport 4775 -j ACCEPT
+###XUNMAI TECHNOLOGIES
+-A INPUT -s 8.217.7.67 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Find SMS
+-A INPUT -s 45.32.28.38 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Zafta Linknet Limited
+-A INPUT -s 135.181.142.30 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Markodior SRL
+-A INPUT -s 101.99.93.46 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Micro Cloud Telecom
+-A INPUT -s 47.242.228.10 -p tcp -m tcp --dport 4775 -j ACCEPT
+###test123
+-A INPUT -s 92.204.172.106 -p tcp -m tcp --dport 1401 -j ACCEPT
+###Click Mobile
+-A INPUT -s 206.225.94.150 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Alienics, Inc.
+-A INPUT -s 84.16.252.193 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Sms Gate
+-A INPUT -s 63.250.34.74 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Click Mobile
+-A INPUT -s 206.225.81.36 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Guangdong Zhonghe Lianyun Tech Co.Ltd.
+-A INPUT -s 182.160.5.15 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Guangdong Zhonghe Lianyun Tech Co.Ltd.
+-A INPUT -s 190.92.233.211 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Guangdong Zhonghe Lianyun Tech Co.Ltd.
+-A INPUT -s 190.92.238.73 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Guangdong Zhonghe Lianyun Tech Co.Ltd.
+-A INPUT -s 182.160.5.15 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Guangdong Zhonghe Lianyun Tech Co.Ltd.
+-A INPUT -s 47.243.94.45 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Sms Telecomm LLC
+-A INPUT -s 174.136.36.66 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Liangjian communication
+-A INPUT -s 38.181.24.54 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Beelink Information Group Limited
+-A INPUT -s 161.117.59.25 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Beelink Information Group Limited
+-A INPUT -s 161.117.59.178 -p tcp -m tcp --dport 4775 -j ACCEPT
+###Beelink Information Group Limited
+-A INPUT -s 47.102.153.57 -p tcp -m tcp --dport 4775 -j ACCEPT
+###KAMELSTORE
+-A INPUT -s 5.189.164.164 -p tcp -m tcp --dport 4775 -j ACCEPT
+COMMIT

@@ -1,0 +1,36 @@
+2023-03-27 07:39:00 WARNING  233 Disconnecting...
+2023-03-27 07:39:00 INFO     233 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-27 07:39:00 WARNING  233 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 08:11:21 WARNING  233 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-27 08:11:21 INFO     233 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-27 09:14:27 WARNING  233 Disconnecting...
+2023-03-27 09:14:27 INFO     233 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-27 09:14:27 WARNING  233 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 09:14:27 WARNING  233 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-27 09:14:27 INFO     233 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-27 17:29:39 WARNING  233 SMPP connection established from 179.60.149.55 to port 2775
+2023-03-27 17:29:39 WARNING  233 SMPP 179.60.149.55 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 17:29:39 WARNING  233 SMPP connection established from 179.60.149.55 to port 2775
+2023-03-27 17:29:49 CRITICAL 233 PDU read timed out. Buffer is now considered corrupt
+2023-03-27 17:29:49 CRITICAL 233 Connection is corrupt!!! Shutting down...
+2023-03-27 17:29:49 WARNING  233 Shutdown requested...disconnecting
+2023-03-27 17:29:49 WARNING  233 Disconnecting...
+2023-03-27 17:29:49 WARNING  233 SMPP 179.60.149.55 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 17:29:49 WARNING  233 SMPP connection established from 179.60.149.55 to port 2775
+2023-03-27 17:29:59 CRITICAL 233 PDU read timed out. Buffer is now considered corrupt
+2023-03-27 17:29:59 CRITICAL 233 Connection is corrupt!!! Shutting down...
+2023-03-27 17:29:59 WARNING  233 Shutdown requested...disconnecting
+2023-03-27 17:29:59 WARNING  233 Disconnecting...
+2023-03-27 17:29:59 WARNING  233 SMPP 179.60.149.55 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 17:29:59 WARNING  233 SMPP connection established from 179.60.149.55 to port 2775
+2023-03-27 17:30:09 CRITICAL 233 PDU read timed out. Buffer is now considered corrupt
+2023-03-27 17:30:09 CRITICAL 233 Connection is corrupt!!! Shutting down...
+2023-03-27 17:30:09 WARNING  233 Shutdown requested...disconnecting
+2023-03-27 17:30:09 WARNING  233 Disconnecting...
+2023-03-27 17:30:09 WARNING  233 SMPP 179.60.149.55 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]

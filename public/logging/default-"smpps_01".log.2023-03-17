@@ -1,0 +1,27 @@
+2023-03-17 11:53:50 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:467c1974-5df0-4b3a-b15a-917f763f62da] [prio:1] [from:b'000'] [to:b'923135005050'] [content:b'test message']
+2023-03-17 11:53:50 INFO     222 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:467c1974-5df0-4b3a-b15a-917f763f62da submit date:2303171153 done date:2303171153 stat:ACCEPTD err:99']
+2023-03-17 11:54:20 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:f1c82578-bd83-4c21-a685-1661566df293] [prio:1] [from:b'000'] [to:b'5548988034304'] [content:b'test message']
+2023-03-17 11:54:20 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:f1c82578-bd83-4c21-a685-1661566df293 submit date:2303171154 done date:2303171154 stat:ACCEPTD err:99']
+2023-03-17 11:55:24 INFO     222 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:467c1974-5df0-4b3a-b15a-917f763f62da submit date:2303171153 done date:2303171155 stat:DELIVRD err:000']
+2023-03-17 11:58:17 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:0db58fbd-b2dc-4fbe-ba9b-ada5d8e5ca0e] [prio:1] [from:b'000'] [to:b'5548988034304'] [content:b'test message']
+2023-03-17 11:58:17 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:0db58fbd-b2dc-4fbe-ba9b-ada5d8e5ca0e submit date:2303171158 done date:2303171158 stat:ACCEPTD err:99']
+2023-03-17 11:58:33 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:0db58fbd-b2dc-4fbe-ba9b-ada5d8e5ca0e submit date:2303171158 done date:2303171158 stat:DELIVRD err:000']
+2023-03-17 11:58:38 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:f1c82578-bd83-4c21-a685-1661566df293 submit date:2303171154 done date:2303171158 stat:DELIVRD err:000']
+2023-03-17 11:59:12 INFO     222 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-17 11:59:12 WARNING  222 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-17 11:59:34 INFO     222 Added Interceptor to SMPPServerFactory
+2023-03-17 11:59:43 WARNING  222 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-17 11:59:43 INFO     222 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-17 14:41:40 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:95272765-b42c-4ff6-b317-efa7b0db6f7a] [prio:1] [from:b'000'] [to:b'5548988034304'] [content:b'msgnew']
+2023-03-17 14:43:10 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:95272765-b42c-4ff6-b317-efa7b0db6f7a submit date:2303171441 done date:2303171443 stat:ACCEPTD err:99']
+2023-03-17 14:43:37 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:95272765-b42c-4ff6-b317-efa7b0db6f7a submit date:2303171441 done date:2303171443 stat:DELIVRD err:000']
+2023-03-17 14:44:45 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:d56f16f7-674b-4eeb-9584-c0dbaca01996] [prio:1] [from:b'000'] [to:b'5548988034304'] [content:b'msgnew']
+2023-03-17 14:46:15 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:d56f16f7-674b-4eeb-9584-c0dbaca01996 submit date:2303171444 done date:2303171446 stat:ACCEPTD err:99']
+2023-03-17 14:53:17 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:389db842-1629-4680-be5b-c7dc810b440e] [prio:1] [from:b'000'] [to:b'5548988034304'] [content:b'msgnew']
+2023-03-17 14:53:47 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:d56f16f7-674b-4eeb-9584-c0dbaca01996 submit date:2303171444 done date:2303171453 stat:DELIVRD err:000']
+2023-03-17 14:54:47 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:389db842-1629-4680-be5b-c7dc810b440e submit date:2303171453 done date:2303171454 stat:ACCEPTD err:99']
+2023-03-17 14:54:53 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:389db842-1629-4680-be5b-c7dc810b440e submit date:2303171453 done date:2303171454 stat:DELIVRD err:000']
+2023-03-17 14:58:07 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:fee8070c-e912-4639-8f06-cac485d228e2] [prio:1] [from:b'000'] [to:b'5548988034304'] [content:b'msgnew3']
+2023-03-17 14:59:37 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:fee8070c-e912-4639-8f06-cac485d228e2 submit date:2303171458 done date:2303171459 stat:ACCEPTD err:99']
+2023-03-17 15:06:46 INFO     222 DELIVER_SM [uid:client_1] [from:b'5548988034304'] [to:b'0'] [content:b'id:fee8070c-e912-4639-8f06-cac485d228e2 submit date:2303171458 done date:2303171506 stat:DELIVRD err:000']

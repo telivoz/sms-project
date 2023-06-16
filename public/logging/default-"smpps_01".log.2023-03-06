@@ -1,0 +1,6 @@
+2023-03-06 11:06:28 WARNING  372 SMPP connection established from 195.133.20.248 to port 2775
+2023-03-06 11:06:54 WARNING  372 SMPP 195.133.20.248 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-06 19:18:32 WARNING  372 SMPP connection established from 195.133.20.248 to port 2775
+2023-03-06 19:19:08 WARNING  372 SMPP 195.133.20.248 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]

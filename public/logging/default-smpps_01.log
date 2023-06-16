@@ -1,0 +1,82 @@
+2023-01-20 06:54:16 WARNING  2864486 SMPP connection established from 176.111.174.128 to port 2775
+2023-01-20 06:54:26 CRITICAL 2864486 PDU read timed out. Buffer is now considered corrupt
+2023-01-20 06:54:26 CRITICAL 2864486 Connection is corrupt!!! Shutting down...
+2023-01-20 06:54:26 WARNING  2864486 Shutdown requested...disconnecting
+2023-01-20 06:54:26 WARNING  2864486 Disconnecting...
+2023-01-20 06:54:26 WARNING  2864486 SMPP 176.111.174.128 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:18:35 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:18:35 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:18:45 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:18:45 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:18:55 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:18:55 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:19:05 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:19:05 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:19:16 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:19:16 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:19:26 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:19:26 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:19:36 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:19:36 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:19:46 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:19:46 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:19:56 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:19:56 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:20:07 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:20:07 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:20:17 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:20:17 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:20:27 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:20:27 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:20:37 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:20:37 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:20:47 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:20:47 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:20:58 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:20:58 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:21:08 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:21:08 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:21:18 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:21:18 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:21:28 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:21:28 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:21:38 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:21:38 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:21:49 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:21:49 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:21:59 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:21:59 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:22:09 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:22:09 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:22:19 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:22:19 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:22:29 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:22:29 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-20 16:22:40 WARNING  2864486 SMPP connection established from 189.4.79.137 to port 2775
+2023-01-20 16:22:40 WARNING  2864486 SMPP 189.4.79.137 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]

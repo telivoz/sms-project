@@ -23,7 +23,13 @@ tbody tr:hover {
       <td>{{ $provider->name }}</td>
       <td>{{ $provider->company }}</td>     
       <td>{{$provider->balance}}</td>
-      <td><a href="/provider/edit/{{ $provider->id }}" class="bi bi-pencil-square"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/provider/delete" style="color:red;" class="bi bi-trash3"></a></td>
+      <td><a href="/provider/edit/{{ $provider->id }}" class="bi bi-pencil-square"></a>
+	<form action="/provider/delete/{{ $provider->id }}" method="POST">
+          @csrf
+          @method('delete')
+          <button type="submit" style="color:red;" class="bi bi-trash3"></button>
+          </form>
+	</td>
     </tr>
     @endforeach
   </tbody>

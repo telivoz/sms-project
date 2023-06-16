@@ -1,0 +1,3 @@
+2023-01-17 18:59:51 ERROR    429814 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 18:59:51 INFO     429814 Reconnecting after 10 seconds ...

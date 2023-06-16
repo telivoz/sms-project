@@ -58,7 +58,7 @@ Route::get('/rates-provider/edit', [Controller::class, 'editRatesProvider']);
 Route::delete('/rates-provider/delete/{id}', [Controller::class, 'deleteRateProvider']);
 Route::get('/rates-provider/add', [Controller::class, 'addRatesProvider']);
 Route::get('/rates-provider/edit/{id}', [Controller::class, 'editRatesProvider']);
-Route::put('/rates-provider/update/{id}', [Controller::class, 'updateProvider']);
+Route::put('/rates-provider/update/{id}', [Controller::class, 'updateRatesProvider']);
 
 Route::get('/rates-customer', [Controller::class, 'ratesCustomer']);
 Route::post('/rates-customer', [Controller::class, 'storeRatesCustomer']);
@@ -75,6 +75,10 @@ Route::get('/filters/add', [Controller::class, 'addFilter']);
 
 Route::get('/dashboard', [Controller::class, 'dashboard']);
 Route::get('/dashboardAPI', [Controller::class, 'dashboardAPI']);
+
+Route::get('/summary', [Controller::class, 'summary']);
+Route::get('/summary-customer', [Controller::class, 'summaryCustomer']);
+Route::get('/summary-provider', [Controller::class, 'summaryProvider']);
 
 Route::get('/logs', [Controller::class, 'logs']);
 

@@ -1,0 +1,4 @@
+2022-12-21 15:00:44 INFO     429813 Thrower configured and ready.
+2022-12-21 15:00:44 INFO     429813 Added a direct access to SMPPServerFactory
+2022-12-21 15:00:44 INFO     429813 Added amqpBroker
+2022-12-21 15:00:44 INFO     429813 Consuming from routing key: deliver_sm_thrower.*

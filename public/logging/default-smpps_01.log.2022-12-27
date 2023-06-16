@@ -1,0 +1,17 @@
+2022-12-27 03:29:03 WARNING  429813 SMPP connection established from 45.227.254.48 to port 2775
+2022-12-27 03:29:03 WARNING  429813 SMPP 45.227.254.48 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2022-12-27 03:29:03 WARNING  429813 SMPP connection established from 45.227.254.48 to port 2775
+2022-12-27 03:29:13 CRITICAL 429813 PDU read timed out. Buffer is now considered corrupt
+2022-12-27 03:29:13 CRITICAL 429813 Connection is corrupt!!! Shutting down...
+2022-12-27 03:29:13 WARNING  429813 Shutdown requested...disconnecting
+2022-12-27 03:29:13 WARNING  429813 Disconnecting...
+2022-12-27 03:29:13 WARNING  429813 SMPP 45.227.254.48 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2022-12-27 03:29:13 WARNING  429813 SMPP connection established from 45.227.254.48 to port 2775
+2022-12-27 03:29:23 CRITICAL 429813 PDU read timed out. Buffer is now considered corrupt
+2022-12-27 03:29:23 CRITICAL 429813 Connection is corrupt!!! Shutting down...
+2022-12-27 03:29:23 WARNING  429813 Shutdown requested...disconnecting
+2022-12-27 03:29:23 WARNING  429813 Disconnecting...
+2022-12-27 03:29:23 WARNING  429813 SMPP 45.227.254.48 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]

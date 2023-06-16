@@ -16,7 +16,6 @@
       <option value="GroupFilter">GroupFilter</option>
       <option value="SourceAddrFilter">SourceAddrFilter</option>
       <option value="DestinationAddrFilter">DestinationAddrFilter</option>
-      <option value="DestinationAddrFilter">DestinationAddrFilter</option>
       <option value="ShortMessageFilter">ShortMessageFilter</option>
       <option value="TagFilter">TagFilter</option>
     </select> 

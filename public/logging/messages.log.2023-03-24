@@ -1,0 +1,1 @@
+2023-03-24 13:07:47 INFO     220 SMS-MT [cid:testserver] [queue-msgid:728d657e-cc36-4a8b-875d-a707d4563f3d] [smpp-msgid:b'3120a1a5-6c43-4288-af20-ead21ddea0d0'] [status:CommandStatus.ESME_ROK] [prio:0] [dlr:RegisteredDeliveryReceipt.SMSC_DELIVERY_RECEIPT_REQUESTED] [validity:none] [from:b'1234'] [to:b'5548988034304'] [content:b'Teste']

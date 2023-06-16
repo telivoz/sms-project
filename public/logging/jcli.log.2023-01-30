@@ -1,0 +1,65 @@
+2023-01-30 14:56:27 INFO     3061959 [sref:8] New session started for 127.0.0.1:40294
+2023-01-30 14:56:27 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 14:56:27 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 14:56:27 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 14:56:28 INFO     3061959 [sref:8] Session stopped (Connection was closed cleanly.).
+2023-01-30 14:56:38 INFO     3061959 [sref:9] New session started for 127.0.0.1:40472
+2023-01-30 14:56:38 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 14:56:38 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 14:56:38 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 14:56:38 INFO     3061959 [sref:9] Session stopped (Connection was closed cleanly.).
+2023-01-30 14:56:42 INFO     3061959 [sref:10] New session started for 127.0.0.1:40492
+2023-01-30 14:56:42 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 14:56:42 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 14:56:42 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 14:56:42 INFO     3061959 [sref:10] Session stopped (Connection was closed cleanly.).
+2023-01-30 14:56:48 INFO     3061959 [sref:11] New session started for 127.0.0.1:40518
+2023-01-30 14:56:48 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 14:56:48 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 14:56:48 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 14:56:48 INFO     3061959 [sref:11] Session stopped (Connection was closed cleanly.).
+2023-01-30 14:59:28 INFO     3061959 [sref:12] New session started for 127.0.0.1:43006
+2023-01-30 14:59:28 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 14:59:28 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 14:59:28 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 14:59:28 INFO     3061959 [sref:12] Session stopped (Connection was closed cleanly.).
+2023-01-30 14:59:54 INFO     3061959 [sref:13] New session started for 127.0.0.1:43588
+2023-01-30 14:59:54 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 14:59:54 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 14:59:54 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:00:11 INFO     3061959 [sref:14] New session started for 127.0.0.1:43830
+2023-01-30 15:00:11 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:00:11 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:00:11 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:00:11 INFO     3061959 [sref:14] Session stopped (Connection was closed cleanly.).
+2023-01-30 15:00:17 INFO     3061959 [sref:15] New session started for 127.0.0.1:44070
+2023-01-30 15:00:17 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:00:17 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:00:17 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:00:18 INFO     3061959 [sref:15] Session stopped (Connection was closed cleanly.).
+2023-01-30 15:00:18 INFO     3061959 [sref:16] New session started for 127.0.0.1:44074
+2023-01-30 15:00:18 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:00:18 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:00:18 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:00:18 INFO     3061959 [sref:16] Session stopped (Connection was closed cleanly.).
+2023-01-30 15:00:18 INFO     3061959 [sref:17] New session started for 127.0.0.1:44100
+2023-01-30 15:00:18 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:00:18 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:00:18 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:00:19 INFO     3061959 [sref:17] Session stopped (Connection was closed cleanly.).
+2023-01-30 15:00:23 INFO     3061959 [sref:13] Session stopped (('Stumped', b'\xec')).
+2023-01-30 15:00:23 INFO     3061959 [sref:18] New session started for 127.0.0.1:44370
+2023-01-30 15:00:23 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:00:23 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:00:23 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:01:19 INFO     3061959 [sref:19] New session started for 127.0.0.1:46488
+2023-01-30 15:01:19 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:01:19 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:01:19 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:01:19 INFO     3061959 [sref:19] Session stopped (Connection was closed cleanly.).
+2023-01-30 15:04:26 INFO     3061959 [sref:18] Session stopped (('Stumped', b'\xec')).
+2023-01-30 15:06:51 INFO     3061959 [sref:20] New session started for 127.0.0.1:51626
+2023-01-30 15:06:51 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-30 15:06:51 INFO     3061959 filter configuration loaded (default profile)
+2023-01-30 15:06:51 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-30 15:06:51 INFO     3061959 [sref:20] Session stopped (Connection was closed cleanly.).

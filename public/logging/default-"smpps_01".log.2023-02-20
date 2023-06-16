@@ -1,0 +1,7 @@
+2023-02-20 15:16:48 WARNING  1092668 SMPP connection established from 176.111.174.128 to port 2775
+2023-02-20 15:16:58 CRITICAL 1092668 PDU read timed out. Buffer is now considered corrupt
+2023-02-20 15:16:58 CRITICAL 1092668 Connection is corrupt!!! Shutting down...
+2023-02-20 15:16:58 WARNING  1092668 Shutdown requested...disconnecting
+2023-02-20 15:16:58 WARNING  1092668 Disconnecting...
+2023-02-20 15:16:58 WARNING  1092668 SMPP 176.111.174.128 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]

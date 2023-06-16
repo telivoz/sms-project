@@ -39,11 +39,23 @@
   </div>  
   <div class="form-group">
     <label for="pwd">Profile:</label>
-    <select class="form-control" id="profile" name="profile">
+    <select class="form-control" id="profile" name="profile"  onchange="checkProfile()">
       <option value="3" {{ ($customers->profile) == 3 ? "selected" : "" }}>Customer</option>
       <option value="2" {{ ($customers->profile) == 2 ? "selected" : "" }}>NOC</option>
       <option value="1" {{ ($customers->profile) == 1 ? "selected" : "" }}>Adminstrator</option>
+      <option value="4" {{ ($customers->profile) == 4 ? "selected" : "" }}>Sales</option>
     </select>
+	 <div id="profileDiv" style="display : none;"> Select Customers:
+                <select class="form-select" id="companySales" name="companySales">
+                        <option value=""></option>
+                         @foreach($customersAll as $customer)
+                                @if ($customer->profile == 3)
+                                        <option value="<?php echo $customer->id?>"><?php echo $customer->id . " : " . $customer->name . "  -  " .$customer->uid?></option>
+                                @endif
+                        @endforeach
+                </select> <br>
+		IDs Selected: <input id="selectCustomer" name="selectCustomer" type="text" value="<?php echo $customers->sales_customers;?>">
+        </div>
   </div>
   <div class="form-group">
     <label for="pwd">TPS:</label>
@@ -64,4 +76,31 @@ echo  "               <script>
 			}
   </script>";
 ?>
+<script>
+var x = document.getElementById("profileDiv");
+if(document.getElementById('profile').value == "4") {
+	x.style.display = "block";
+}
+function checkProfile() {
+        var x = document.getElementById("profileDiv");
+        if(document.getElementById('profile').value == "4") {
+                        x.style.display = "block";
+        } else {
+                 x.style.display = "none";
+                }
+}
+$('#companySales').on('change', function() {
+        console.log('teste!!!');
+        var selectFilter = document.getElementById("companySales");
+        var selectFilterValue = selectFilter.value;
+        var input = document.getElementById('selectCustomer');
+        if (selectFilterValue !== "") {
+                if (input.value != "") {
+                        input.value = input.value + ";" +selectFilterValue;
+                } else {
+                        input.value = selectFilterValue;
+                }
+        }
+});
+</script>
 @endsection

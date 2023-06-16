@@ -16,7 +16,11 @@
 <div class="card-body"><strong>Provider Rate:</strong> <?php print_r($detail['rateprovider']);?></div>
 <div class="card-body"><strong>Provider Rate:</strong> <?php print_r($detail['ratedestprovider']);?></div>
 @endif
-<div class="card-body"><strong>short_message:</strong> <?php print_r($detail['short_message']);?></div>
+<?php
+        $msg = substr($detail['short_message'], 2);
+	$hex=hex2bin($msg);
+?>
+<div class="card-body"><strong>short_message:</strong> <?php echo $hex;?></div>
 <div class="card-body"><strong>Size Message:</strong> <?php print_r($detail['sizemessage']);?></div>
 <div class="card-body"><strong>status:</strong> <?php print_r($detail['status']);?></div>
     @endforeach

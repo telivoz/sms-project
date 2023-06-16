@@ -1,0 +1,40 @@
+2022-12-30 01:03:40 WARNING  429813 SMPP connection established from 213.225.240.77 to port 2775
+2022-12-30 01:03:40 WARNING  429813 SMPP connection established from 213.225.240.77 to port 2775
+2022-12-30 01:03:41 WARNING  429813 SMPP connection established from 213.225.240.77 to port 2775
+2022-12-30 01:03:41 WARNING  429813 SMPP connection established from 213.225.240.77 to port 2775
+2022-12-30 01:03:45 WARNING  429813 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2022-12-30 01:03:45 WARNING  429813 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2022-12-30 01:03:45 WARNING  429813 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2022-12-30 01:03:46 WARNING  429813 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2022-12-30 01:03:50 CRITICAL 429813 PDU read timed out. Buffer is now considered corrupt
+2022-12-30 01:03:50 CRITICAL 429813 Connection is corrupt!!! Shutting down...
+2022-12-30 01:03:50 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:03:50 WARNING  429813 Disconnecting...
+2022-12-30 01:03:51 CRITICAL 429813 PDU read timed out. Buffer is now considered corrupt
+2022-12-30 01:03:51 CRITICAL 429813 Connection is corrupt!!! Shutting down...
+2022-12-30 01:03:51 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:03:51 WARNING  429813 Disconnecting...
+2022-12-30 01:03:51 CRITICAL 429813 PDU read timed out. Buffer is now considered corrupt
+2022-12-30 01:03:51 CRITICAL 429813 Connection is corrupt!!! Shutting down...
+2022-12-30 01:03:51 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:03:51 WARNING  429813 Disconnecting...
+2022-12-30 01:03:51 CRITICAL 429813 PDU read timed out. Buffer is now considered corrupt
+2022-12-30 01:03:51 CRITICAL 429813 Connection is corrupt!!! Shutting down...
+2022-12-30 01:03:51 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:03:51 WARNING  429813 Disconnecting...
+2022-12-30 01:08:50 CRITICAL 429813 Inactivity timer expired...shutting down
+2022-12-30 01:08:50 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:08:50 WARNING  429813 Disconnecting...
+2022-12-30 01:08:51 CRITICAL 429813 Inactivity timer expired...shutting down
+2022-12-30 01:08:51 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:08:51 WARNING  429813 Disconnecting...
+2022-12-30 01:08:51 CRITICAL 429813 Inactivity timer expired...shutting down
+2022-12-30 01:08:51 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:08:51 WARNING  429813 Disconnecting...
+2022-12-30 01:08:51 CRITICAL 429813 Inactivity timer expired...shutting down
+2022-12-30 01:08:51 WARNING  429813 Shutdown requested...disconnecting
+2022-12-30 01:08:51 WARNING  429813 Disconnecting...

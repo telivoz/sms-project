@@ -1,0 +1,4 @@
+2022-12-21 15:00:44 INFO     429814 Thrower configured and ready.
+2022-12-21 15:00:44 INFO     429814 Added a perspectivebroker access to SMPPServerFactory
+2022-12-21 15:00:44 INFO     429814 Added amqpBroker
+2022-12-21 15:00:44 INFO     429814 Consuming from routing key: dlr_thrower.*

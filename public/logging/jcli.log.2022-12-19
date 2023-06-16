@@ -1,0 +1,13 @@
+2022-12-21 15:00:44 INFO     429813 Waiting for AMQP to get ready
+2022-12-21 15:00:44 INFO     429813 [sref:1] New session started for 192.168.1.1:54321
+2022-12-21 15:00:44 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-21 15:00:44 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-21 15:00:44 INFO     429813 OnStart loading configuration default profile with username: 'jcliadmin'
+2022-12-21 15:29:59 INFO     429813 [sref:2] New session started for 127.0.0.1:40144
+2022-12-21 15:29:59 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-21 15:29:59 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-21 15:29:59 INFO     429813 [sref:2] Session stopped (Connection was closed cleanly.).
+2022-12-23 18:41:01 INFO     429813 [sref:3] New session started for 127.0.0.1:33406
+2022-12-23 18:41:01 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-23 18:41:01 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-23 18:41:01 INFO     429813 [sref:3] Session stopped (Connection was closed cleanly.).

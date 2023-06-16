@@ -28,7 +28,13 @@ tbody tr:hover {
       <td>{{ $report->source_connector }}</td>
       <td>{{ $report->source_addr }}</td>
       <td>{{ $report->destination_addr }}</td>
-      <td>{{ $report->short_message }}</td>
+<?php
+$msg = substr($report->short_message, 2);
+        if (trim($msg, '0..9A..Fa..f') == '') {
+                $hex=hex2bin($msg);
+        }
+?>
+      <td>{{ $hex }}</td>
       <td>{{ $report->status }}</td>
       <td><a href="/details/{{ $report->msgid }}" class="bi bi-info"></td>
     </tr>

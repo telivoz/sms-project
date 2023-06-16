@@ -1,0 +1,82 @@
+2023-03-22 09:29:27 WARNING  220 SMPP 162.254.201.189 disconnected from port 54612: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-22 09:29:27 ERROR    220 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-22 09:29:27 INFO     220 Reconnecting after 10 seconds ...
+2023-03-22 09:29:37 INFO     220 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-22 09:29:37 WARNING  220 SMPP connection established from 162.254.201.189 to port 37894
+2023-03-22 09:29:37 INFO     220 Connection made to 162.254.201.189:4775
+2023-03-22 09:29:37 WARNING  220 Requesting bind as transceiver
+2023-03-22 09:29:41 WARNING  220 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-22 09:29:57 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 10593, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 09:29:57 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 09:29:57 WARNING  220 Disconnecting...
+2023-03-22 09:30:27 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 10594, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 09:30:27 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 09:30:27 WARNING  220 Disconnecting...
+2023-03-22 09:30:57 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 10595, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 09:30:57 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 09:30:57 WARNING  220 Disconnecting...
+2023-03-22 09:31:27 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 10596, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 09:31:27 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 09:31:27 WARNING  220 Disconnecting...
+2023-03-22 10:00:08 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 47, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:00:08 WARNING  220 Shutdown requested...unbinding
+2023-03-22 10:00:08 INFO     220 Waiting for in-progress transactions to finish...
+2023-03-22 10:00:08 CRITICAL 220 Response PDU received with unknown outbound transaction sequence number PDU [command: CommandId.enquire_link_resp, sequence_number: 47, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:00:08 ERROR    220 Unbind received
+2023-03-22 10:00:08 WARNING  220 Issuing unbind request
+2023-03-22 10:00:08 WARNING  220 Disconnecting...
+2023-03-22 10:00:08 CRITICAL 220 Response PDU received with unknown outbound transaction sequence number PDU [command: CommandId.enquire_link_resp, sequence_number: 50, command_status: CommandStatus.ESME_RINVBNDSTS
+]
+2023-03-22 10:00:08 WARNING  220 SMPP 162.254.201.189 disconnected from port 37894: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-22 10:00:08 ERROR    220 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-22 10:00:08 INFO     220 Reconnecting after 10 seconds ...
+2023-03-22 10:00:18 INFO     220 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-22 10:00:18 WARNING  220 SMPP connection established from 162.254.201.189 to port 41050
+2023-03-22 10:00:18 INFO     220 Connection made to 162.254.201.189:4775
+2023-03-22 10:00:18 WARNING  220 Requesting bind as transceiver
+2023-03-22 10:00:18 WARNING  220 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-22 10:00:38 ERROR    220 Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 51, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:00:38 ERROR    220 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 51, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-03-22 10:00:38 WARNING  220 Disconnecting...
+2023-03-22 10:00:38 WARNING  220 Disconnecting...
+2023-03-22 10:00:38 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 10:00:38 WARNING  220 Disconnecting...
+2023-03-22 10:42:23 WARNING  220 SMPP 162.254.201.189 disconnected from port 41050: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-22 10:42:23 ERROR    220 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-22 10:42:23 INFO     220 Reconnecting after 10 seconds ...
+2023-03-22 10:42:33 INFO     220 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-22 10:42:34 WARNING  220 SMPP connection established from 162.254.201.189 to port 54170
+2023-03-22 10:42:34 INFO     220 Connection made to 162.254.201.189:4775
+2023-03-22 10:42:34 WARNING  220 Requesting bind as transceiver
+2023-03-22 10:42:34 WARNING  220 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-22 10:42:50 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 70, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:42:50 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 10:42:50 WARNING  220 Disconnecting...
+2023-03-22 10:43:20 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 71, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:43:20 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 10:43:20 WARNING  220 Disconnecting...
+2023-03-22 10:43:50 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 72, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:43:50 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 10:43:50 WARNING  220 Disconnecting...
+2023-03-22 10:44:20 ERROR    220 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 73, command_status: CommandStatus.ESME_ROK
+]
+2023-03-22 10:44:20 WARNING  220 Shutdown requested...disconnecting
+2023-03-22 10:44:20 WARNING  220 Disconnecting...

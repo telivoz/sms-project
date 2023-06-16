@@ -1,0 +1,162 @@
+2023-02-28 13:54:03 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 13:54:03 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 13:54:03 INFO     1092668 Disconnecting SMPP client
+2023-02-28 13:54:03 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 13:54:03 WARNING  1092668 Issuing unbind request
+2023-02-28 13:54:03 WARNING  1092668 Unbind succeeded
+2023-02-28 13:54:03 WARNING  1092668 Disconnecting...
+2023-02-28 13:54:03 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 33534: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:54:03 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:54:03 INFO     1092668 Exiting.
+2023-02-28 13:54:08 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 13:54:08 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 13:54:08 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 59724
+2023-02-28 13:54:08 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 13:54:08 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 13:54:08 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 13:54:35 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 13:54:35 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 13:54:35 INFO     1092668 Disconnecting SMPP client
+2023-02-28 13:54:35 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 13:54:35 WARNING  1092668 Issuing unbind request
+2023-02-28 13:54:35 WARNING  1092668 Unbind succeeded
+2023-02-28 13:54:35 WARNING  1092668 Disconnecting...
+2023-02-28 13:54:35 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 59724: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:54:35 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:54:35 INFO     1092668 Exiting.
+2023-02-28 13:54:40 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 13:54:40 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 13:54:40 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 34052
+2023-02-28 13:54:40 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 13:54:40 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 13:54:40 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 13:55:46 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 13:55:46 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 13:55:46 INFO     1092668 Disconnecting SMPP client
+2023-02-28 13:55:46 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 13:55:46 WARNING  1092668 Issuing unbind request
+2023-02-28 13:55:46 WARNING  1092668 Unbind succeeded
+2023-02-28 13:55:46 WARNING  1092668 Disconnecting...
+2023-02-28 13:55:46 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 34052: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:55:46 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:55:46 INFO     1092668 Exiting.
+2023-02-28 13:55:51 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 13:55:51 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 13:55:51 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 38792
+2023-02-28 13:55:51 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 13:55:51 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 13:55:52 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 13:56:09 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 13:56:09 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 13:56:09 INFO     1092668 Disconnecting SMPP client
+2023-02-28 13:56:09 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 13:56:09 WARNING  1092668 Issuing unbind request
+2023-02-28 13:56:09 WARNING  1092668 Unbind succeeded
+2023-02-28 13:56:09 WARNING  1092668 Disconnecting...
+2023-02-28 13:56:09 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 38792: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:56:09 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:56:09 INFO     1092668 Exiting.
+2023-02-28 13:56:14 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 13:56:14 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 13:56:14 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 40474
+2023-02-28 13:56:14 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 13:56:14 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 13:56:14 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 13:57:44 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 13:57:44 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 13:57:44 INFO     1092668 Disconnecting SMPP client
+2023-02-28 13:57:44 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 13:57:44 WARNING  1092668 Issuing unbind request
+2023-02-28 13:57:44 WARNING  1092668 Unbind succeeded
+2023-02-28 13:57:44 WARNING  1092668 Disconnecting...
+2023-02-28 13:57:44 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 40474: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:57:44 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 13:57:44 INFO     1092668 Exiting.
+2023-02-28 13:57:49 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 13:57:49 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 13:57:49 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 48604
+2023-02-28 13:57:49 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 13:57:49 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 13:57:49 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 14:00:34 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 14:00:34 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 14:00:34 INFO     1092668 Disconnecting SMPP client
+2023-02-28 14:00:34 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 14:00:34 WARNING  1092668 Issuing unbind request
+2023-02-28 14:00:34 WARNING  1092668 Unbind succeeded
+2023-02-28 14:00:34 WARNING  1092668 Disconnecting...
+2023-02-28 14:00:34 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 48604: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:00:34 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:00:34 INFO     1092668 Exiting.
+2023-02-28 14:00:39 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 14:00:39 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 14:00:39 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 33526
+2023-02-28 14:00:39 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 14:00:39 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 14:00:39 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 14:01:32 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 14:01:32 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 14:01:32 INFO     1092668 Disconnecting SMPP client
+2023-02-28 14:01:32 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 14:01:32 WARNING  1092668 Issuing unbind request
+2023-02-28 14:01:32 WARNING  1092668 Unbind succeeded
+2023-02-28 14:01:32 WARNING  1092668 Disconnecting...
+2023-02-28 14:01:32 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 33526: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:01:32 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:01:32 INFO     1092668 Exiting.
+2023-02-28 14:01:37 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 14:01:37 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 14:01:37 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 38208
+2023-02-28 14:01:37 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 14:01:37 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 14:01:37 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 14:47:38 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 14:47:38 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 14:47:38 INFO     1092668 Disconnecting SMPP client
+2023-02-28 14:47:38 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 14:47:38 WARNING  1092668 Issuing unbind request
+2023-02-28 14:47:38 WARNING  1092668 Unbind succeeded
+2023-02-28 14:47:38 WARNING  1092668 Disconnecting...
+2023-02-28 14:47:38 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 38208: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:47:38 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:47:38 INFO     1092668 Exiting.
+2023-02-28 14:47:43 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 14:47:43 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 14:47:43 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 39470
+2023-02-28 14:47:43 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 14:47:43 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 14:47:43 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-28 14:49:13 INFO     1092668 Ordering a disconnect with no further reconnections.
+2023-02-28 14:49:13 INFO     1092668 Stopped automatic connection retrying.
+2023-02-28 14:49:13 INFO     1092668 Disconnecting SMPP client
+2023-02-28 14:49:13 INFO     1092668 Waiting for in-progress transactions to finish...
+2023-02-28 14:49:13 WARNING  1092668 Issuing unbind request
+2023-02-28 14:49:13 WARNING  1092668 Unbind succeeded
+2023-02-28 14:49:13 WARNING  1092668 Disconnecting...
+2023-02-28 14:49:13 WARNING  1092668 SMPP 162.254.201.189 disconnected from port 39470: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:49:13 ERROR    1092668 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-28 14:49:13 INFO     1092668 Exiting.
+2023-02-28 14:49:18 INFO     1092668 Establishing TCP connection to 162.254.201.189:4775
+2023-02-28 14:49:18 INFO     1092668 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-28 14:49:18 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 45950
+2023-02-28 14:49:18 INFO     1092668 Connection made to 162.254.201.189:4775
+2023-02-28 14:49:18 WARNING  1092668 Requesting bind as transceiver
+2023-02-28 14:49:18 WARNING  1092668 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

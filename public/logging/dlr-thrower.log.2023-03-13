@@ -1,0 +1,61 @@
+2023-03-13 15:43:09 INFO     223 Thrower configured and ready.
+2023-03-13 15:43:09 INFO     223 Added a perspectivebroker access to SMPPServerFactory
+2023-03-13 15:43:09 INFO     223 Added amqpBroker
+2023-03-13 15:43:09 INFO     223 Consuming from routing key: dlr_thrower.*
+2023-03-17 11:46:28 ERROR    223 Throwing HTTP/DLR [msgid:ecd51612-9b89-4072-8025-f9b253d1b1bc] to (http://telivoz/dlr): DNSLookupError('no results for hostname lookup: telivoz').
+2023-03-17 11:46:58 ERROR    223 Throwing HTTP/DLR [msgid:ecd51612-9b89-4072-8025-f9b253d1b1bc] to (http://telivoz/dlr): DNSLookupError('no results for hostname lookup: telivoz').
+2023-03-17 11:47:28 ERROR    223 Throwing HTTP/DLR [msgid:ecd51612-9b89-4072-8025-f9b253d1b1bc] to (http://telivoz/dlr): DNSLookupError('no results for hostname lookup: telivoz').
+2023-03-17 11:47:58 ERROR    223 Throwing HTTP/DLR [msgid:ecd51612-9b89-4072-8025-f9b253d1b1bc] to (http://telivoz/dlr): DNSLookupError('no results for hostname lookup: telivoz').
+2023-03-17 11:47:58 WARNING  223 Message try-count is 4 [msgid:ecd51612-9b89-4072-8025-f9b253d1b1bc]: purged from queue
+2023-03-17 11:48:23 INFO     223 Throwed DLR [msgid:e3df9b0b-9a81-4b9e-9958-12e797551be8] to http://162.213.195.82/dlr/index.php.
+2023-03-17 11:49:45 INFO     223 Throwed DLR [msgid:9332642b-77fb-437a-904a-2e2004245eca] to http://162.213.195.82/dlr/index.php.
+2023-03-17 11:50:59 INFO     223 Throwed DLR [msgid:e3df9b0b-9a81-4b9e-9958-12e797551be8] to http://162.213.195.82/dlr/index.php.
+2023-03-17 11:57:45 INFO     223 Throwed DLR [msgid:ab805d4a-8ad0-44cc-9d5c-c196766402ad] to http://162.213.195.82/dlr/index.php.
+2023-03-17 11:59:34 INFO     223 Thrower configured and ready.
+2023-03-17 11:59:34 INFO     223 Added a perspectivebroker access to SMPPServerFactory
+2023-03-17 11:59:34 INFO     223 Added amqpBroker
+2023-03-17 11:59:34 INFO     223 Consuming from routing key: dlr_thrower.*
+2023-03-17 12:00:37 INFO     223 Throwed DLR [msgid:7200e7d7-d384-40d6-952e-ae155ae2cd75] to http://162.213.195.82/dlr/index.php.
+2023-03-17 12:01:38 INFO     223 Throwed DLR [msgid:f05842f8-1934-4cad-b866-70e29b401eab] to http://162.213.195.82/dlr/index.php.
+2023-03-17 12:03:35 INFO     223 Throwed DLR [msgid:9332642b-77fb-437a-904a-2e2004245eca] to http://162.213.195.82/dlr/index.php.
+2023-03-17 12:04:33 INFO     223 Throwed DLR [msgid:7200e7d7-d384-40d6-952e-ae155ae2cd75] to http://162.213.195.82/dlr/index.php.
+2023-03-17 12:07:25 INFO     223 Throwed DLR [msgid:f05842f8-1934-4cad-b866-70e29b401eab] to http://162.213.195.82/dlr/index.php.
+2023-03-17 12:07:29 INFO     223 Throwed DLR [msgid:ab805d4a-8ad0-44cc-9d5c-c196766402ad] to http://162.213.195.82/dlr/index.php.
+2023-03-17 14:08:45 INFO     223 Throwed DLR [msgid:9eaa83cc-dfeb-40bf-8a94-85efee431f45] to http://162.213.195.82/dlr/index.php.
+2023-03-17 14:10:15 INFO     223 Throwed DLR [msgid:a1dcb5a1-3838-421e-94ce-b945ca4d4732] to http://162.213.195.82/dlr/index.php.
+2023-03-17 14:12:51 INFO     223 Throwed DLR [msgid:a1dcb5a1-3838-421e-94ce-b945ca4d4732] to http://162.213.195.82/dlr/index.php.
+2023-03-17 14:13:33 INFO     223 Throwed DLR [msgid:9eaa83cc-dfeb-40bf-8a94-85efee431f45] to http://162.213.195.82/dlr/index.php.
+2023-03-17 14:16:23 INFO     223 Throwed DLR [msgid:dc324d5f-0b26-4a9e-ad2a-efeb86446790] to http://162.213.195.82/dlr/index.php.
+2023-03-17 14:23:31 INFO     223 Throwed DLR [msgid:dc324d5f-0b26-4a9e-ad2a-efeb86446790] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:20:45 INFO     223 Throwed DLR [msgid:c9dcd360-cb4d-4ee5-8a7e-f75b0d030aea] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:21:09 INFO     223 Throwed DLR [msgid:c9dcd360-cb4d-4ee5-8a7e-f75b0d030aea] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:23:42 INFO     223 Throwed DLR [msgid:41bcfb9c-5719-4913-921f-70a8f21b959a] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:25:12 INFO     223 Throwed DLR [msgid:b71c2168-d0e5-4dac-81e9-f56e0f433c6d] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:26:42 INFO     223 Throwed DLR [msgid:94fcdac7-38bd-41be-8809-d108dd25c2a2] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:27:36 INFO     223 Throwed DLR [msgid:94fcdac7-38bd-41be-8809-d108dd25c2a2] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:28:18 INFO     221 Thrower configured and ready.
+2023-03-18 12:28:18 INFO     221 Added a perspectivebroker access to SMPPServerFactory
+2023-03-18 12:28:18 INFO     221 Added amqpBroker
+2023-03-18 12:28:18 INFO     221 Consuming from routing key: dlr_thrower.*
+2023-03-18 12:28:34 INFO     221 Throwed DLR [msgid:171b52dc-2702-43ef-9248-a9330d50d049] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:28:35 INFO     221 Throwed DLR [msgid:41bcfb9c-5719-4913-921f-70a8f21b959a] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:28:53 INFO     221 Throwed DLR [msgid:17b684eb-aacb-4db6-9660-616e385d8ea9] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:30:57 INFO     221 Throwed DLR [msgid:171b52dc-2702-43ef-9248-a9330d50d049] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:31:01 INFO     221 Throwed DLR [msgid:b71c2168-d0e5-4dac-81e9-f56e0f433c6d] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:36:06 INFO     221 Throwed DLR [msgid:cf3e5986-96f6-41de-91b3-662a69b480ea] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:36:29 INFO     221 Throwed DLR [msgid:3c74fd00-929e-49ce-a2d5-c87439e9b29e] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:37:05 INFO     221 Throwed DLR [msgid:cf3e5986-96f6-41de-91b3-662a69b480ea] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:40:16 INFO     221 Throwed DLR [msgid:17b684eb-aacb-4db6-9660-616e385d8ea9] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:44:21 INFO     221 Throwed DLR [msgid:3c74fd00-929e-49ce-a2d5-c87439e9b29e] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:50:11 INFO     221 Throwed DLR [msgid:04793e73-d467-401f-93c0-e2819b9b6a59] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:50:54 INFO     221 Throwed DLR [msgid:da506fea-e622-43b2-aace-b50957987853] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:51:30 INFO     221 Throwed DLR [msgid:04793e73-d467-401f-93c0-e2819b9b6a59] to http://162.213.195.82/dlr/index.php.
+2023-03-18 12:51:43 INFO     221 Throwed DLR [msgid:da506fea-e622-43b2-aace-b50957987853] to http://162.213.195.82/dlr/index.php.
+2023-03-18 13:05:50 INFO     221 Throwed DLR [msgid:fe6029b2-5f86-41fd-9907-12a952e7b04f] to http://162.213.195.82/dlr/index.php.
+2023-03-18 13:09:37 INFO     221 Throwed DLR [msgid:fe6029b2-5f86-41fd-9907-12a952e7b04f] to http://162.213.195.82/dlr/index.php.
+2023-03-19 13:15:00 INFO     221 Throwed DLR [msgid:e9bf1f62-246f-441d-b891-791b72859f1f] to http://162.213.195.82/dlr/index.php.
+2023-03-19 13:22:24 INFO     221 Throwed DLR [msgid:e9bf1f62-246f-441d-b891-791b72859f1f] to http://162.213.195.82/dlr/index.php.
+2023-03-19 13:29:37 INFO     221 Throwed DLR [msgid:30ce4214-c163-4845-9e7a-36e5ef071dd8] to http://162.213.195.82/dlr/index.php.
+2023-03-19 13:29:55 INFO     221 Throwed DLR [msgid:30ce4214-c163-4845-9e7a-36e5ef071dd8] to http://162.213.195.82/dlr/index.php.
+2023-03-19 13:53:36 INFO     221 Throwed DLR [msgid:11686f4f-3bf8-4806-bb29-4b1e5eedbb75] to http://162.213.195.82/dlr/index.php.
+2023-03-19 14:00:58 INFO     221 Throwed DLR [msgid:11686f4f-3bf8-4806-bb29-4b1e5eedbb75] to http://162.213.195.82/dlr/index.php.

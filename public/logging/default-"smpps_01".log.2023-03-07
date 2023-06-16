@@ -1,0 +1,30 @@
+2023-03-07 02:03:50 WARNING  372 SMPP connection established from 111.7.96.149 to port 2775
+2023-03-07 02:03:51 WARNING  372 SMPP 111.7.96.149 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-07 02:04:00 CRITICAL 372 PDU read timed out. Buffer is now considered corrupt
+2023-03-07 02:04:00 CRITICAL 372 Connection is corrupt!!! Shutting down...
+2023-03-07 02:04:00 WARNING  372 Shutdown requested...disconnecting
+2023-03-07 02:04:00 WARNING  372 Disconnecting...
+2023-03-07 02:04:02 WARNING  372 SMPP connection established from 111.7.96.149 to port 2775
+2023-03-07 02:04:03 WARNING  372 SMPP 111.7.96.149 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-07 02:04:12 CRITICAL 372 PDU read timed out. Buffer is now considered corrupt
+2023-03-07 02:04:12 CRITICAL 372 Connection is corrupt!!! Shutting down...
+2023-03-07 02:04:12 WARNING  372 Shutdown requested...disconnecting
+2023-03-07 02:04:12 WARNING  372 Disconnecting...
+2023-03-07 02:04:13 WARNING  372 SMPP connection established from 111.7.96.149 to port 2775
+2023-03-07 02:04:15 WARNING  372 SMPP 111.7.96.149 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-07 02:04:23 CRITICAL 372 PDU read timed out. Buffer is now considered corrupt
+2023-03-07 02:04:23 CRITICAL 372 Connection is corrupt!!! Shutting down...
+2023-03-07 02:04:23 WARNING  372 Shutdown requested...disconnecting
+2023-03-07 02:04:23 WARNING  372 Disconnecting...
+2023-03-07 02:09:00 CRITICAL 372 Inactivity timer expired...shutting down
+2023-03-07 02:09:00 WARNING  372 Shutdown requested...disconnecting
+2023-03-07 02:09:00 WARNING  372 Disconnecting...
+2023-03-07 02:09:12 CRITICAL 372 Inactivity timer expired...shutting down
+2023-03-07 02:09:12 WARNING  372 Shutdown requested...disconnecting
+2023-03-07 02:09:12 WARNING  372 Disconnecting...
+2023-03-07 02:09:23 CRITICAL 372 Inactivity timer expired...shutting down
+2023-03-07 02:09:23 WARNING  372 Shutdown requested...disconnecting
+2023-03-07 02:09:23 WARNING  372 Disconnecting...

@@ -1,0 +1,6 @@
+2023-02-28 19:28:40 ERROR    1092668 Authentication failure for username:mario
+2023-02-28 19:28:40 ERROR    1092668 Error: 403: AuthenticationError (Authentication failure for username:mario)
+2023-03-01 14:04:24 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:2d930764-4d01-44ea-b411-47e3c9bdca94] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-03-01 14:05:09 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:c2250775-380a-4c9d-a910-f7e422aecc25] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-03-01 14:21:35 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:853345c8-982d-47e2-8397-3d6c31fbccb2] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']
+2023-03-01 14:21:38 INFO     1092668 SMS-MT [uid:mario] [cid:testserver] [msgid:ef9e08b5-4d85-45ef-8d5a-87ab6c5fcec6] [prio:0] [dlr:All] [from:b'5548984487878'] [to:b'5548988034304'] [content:b'hello']

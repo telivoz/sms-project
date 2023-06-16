@@ -1,0 +1,65 @@
+2023-03-17 11:59:12 WARNING  222 SMPP 162.254.201.189 disconnected from port 42566: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-17 11:59:12 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-17 11:59:12 INFO     222 Reconnecting after 10 seconds ...
+2023-03-17 11:59:34 INFO     222 Establishing TCP connection to 162.254.201.189:4775
+2023-03-17 11:59:34 INFO     222 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-17 11:59:34 WARNING  222 SMPP connection established from 162.254.201.189 to port 47286
+2023-03-17 11:59:34 INFO     222 Connection made to 162.254.201.189:4775
+2023-03-17 11:59:34 WARNING  222 Requesting bind as transceiver
+2023-03-17 11:59:34 WARNING  222 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-17 13:46:57 INFO     222 Ordering a disconnect with no further reconnections.
+2023-03-17 13:46:57 INFO     222 Stopped automatic connection retrying.
+2023-03-17 13:46:57 INFO     222 Disconnecting SMPP client
+2023-03-17 13:46:57 INFO     222 Waiting for in-progress transactions to finish...
+2023-03-17 13:46:57 WARNING  222 Issuing unbind request
+2023-03-17 13:46:57 WARNING  222 Unbind succeeded
+2023-03-17 13:46:57 WARNING  222 Disconnecting...
+2023-03-17 13:46:57 WARNING  222 SMPP 162.254.201.189 disconnected from port 47286: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-17 13:46:57 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-17 13:46:57 INFO     222 Exiting.
+2023-03-17 13:50:43 INFO     222 Establishing TCP connection to 162.254.201.189:4775
+2023-03-17 13:50:43 INFO     222 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-17 13:50:43 WARNING  222 SMPP connection established from 162.254.201.189 to port 37604
+2023-03-17 13:50:43 INFO     222 Connection made to 162.254.201.189:4775
+2023-03-17 13:50:43 WARNING  222 Requesting bind as transceiver
+2023-03-17 13:50:43 WARNING  222 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-17 13:52:16 INFO     222 Ordering a disconnect with no further reconnections.
+2023-03-17 13:52:16 INFO     222 Stopped automatic connection retrying.
+2023-03-17 13:52:16 INFO     222 Disconnecting SMPP client
+2023-03-17 13:52:16 INFO     222 Waiting for in-progress transactions to finish...
+2023-03-17 13:52:16 WARNING  222 Issuing unbind request
+2023-03-17 13:52:16 WARNING  222 Unbind succeeded
+2023-03-17 13:52:16 WARNING  222 Disconnecting...
+2023-03-17 13:52:16 WARNING  222 SMPP 162.254.201.189 disconnected from port 37604: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-17 13:52:16 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-17 13:52:16 INFO     222 Exiting.
+2023-03-17 13:52:44 INFO     222 Establishing TCP connection to 162.254.201.189:4775
+2023-03-17 13:52:44 INFO     222 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-17 13:52:44 WARNING  222 SMPP connection established from 162.254.201.189 to port 42258
+2023-03-17 13:52:44 INFO     222 Connection made to 162.254.201.189:4775
+2023-03-17 13:52:44 WARNING  222 Requesting bind as transceiver
+2023-03-17 13:52:44 WARNING  222 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-17 13:57:58 INFO     222 Ordering a disconnect with no further reconnections.
+2023-03-17 13:57:58 INFO     222 Stopped automatic connection retrying.
+2023-03-17 13:57:58 INFO     222 Disconnecting SMPP client
+2023-03-17 13:57:58 INFO     222 Waiting for in-progress transactions to finish...
+2023-03-17 13:57:58 WARNING  222 Issuing unbind request
+2023-03-17 13:57:58 WARNING  222 Unbind succeeded
+2023-03-17 13:57:58 WARNING  222 Disconnecting...
+2023-03-17 13:57:58 WARNING  222 SMPP 162.254.201.189 disconnected from port 42258: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-17 13:57:58 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-17 13:57:58 INFO     222 Exiting.
+2023-03-17 13:59:10 INFO     222 Establishing TCP connection to 162.254.201.189:4775
+2023-03-17 13:59:10 INFO     222 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-17 13:59:10 WARNING  222 SMPP connection established from 162.254.201.189 to port 51950
+2023-03-17 13:59:10 INFO     222 Connection made to 162.254.201.189:4775
+2023-03-17 13:59:10 WARNING  222 Requesting bind as transceiver
+2023-03-17 13:59:10 WARNING  222 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

@@ -1,0 +1,16 @@
+2022-12-21 15:00:44 INFO     429813 Router configured and ready.
+2022-12-21 15:00:44 INFO     429813 Added amqpBroker to RouterPB
+2022-12-21 15:00:44 INFO     429813 RouterPB is consuming from routing key: deliver.sm.*
+2022-12-21 15:00:44 INFO     429813 RouterPB is consuming from routing key: bill_request.submit_sm_resp.*
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile Groups configuration from //etc/jasmin//store//jcli-prod.router-groups
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.router-groups: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.router-groups'
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile Users configuration from //etc/jasmin//store//jcli-prod.router-users
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.router-users: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.router-users'
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile MO Interceptors configuration from //etc/jasmin//store//jcli-prod.router-mointerceptors
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.router-mointerceptors: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.router-mointerceptors'
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile MT Interceptors configuration from //etc/jasmin//store//jcli-prod.router-mtinterceptors
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.router-mtinterceptors: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.router-mtinterceptors'
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile MO Routes configuration from //etc/jasmin//store//jcli-prod.router-moroutes
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.router-moroutes: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.router-moroutes'
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile MT Routes configuration from //etc/jasmin//store//jcli-prod.router-mtroutes
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.router-mtroutes: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.router-mtroutes'

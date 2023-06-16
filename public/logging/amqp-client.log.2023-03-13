@@ -1,0 +1,26 @@
+2023-03-25 12:25:11 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-25 12:25:11 INFO     222 Reconnecting after 10 seconds ...
+2023-03-25 12:25:21 INFO     222 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-03-25 12:25:21 ERROR    222 Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 111: Connection refused.
+]
+2023-03-25 12:25:21 INFO     222 Reconnecting after 10 seconds ...
+2023-03-25 12:25:32 INFO     222 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-03-25 12:25:32 INFO     222 Connection made to 127.0.0.1:5672
+2023-03-25 12:25:32 INFO     222 Successfull authentication
+2023-03-25 12:25:32 INFO     222 Got channel
+2023-03-25 12:25:32 INFO     222 The channel is open
+2023-03-25 12:25:32 ERROR    222 Channel open failed: [Failure instance: Traceback: <class 'twisted.internet.defer.AlreadyCalledError'>: 
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:1750:gotResult
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:1737:_inlineCallbacks
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:661:callback
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:763:_startRunCallbacks
+--- <exception caught here> ---
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:857:_runCallbacks
+/usr/local/lib/python3.10/dist-packages/jasmin/queues/factory.py:181:_channel_open
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:661:callback
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:756:_startRunCallbacks
+]
+2023-03-25 12:26:51 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-25 12:26:51 INFO     222 Reconnecting after 10 seconds ...

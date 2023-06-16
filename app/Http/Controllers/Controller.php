@@ -25,7 +25,14 @@ class Controller extends BaseController
 	}
 	public function customer() {        
 		$customer = new \App\Models\Customer();
-		return view('customer',['customers' => $customer->all()]);
+		if (auth()->user()->profile == 4) {
+			$sales_customers = auth()->user()->sales_customers;
+        	        $sales_customers = explode(";",$sales_customers);
+			$customers = $customer::whereIn('id',$sales_customers)->get();
+			return view('customer',['customers' => $customers]);
+		} else {
+			return view('customer',['customers' => $customer->all()]);
+		}
 	}
 	public function ratesProvider() {
 		$rates = new \App\Models\RateProvider();
@@ -33,7 +40,14 @@ class Controller extends BaseController
 	} 
 	public function ratesCustomer() {
 		$rates = new \App\Models\RateCustomer();
-		return view('rates-customer',['rates' => $rates->all()]);
+		if (auth()->user()->profile == 4 ) {
+			$sales_customers = auth()->user()->sales_customers;
+        	        $sales_customers = explode(";",$sales_customers);
+			$customers = $rates::whereIn('company',$sales_customers)->get();
+			return view('rates-customer',['rates' => $customers]);
+		} else {
+			return view('rates-customer',['rates' => $rates->all()]);
+		}
 	}
 	public function editRatesCustomer($id) {
 		$customer = new \App\Models\Customer();
@@ -49,6 +63,15 @@ class Controller extends BaseController
 			'cost' => $request->cost]);
 		return redirect('/rates-customer');
 	}
+	public function updateRatesProvider(Request $request) {
+                $rates = new \App\Models\RateProvider();
+                $rates::where('id',$request->id)->update([
+                        'code' => $request->code,
+                        'destination' => $request->destination,
+                        'company' => $request->company,
+                        'cost' => $request->cost]);
+                return redirect('/rates-provider');
+        }
 	/*public function updateProvider(Request $request) {
 		$rates = new \App\Models\RateProvider();
                 $rates::where('id',$request->id)->update([
@@ -116,6 +139,12 @@ class Controller extends BaseController
 		$customer->currency = "$";
 		$customer->balance = "0.0000";
 		$customer->tps = $request->tps;
+		if ($request->selectCustomer == "") {
+                        $selectCustomer = "";
+                } else {
+                        $selectCustomer = $request->selectCustomer;
+		}
+		$customer->sales_customers = $selectCustomer;
 		$customer->save();
 		shell_exec("python3 /opt/jasmin/cli/createUser.py '$request->uid' '$request->uidpass' '$request->tps'");
 		return redirect('/customer');
@@ -134,7 +163,8 @@ class Controller extends BaseController
 		return redirect('/provider');
 	}
 	public function addCustomer() {        
-		return view('addCustomer');
+		$customer = new \App\Models\Customer();
+		return view('addCustomer', ['customers' => $customer->all()]);
 	}
 	public function addProvider() {        
 		return view('addProvider');
@@ -146,19 +176,26 @@ class Controller extends BaseController
 	public function editCustomer($id) { 
 		$customer = new  \App\Models\Customer();
 		$customer = $customer::findOrfail($id);
-		return view('editCustomer', ['customers' => $customer::findOrfail($id)]);
+		return view('editCustomer', ['customers' => $customer::findOrfail($id), 'customersAll' => $customer->all()]);
 	}
-	public function editConnector($id) { 
+	public function editConnector($id) {
+		$provider =  new \App\Models\Provider();
+		$connectors = new \App\Models\Connectors();
+		$providerID = $connectors::where('name', $id)->get(['provider']);
 		$infoConn = shell_exec("python3 /opt/jasmin/cli/getConnector.py $id");
-		return view('editConnector', ['conn' => $infoConn, 'id' => $id]);
+		return view('editConnector', ['conn' => $infoConn, 'id' => $id, 'providers' => $provider->all(), 'providerId' => $providerID]);
 	}
 	public function updateConnector(request $request) {
+		$connector = new \App\Models\Connectors();
 		$cid = $request->cid;
 		$host = $request->host;
 		$port = $request->port;
 		$username = $request->username;
 		$password = $request->password;
+		$connector->provider = $request->provider;
 		$tps = $request->tps;
+		$connector::where('name', $request->cid)->update([
+                        'provider' => $request->provider]);
 		shell_exec("python3 /opt/jasmin/cli/updateConnector.py '$cid' '$host' '$port' '$username' '$password' '$tps'");
 		return redirect('/connector');
 	}
@@ -173,6 +210,16 @@ class Controller extends BaseController
 
 	public function updateCustomer(Request $request) { 
 		$customer = new  \App\Models\Customer();
+		$uid = $customer::findOrfail($request->id)->get();
+                foreach ($uid as $uidUser) {
+                        $uidOldGet = $uidUser->uid;
+		}
+		shell_exec("python3 /opt/jasmin/cli/deleteUser.py '$uidOldGet'");
+		if ($request->selectCustomer == "") {
+			$selectCustomer = "";
+		} else {
+			$selectCustomer = $request->selectCustomer;
+		}
 		if ($request->password != "") {
 			$customer::where('id',$request->id)->update([
 			'uid' => $request->uid,
@@ -183,7 +230,8 @@ class Controller extends BaseController
 			'phone' => $request->phone,
 			'company' => $request->company,
 			'profile' => $request->profile,
-			'tps' => $request->tps]);
+			'tps' => $request->tps,
+			'sales_customers' => $selectCustomer]);
 		} else { 
 			$customer::where('id',$request->id)->update([
                         'uid' => $request->uid,
@@ -194,9 +242,11 @@ class Controller extends BaseController
                         'phone' => $request->phone,
                         'company' => $request->company,
                         'profile' => $request->profile,
-                        'tps' => $request->tps]);
-			shell_exec("python3 /opt/jasmin/cli/updateUser.py '$request->uid' '$request->uidpass' '$request->tps'");
+			'tps' => $request->tps,
+			'sales_customers' => $selectCustomer]);
 		}
+		shell_exec("python3 /opt/jasmin/cli/createUser.py '$request->uid' '$request->uidpass' '$request->tps'");
+//		shell_exec("python3 /opt/jasmin/cli/updateUser.py '$request->uid' '$request->uidpass' '$request->tps'");
 		return redirect('/customer');
 	}
 	public function updateProvider(Request $request) {
@@ -221,14 +271,17 @@ class Controller extends BaseController
 
 	}
 	public function destroyCustomer($id) {       
+		$rates = new \App\Models\RateCustomer();
 		$customer = new  \App\Models\Customer();
+		shell_exec("python3 /opt/jasmin/cli/deleteUser.py '$id'");
 		$customer::findOrfail($id)->delete();
+		$rates::where('company',$id)->delete();
 		return redirect('/customer');
 	}
 	public function destroyProvider($id) {       
 		$provider = new  \App\Models\Provider();
 		$provider::findOrfail($id)->delete();
-		return redirect('/customer');
+		return redirect('/provider');
 	}
 	public function provider() {
 		$provider = new \App\Models\Provider();
@@ -274,6 +327,7 @@ class Controller extends BaseController
 		return view('reports',['reports' => $query]);
 	}
 	public function reports_customer() {
+		\DB::enableQueryLog(); // Enable query log
 		$id = auth()->user()->id;
 		$reports = new \App\Models\Submit_log();
 		$customer = new \App\Models\Customer();
@@ -282,7 +336,20 @@ class Controller extends BaseController
 			$id = $uidUser->uid;
 		}
 		$reportsGetId = $reports::where('uid',$id);
-		return view('reports-customer',['reports' => $reports::where('uid',"$id")->paginate(15)]);
+		if (auth()->user()->profile == 4) {
+			$sales_customers = auth()->user()->sales_customers;
+        	        $sales_customers = explode(";",$sales_customers);
+			$customersUID = $customer::whereIn('id',$sales_customers)->get();
+			foreach ($customersUID as $uid) {
+				$uidF[] = $uid->uid;
+			}
+			$customers = $reports::WhereIn('uid', $uidF)->paginate(15);
+//			dd(\DB::getQueryLog()); // Show results of log
+			return view('reports-customer',['reports' => $customers]);
+//			dd(\DB::getQueryLog()); // Show results of log
+		} else {
+			return view('reports-customer',['reports' => $reports::where('uid',"$id")->paginate(15)]);
+		}
 	}
 	public function reports_provider() {
 		$reports = new \App\Models\Submit_log();
@@ -294,9 +361,11 @@ class Controller extends BaseController
 
 	public function MtConnector() {
 		$connectors = shell_exec("python3 /opt/jasmin/cli/mt-connectors.py | awk '{print $1}' | sed 's/#//g'");
+		$connectorsStatus = shell_exec("python3 /opt/jasmin/cli/mt-connectors.py | awk '{print $2 \" \" $3 \" \" $4 \" \" $5}' | sed 's/#//g'");
 		$connectors = explode("\n", $connectors);
+		$connectorsStatus = explode("\n", $connectorsStatus);
 		return view('connector', 
-			['connectores' => $connectors]);
+			['connectores' => $connectors, 'connectorsStatus' => $connectorsStatus]);
 	}
 	public function addConnector() {
 		$provider = new \App\Models\Provider();
@@ -320,7 +389,9 @@ class Controller extends BaseController
 	}
 	public function destroyConnector($id) {    
 		$connector = new \App\Models\Connectors();
-		$connector::where('name', "$id")->delete();	
+		$connector::where('name', "$id")->delete();
+		$rates = new \App\Models\RateProvider();
+		$rates::where('company',$id)->delete();
 		shell_exec("python3 /opt/jasmin/cli/removeMtconnector.py '$id'");
 		shell_exec("python3 /opt/jasmin/cli/persistent.py");
 
@@ -378,11 +449,15 @@ class Controller extends BaseController
 	}
 	public function dashboardAPI() {
 		\DB::enableQueryLog(); // Enable query log
-		$countSMS = $_GET['countSMS'];
 		$customer = new  \App\Models\Submit_log();
-		$uid =  auth()->user()->uid;
+		$countSMS = $_GET['countSMS'];
+		if (is_null($_GET['customer'])) {
+			$uid =  auth()->user()->uid;
+		} else {
+			$uid = $_GET['customer'];
+		}
 		$profile = auth()->user()->profile;
-		if ($profile == 3) {
+		//if ($profile == 3) {
 			if ($countSMS ==  'day') {
 				$statusDelivered = $customer::where('status','like','DELI%')->where("uid","$uid")->whereDate('created_at', Carbon::today())->get()->count();
 				$statusFailure = $customer::where("uid","$uid")->whereDate('created_at', Carbon::today())->where(function($query) {
@@ -407,8 +482,8 @@ class Controller extends BaseController
 					$statusOk = $customer::where('status','CommandStatus.ESME_ROK')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
 					$statusOthers = $customer::where('status','!=','CommandStatus.ESME_ROK')->where('status','!=','CommandStatus.')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
 			}
-		} else {
-			if ($countSMS ==  'day') {
+		//} else {
+		/*	if ($countSMS ==  'day') {
 				$statusDelivered = $customer::where('status','like','DELI%')->whereDate('created_at', Carbon::today())->get()->count();
 				$statusFailure = $customer::whereDate('created_at', Carbon::today())->where(function($query) {
 					$query->where('status','like','REJ%')->orWhere('status','like','UND%')->orWhere('status','like','FAIL%');})->get()->count();
@@ -433,7 +508,7 @@ class Controller extends BaseController
 					$statusOthers = $customer::where('status','!=','CommandStatus.ESME_ROK')->where('status','!=','CommandStatus.')->where("uid","$uid")->whereYear('created_at', Carbon::now()->year)->get()->count();
 			}	
 		}
-
+		*/
 		$data = [
 			'delivered' => $statusDelivered,
 			'failure' => $statusFailure,
@@ -479,14 +554,28 @@ class Controller extends BaseController
 	}
 	public function refill() {
 		$customer = new \App\Models\Customer();
-		return view('refill',['customers' => $customer->all()]);
+		if (auth()->user()->profile == 4) {
+			$sales_customers = auth()->user()->sales_customers;
+        	        $sales_customers = explode(";",$sales_customers);
+			$customers = $customer::whereIn('id',$sales_customers)->get();
+			return view('refill',['customers' => $customers]);
+		} else {
+			return view('refill',['customers' => $customer->all()]);
+		}
 	}
 	public function addRefill($id) {
 		return view('addRefill', ['id' => $id]);
 	}
 	public function invoices() {
 		$invoices = new \App\Models\Invoices();
-                return view('invoices',['invoices' => $invoices->all()]);
+		if (auth()->user()->profile == 4) {
+			$sales_customers = auth()->user()->sales_customers;
+	                $sales_customers = explode(";",$sales_customers);
+			$customers = $invoices::whereIn('client',$sales_customers)->get();
+	                return view('invoices',['invoices' => $customers]);
+		} else {
+	                return view('invoices',['invoices' => $invoices->all()]);
+		}
 	}
 	public function addInvoice() {
 		$customer = new  \App\Models\Customer();
@@ -518,29 +607,97 @@ class Controller extends BaseController
 	public function addFirewall() {
 		return view('addFirewall');
 	}
+
 	public function storeFirewall(Request $request) {
 		$firewall = new \App\Models\Iptables();	
 		$firewall->ip = $request->ip;
 		$ip = $request->ip;
 		$firewall->identify = $request->desc;
 		$firewall->rule = $request->type;
+		$firewall->proto = $request->proto;
+		$firewall->port = $request->port;
 		$firewall->save();
 		if ($firewall->rule == True) {
 			$rule = 'ACCEPT';
 		} else {
 			$rule = 'DROP';
 		}
-		shell_exec("sudo /sbin/iptables -A INPUT -s $ip -j $rule");
+		$db = pg_connect("host=localhost port=5432 dbname=sms user=sms password=Konnecting@39");
+		$result = pg_query($db,"SELECT * FROM iptables");
+		$myfile = fopen("/var/www/html/sms-project/firewall/rulesFW.v4", "w") or die("Unable to open file!");
+		$txt = "*filter\n
+:INPUT DROP [337085:33857280]\n
+:FORWARD ACCEPT [0:0]\n
+:OUTPUT ACCEPT [10379167:1343868855]\n
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 40144 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 998 -j ACCEPT
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT\n";
+		fwrite($myfile, $txt);
+		while($row=pg_fetch_assoc($result)){
+			$ip = $row['ip'];
+			$rule = $row['rule'];
+			if ($rule == True) {
+				$rule = 'ACCEPT';
+			} else {
+				$rule = 'DROP';
+			}
+			$port = $row['port'];
+			$proto = $row['proto'];
+			$identify = $row['identify'];
+			$txt = "###$identify\n";
+			fwrite($myfile, $txt);
+			$txt = "-A INPUT -s $ip -p $proto -m $proto --dport $port -j $rule\n";
+			fwrite($myfile, $txt);
+		}
+		$txt = "COMMIT\n";
+		fwrite($myfile, $txt);
+		$proto = $request->proto;
+		$port = $request->port;
+		//		shell_exec("sudo /sbin/iptables -A INPUT -s $ip -p $proto -m $proto --dport $port -j $rule");
+		shell_exec("sudo /usr/sbin/iptables-restore < /var/www/html/sms-project/firewall/rulesFW.v4");
 		return redirect('/firewall');
 	}
 	public function deleteFirewall($id) { 
 		$firewall = new \App\Models\Iptables();
 		$IP=$firewall::findOrfail($id)->get();
-		foreach($IP as $ip) {
+/*		foreach($IP as $ip) {
 			$num=shell_exec("sudo /sbin/iptables -L -n -v --line-numbers | grep '$ip->ip' |awk {'print $1'}");
 		}
 		shell_exec("sudo /sbin/iptables -D INPUT $num");
+ */
 		$firewall::findOrfail($id)->delete();	
+		$db = pg_connect("host=localhost port=5432 dbname=sms user=sms password=Konnecting@39");
+                $result = pg_query($db,"SELECT * FROM iptables");
+                $myfile = fopen("/var/www/html/sms-project/firewall/rulesFW.v4", "w") or die("Unable to open file!");
+                $txt = "*filter\n
+:INPUT DROP [337085:33857280]\n
+:FORWARD ACCEPT [0:0]\n
+:OUTPUT ACCEPT [10379167:1343868855]\n
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 40144 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 998 -j ACCEPT
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT\n";
+                fwrite($myfile, $txt);
+                while($row=pg_fetch_assoc($result)){
+                        $ip = $row['ip'];
+                        $rule = $row['rule'];
+                        if ($rule == True) {
+                                $rule = 'ACCEPT';
+                        } else {
+                                $rule = 'DROP';
+                        }
+                        $port = $row['port'];
+                        $proto = $row['proto'];
+                        $identify = $row['identify'];
+                        $txt = "###$identify\n";
+                        fwrite($myfile, $txt);
+                        $txt = "-A INPUT -s $ip -p $proto -m $proto --dport $port -j $rule\n";
+                        fwrite($myfile, $txt);
+                }
+                $txt = "COMMIT\n";
+                fwrite($myfile, $txt);
+		shell_exec("sudo /usr/sbin/iptables-restore < /var/www/html/sms-project/firewall/rulesFW.v4");
 		return redirect('/firewall');
 	}
 	public function sendSMS() {
@@ -567,5 +724,11 @@ class Controller extends BaseController
 		$response = file_get_contents($baseurl.$params);
 		return view('sendSMS', ['response' => $response]);
 
+	}
+	public function summaryCustomer() {
+		return view('summaryCustomer');
+	}
+	public function summaryProvider() {
+		return view('summaryProvider');
 	}
 }

@@ -7,10 +7,13 @@
 @extends('layouts.master')
 @section('content')
 <h1>Customer</h1>
+@if (auth()->user()->profile == 1)
 <a href="/customer/add" ype="button" class="btn btn-primary">Add Customer</a>
+@endif
 <table class="table">
   <thead>
     <tr>
+      <th>ID</th>
       <th>UID</th>
       <th>NAME</th>
       <th>Company</th>
@@ -21,6 +24,7 @@
   </thead>
   <tbody>
     @foreach($customers as $customer)
+      <td>{{ $customer->id }}</td>
       <td>{{ $customer->uid }}</td>
       <td>{{ $customer->name }}</td>
       <td>{{ $customer->company }}</td>
@@ -37,6 +41,7 @@
       <td>Sales</td>
       @endif
       <td>{{$customer->balance}}</td>
+@if (auth()->user()->profile == 1)
       <td>
           <a href="/customer/edit/{{ $customer->id }}" class="bi bi-pencil-square"></a>
           <form action="/customer/delete/{{ $customer->id }}" method="POST">
@@ -45,6 +50,7 @@
           <button type="submit" style="color:red;" class="bi bi-trash3"></button>
           </form>
       </td>
+@endif
     </tr>
     @endforeach
   </tbody>

@@ -14,6 +14,7 @@
       <th>Description</th>
       <th>IP/NET</th>
       <th>Rule</th>
+       <th>Port</th>
     </tr>
   </thead>
   <tbody>
@@ -25,7 +26,8 @@
       <td>ACCEPT</td>
       	@else
       	<td>REJECT</td>
-      @endif
+	@endif
+	<td>{{ $customer->port }}</td>
       <td>
           <form action="/firewall/delete/{{ $customer->id }}" method="POST">
           @csrf

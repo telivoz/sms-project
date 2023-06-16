@@ -1,0 +1,9 @@
+2023-03-24 13:34:19 INFO     220 Establishing TCP connection to 192.168.0.30:4775
+2023-03-24 13:34:19 INFO     220 Connecting to IPv4Address(type='TCP', host='192.168.0.30', port=4775) ...
+2023-03-24 13:34:34 INFO     220 Ordering a disconnect with no further reconnections.
+2023-03-24 13:34:34 INFO     220 Stopped automatic connection retrying.
+2023-03-24 13:34:49 ERROR    220 Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+]
+2023-03-24 13:34:49 INFO     220 Ordering a disconnect with no further reconnections.
+2023-03-24 13:34:49 INFO     220 Stopped automatic connection retrying.
+2023-03-24 13:34:49 INFO     220 Exiting.

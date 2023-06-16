@@ -1,0 +1,10 @@
+2023-03-01 14:04:24 INFO     1092667 Running with a CommandId.submit_sm (from:b'5548984487878', to:b'5548988034304').
+2023-03-01 14:05:09 INFO     1092667 Running with a CommandId.submit_sm (from:b'5548984487878', to:b'5548988034304').
+2023-03-01 14:05:31 INFO     1092667 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'5548984487878').
+2023-03-01 14:12:46 INFO     1092667 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'5548984487878').
+2023-03-01 14:21:35 INFO     1092667 Running with a CommandId.submit_sm (from:b'5548984487878', to:b'5548988034304').
+2023-03-01 14:21:38 INFO     1092667 Running with a CommandId.submit_sm (from:b'5548984487878', to:b'5548988034304').
+2023-03-01 14:25:14 INFO     1092667 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'5548984487878').
+2023-03-01 14:33:03 INFO     1092667 Running with a CommandId.deliver_sm (from:b'5548988034304', to:b'5548984487878').
+2023-03-02 12:31:27 INFO     371 Interceptor configured and ready.
+2023-03-02 12:31:28 INFO     371 Authenticated Avatar: iadmin

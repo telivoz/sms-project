@@ -1,0 +1,5 @@
+2023-01-03 15:14:45 ERROR    429813 Authentication failure for username:otimi
+2023-01-03 15:14:45 ERROR    429813 Error: 403: AuthenticationError (Authentication failure for username:otimi)
+2023-01-03 15:14:54 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:6765342d-b865-4e44-b894-db3ecb0316c2] [prio:0] [dlr:No] [from:b'short'] [to:b'5511993647983'] [content:b'hello']
+2023-01-03 15:15:00 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:a1dca862-2af7-4d04-8217-b329d922e129] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']
+2023-01-03 15:16:01 INFO     429813 SMS-MT [uid:mario] [cid:testserver] [msgid:fe150a74-40d0-4e26-9e10-b04c469e2d36] [prio:0] [dlr:No] [from:b'short'] [to:b'5548988034304'] [content:b'hello']

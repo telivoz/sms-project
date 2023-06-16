@@ -1,0 +1,61 @@
+2023-02-04 14:25:00 WARNING  3061959 Disconnecting...
+2023-02-04 14:25:00 WARNING  3061959 SMPP 162.254.201.189 disconnected from port 58342: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-04 14:25:00 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-04 14:25:00 INFO     3061959 Reconnecting after 10 seconds ...
+2023-02-04 14:25:10 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-04 14:25:40 ERROR    3061959 Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+]
+2023-02-04 14:25:40 INFO     3061959 Reconnecting after 10 seconds ...
+2023-02-04 14:25:50 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-04 14:26:20 ERROR    3061959 Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+]
+2023-02-04 14:26:20 INFO     3061959 Reconnecting after 10 seconds ...
+2023-02-04 14:26:30 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-04 14:26:38 WARNING  3061959 SMPP connection established from 162.254.201.189 to port 55066
+2023-02-04 14:26:38 INFO     3061959 Connection made to 162.254.201.189:4775
+2023-02-04 14:26:38 WARNING  3061959 Requesting bind as transceiver
+2023-02-04 14:27:08 ERROR    3061959 Request timed out after 30 secs: PDU [command: CommandId.bind_transceiver, sequence_number: 1, command_status: CommandStatus.ESME_ROK
+system_id: b'testserver'
+password: b't@mc8x9B'
+system_type: b''
+interface_version: 52
+addr_ton: <AddrTon.UNKNOWN: 1>
+addr_npi: <AddrNpi.UNKNOWN: 1>
+address_range: None
+]
+2023-02-04 14:27:08 ERROR    3061959 Bind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.bind_transceiver, sequence_number: 1, command_status: CommandStatus.ESME_ROK
+system_id: b'testserver'
+password: b't@mc8x9B'
+system_type: b''
+interface_version: 52
+addr_ton: <AddrTon.UNKNOWN: 1>
+addr_npi: <AddrNpi.UNKNOWN: 1>
+address_range: None
+]
+]]. Disconnecting...
+2023-02-04 14:27:08 WARNING  3061959 Disconnecting...
+2023-02-04 14:27:08 WARNING  3061959 Shutdown requested...disconnecting
+2023-02-04 14:27:08 WARNING  3061959 Disconnecting...
+2023-02-04 14:27:08 WARNING  3061959 SMPP 162.254.201.189 disconnected from port 55066: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-04 14:27:08 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-04 14:27:08 INFO     3061959 Reconnecting after 10 seconds ...
+2023-02-04 14:27:18 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-04 14:27:18 WARNING  3061959 SMPP connection established from 162.254.201.189 to port 55554
+2023-02-04 14:27:18 INFO     3061959 Connection made to 162.254.201.189:4775
+2023-02-04 14:27:18 WARNING  3061959 Requesting bind as transceiver
+2023-02-04 14:27:18 WARNING  3061959 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-02-04 15:53:32 WARNING  3061959 Disconnecting...
+2023-02-04 15:53:32 WARNING  3061959 SMPP 162.254.201.189 disconnected from port 55554: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-04 15:53:32 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-02-04 15:53:32 INFO     3061959 Reconnecting after 10 seconds ...
+2023-02-04 15:53:42 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-02-04 15:53:42 WARNING  3061959 SMPP connection established from 162.254.201.189 to port 47674
+2023-02-04 15:53:42 INFO     3061959 Connection made to 162.254.201.189:4775
+2023-02-04 15:53:42 WARNING  3061959 Requesting bind as transceiver
+2023-02-04 15:53:42 WARNING  3061959 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

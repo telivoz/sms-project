@@ -1,0 +1,36 @@
+2023-03-24 13:52:48 INFO     220 Ordering a disconnect with no further reconnections.
+2023-03-24 13:52:48 INFO     220 Stopped automatic connection retrying.
+2023-03-24 13:52:48 INFO     220 Disconnecting SMPP client
+2023-03-24 13:52:48 INFO     220 Waiting for in-progress transactions to finish...
+2023-03-24 13:52:48 WARNING  220 Issuing unbind request
+2023-03-24 13:52:48 WARNING  220 Unbind succeeded
+2023-03-24 13:52:48 WARNING  220 Disconnecting...
+2023-03-24 13:52:48 WARNING  220 SMPP 162.254.201.189 disconnected from port 54170: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-24 13:52:48 ERROR    220 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-24 13:52:48 INFO     220 Exiting.
+2023-03-24 13:52:52 INFO     220 Establishing TCP connection to 162.254.201.189:4775
+2023-03-24 13:52:52 INFO     220 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-24 13:52:52 WARNING  220 SMPP connection established from 162.254.201.189 to port 51710
+2023-03-24 13:52:52 INFO     220 Connection made to 162.254.201.189:4775
+2023-03-24 13:52:52 WARNING  220 Requesting bind as transceiver
+2023-03-24 13:52:52 WARNING  220 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-03-24 15:10:09 INFO     220 Ordering a disconnect with no further reconnections.
+2023-03-24 15:10:09 INFO     220 Stopped automatic connection retrying.
+2023-03-24 15:10:09 INFO     220 Disconnecting SMPP client
+2023-03-24 15:10:09 INFO     220 Waiting for in-progress transactions to finish...
+2023-03-24 15:10:09 WARNING  220 Issuing unbind request
+2023-03-24 15:10:09 WARNING  220 Unbind succeeded
+2023-03-24 15:10:09 WARNING  220 Disconnecting...
+2023-03-24 15:10:09 WARNING  220 SMPP 162.254.201.189 disconnected from port 51710: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-24 15:10:09 ERROR    220 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-24 15:10:09 INFO     220 Exiting.
+2023-03-24 15:10:13 INFO     220 Establishing TCP connection to 162.254.201.189:4775
+2023-03-24 15:10:13 INFO     220 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-24 15:10:13 WARNING  220 SMPP connection established from 162.254.201.189 to port 50226
+2023-03-24 15:10:13 INFO     220 Connection made to 162.254.201.189:4775
+2023-03-24 15:10:13 WARNING  220 Requesting bind as transceiver
+2023-03-24 15:10:13 WARNING  220 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

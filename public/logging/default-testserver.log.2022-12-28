@@ -1,0 +1,6 @@
+2022-12-28 14:28:34 INFO     429813 Establishing TCP connection to 162.254.201.189:4775
+2022-12-28 14:28:34 INFO     429813 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2022-12-28 14:28:34 WARNING  429813 SMPP connection established from 162.254.201.189 to port 54642
+2022-12-28 14:28:34 INFO     429813 Connection made to 162.254.201.189:4775
+2022-12-28 14:28:34 WARNING  429813 Requesting bind as transceiver
+2022-12-28 14:28:34 WARNING  429813 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

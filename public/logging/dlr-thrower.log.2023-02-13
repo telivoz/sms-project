@@ -1,0 +1,60 @@
+2023-02-14 14:22:11 INFO     1092144 Thrower configured and ready.
+2023-02-14 14:22:11 INFO     1092144 Added a perspectivebroker access to SMPPServerFactory
+2023-02-14 14:22:11 INFO     1092144 Added amqpBroker
+2023-02-14 14:22:11 INFO     1092144 Consuming from routing key: dlr_thrower.*
+2023-02-14 14:24:28 INFO     1092306 Thrower configured and ready.
+2023-02-14 14:24:28 INFO     1092306 Added a perspectivebroker access to SMPPServerFactory
+2023-02-14 14:24:28 INFO     1092306 Added amqpBroker
+2023-02-14 14:24:28 INFO     1092306 Consuming from routing key: dlr_thrower.*
+2023-02-14 14:29:09 INFO     1092558 Thrower configured and ready.
+2023-02-14 14:29:09 INFO     1092558 Added a perspectivebroker access to SMPPServerFactory
+2023-02-14 14:29:09 INFO     1092558 Added amqpBroker
+2023-02-14 14:29:09 INFO     1092558 Consuming from routing key: dlr_thrower.*
+2023-02-14 14:30:39 INFO     1092669 Thrower configured and ready.
+2023-02-14 14:30:39 INFO     1092669 Added a perspectivebroker access to SMPPServerFactory
+2023-02-14 14:30:39 INFO     1092669 Added amqpBroker
+2023-02-14 14:30:39 INFO     1092669 Consuming from routing key: dlr_thrower.*
+2023-02-16 17:27:58 INFO     1092669 Throwed DLR [msgid:c7d8cfcc-23d8-4d03-ac9b-872af0617a2f] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:28:26 INFO     1092669 Throwed DLR [msgid:69373083-c405-4f60-b6c2-dca88e449455] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:29:12 INFO     1092669 Throwed DLR [msgid:69373083-c405-4f60-b6c2-dca88e449455] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:30:24 INFO     1092669 Throwed DLR [msgid:f1ebda65-8aa0-44a5-9dcf-14684bac6c62] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:31:05 INFO     1092669 Throwed DLR [msgid:c7d8cfcc-23d8-4d03-ac9b-872af0617a2f] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:32:04 INFO     1092669 Throwed DLR [msgid:d96fc0f0-ecbb-4415-8612-bf8b6a12cb83] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:32:22 INFO     1092669 Throwed DLR [msgid:d6c477d5-c439-422f-b460-b77221859449] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:32:59 INFO     1092669 Throwed DLR [msgid:d6c477d5-c439-422f-b460-b77221859449] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:33:15 INFO     1092669 Throwed DLR [msgid:1f9e59b9-37c2-42a3-b2e1-ba8f7337cc80] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:35:50 INFO     1092669 Throwed DLR [msgid:f356dc37-0f84-4ab0-b1f6-1b45a7dc5128] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:37:57 INFO     1092669 Throwed DLR [msgid:f356dc37-0f84-4ab0-b1f6-1b45a7dc5128] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:40:21 INFO     1092669 Throwed DLR [msgid:1f9e59b9-37c2-42a3-b2e1-ba8f7337cc80] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:44:01 INFO     1092669 Throwed DLR [msgid:f1ebda65-8aa0-44a5-9dcf-14684bac6c62] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:51:11 INFO     1092669 Throwed DLR [msgid:d96fc0f0-ecbb-4415-8612-bf8b6a12cb83] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:57:07 INFO     1092669 Throwed DLR [msgid:0e81626a-1285-42b0-8ab4-73bdc7927369] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:57:16 INFO     1092669 Throwed DLR [msgid:afc96b29-65b7-4b00-afb9-3e9f11240a8e] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:57:23 INFO     1092669 Throwed DLR [msgid:411f514d-dfa9-4954-ad1f-54c74648eef6] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:57:28 INFO     1092669 Throwed DLR [msgid:0f3aae8e-9aeb-4786-b1a0-57fd4799017b] to http://162.213.195.82/dlr/index.php.
+2023-02-16 17:58:59 INFO     1092669 Throwed DLR [msgid:411f514d-dfa9-4954-ad1f-54c74648eef6] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:01:22 INFO     1092669 Throwed DLR [msgid:afc96b29-65b7-4b00-afb9-3e9f11240a8e] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:05:05 INFO     1092669 Throwed DLR [msgid:0f3aae8e-9aeb-4786-b1a0-57fd4799017b] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:12:16 INFO     1092669 Throwed DLR [msgid:0e81626a-1285-42b0-8ab4-73bdc7927369] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:22:58 INFO     1092669 Throwed DLR [msgid:f1e4b6cd-390f-44db-ad47-5b44272755e1] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:30:05 INFO     1092669 Throwed DLR [msgid:f1e4b6cd-390f-44db-ad47-5b44272755e1] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:41:11 INFO     1092669 Throwed DLR [msgid:3989a4cc-6f11-4da8-9c1f-21e803392693] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:51:15 INFO     1092669 Throwed DLR [msgid:76f4d836-bc5e-4e5b-9418-7b2b33152177] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:52:09 INFO     1092669 Throwed DLR [msgid:14cbdecc-1eed-4889-9a22-fa4a9adfdb5d] to http://162.213.195.82/dlr/index.php.
+2023-02-16 18:55:17 INFO     1092669 Throwed DLR [msgid:14cbdecc-1eed-4889-9a22-fa4a9adfdb5d] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:00:53 INFO     1092669 Throwed DLR [msgid:7996c2e1-6dc9-4323-9f55-e2e99a773c39] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:00:54 INFO     1092669 Throwed DLR [msgid:4852d9b4-836a-4238-b053-2263805aff6e] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:00:55 INFO     1092669 Throwed DLR [msgid:06b4362e-90d7-4728-98d5-cdc16605373c] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:00:56 INFO     1092669 Throwed DLR [msgid:44de35be-b303-43f9-b4df-26b73805643f] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:01:04 INFO     1092669 Throwed DLR [msgid:06b4362e-90d7-4728-98d5-cdc16605373c] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:03:01 INFO     1092669 Throwed DLR [msgid:7996c2e1-6dc9-4323-9f55-e2e99a773c39] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:05:22 INFO     1092669 Throwed DLR [msgid:76f4d836-bc5e-4e5b-9418-7b2b33152177] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:06:01 INFO     1092669 Throwed DLR [msgid:09bf3e80-9e00-4561-aeba-de1b58c429d3] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:06:02 INFO     1092669 Throwed DLR [msgid:6dee8cab-fb66-4859-b92d-a99240639641] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:06:03 INFO     1092669 Throwed DLR [msgid:2addbc82-6618-42c2-bd3a-0231d73b9c20] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:06:04 INFO     1092669 Throwed DLR [msgid:c5662184-8b26-46d1-9d41-7d2f3e9bc58c] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:07:00 INFO     1092669 Throwed DLR [msgid:4852d9b4-836a-4238-b053-2263805aff6e] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:08:13 INFO     1092669 Throwed DLR [msgid:c5662184-8b26-46d1-9d41-7d2f3e9bc58c] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:10:08 INFO     1092669 Throwed DLR [msgid:6dee8cab-fb66-4859-b92d-a99240639641] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:12:39 INFO     1092669 Throwed DLR [msgid:09bf3e80-9e00-4561-aeba-de1b58c429d3] to http://162.213.195.82/dlr/index.php.
+2023-02-16 19:16:06 INFO     1092669 Throwed DLR [msgid:2addbc82-6618-42c2-bd3a-0231d73b9c20] to http://162.213.195.82/dlr/index.php.

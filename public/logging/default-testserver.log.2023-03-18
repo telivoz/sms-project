@@ -1,0 +1,11 @@
+2023-03-18 12:27:57 WARNING  222 SMPP 162.254.201.189 disconnected from port 51950: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-18 12:27:57 ERROR    222 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-18 12:27:57 INFO     222 Reconnecting after 10 seconds ...
+2023-03-18 12:28:18 INFO     220 Establishing TCP connection to 162.254.201.189:4775
+2023-03-18 12:28:18 INFO     220 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-18 12:28:18 WARNING  220 SMPP connection established from 162.254.201.189 to port 54612
+2023-03-18 12:28:18 INFO     220 Connection made to 162.254.201.189:4775
+2023-03-18 12:28:18 WARNING  220 Requesting bind as transceiver
+2023-03-18 12:28:18 WARNING  220 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

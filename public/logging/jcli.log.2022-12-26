@@ -1,0 +1,36 @@
+2022-12-28 12:32:06 INFO     429813 [sref:4] New session started for 127.0.0.1:39948
+2022-12-28 12:32:06 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-28 12:32:06 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-28 12:32:07 INFO     429813 [sref:4] Session stopped (Connection was closed cleanly.).
+2022-12-28 12:35:48 INFO     429813 [sref:5] New session started for 127.0.0.1:40102
+2022-12-28 12:35:48 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-28 12:35:48 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-28 12:35:48 INFO     429813 [sref:5] Session stopped (Connection was closed cleanly.).
+2022-12-28 14:27:38 INFO     429813 [sref:6] New session started for 127.0.0.1:44334
+2022-12-28 14:27:38 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-28 14:27:38 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-28 14:27:38 INFO     429813 [sref:6] Session stopped (Connection was closed cleanly.).
+2022-12-28 14:28:26 INFO     429813 [sref:7] New session started for 127.0.0.1:44378
+2022-12-28 14:28:26 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.filters: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.filters'
+2022-12-28 14:28:26 ERROR    429813 Config loading error: Cannot load from //etc/jasmin//store//jcli-prod.httpccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.httpccs'
+2022-12-28 14:28:27 INFO     429813 [sref:7] Session stopped (Connection was closed cleanly.).
+2022-12-28 14:28:27 INFO     429813 [sref:8] New session started for 127.0.0.1:44384
+2022-12-28 14:28:27 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2022-12-28 14:28:27 INFO     429813 filter configuration loaded (default profile)
+2022-12-28 14:28:27 INFO     429813 httpcc configuration loaded (default profile)
+2022-12-28 14:28:27 INFO     429813 [sref:8] Session stopped (Connection was closed cleanly.).
+2022-12-28 14:28:34 INFO     429813 [sref:9] New session started for 127.0.0.1:44390
+2022-12-28 14:28:34 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2022-12-28 14:28:34 INFO     429813 filter configuration loaded (default profile)
+2022-12-28 14:28:34 INFO     429813 httpcc configuration loaded (default profile)
+2022-12-28 14:28:34 INFO     429813 [sref:9] Session stopped (Connection was closed cleanly.).
+2022-12-28 14:28:34 INFO     429813 [sref:10] New session started for 127.0.0.1:44398
+2022-12-28 14:28:34 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2022-12-28 14:28:34 INFO     429813 filter configuration loaded (default profile)
+2022-12-28 14:28:34 INFO     429813 httpcc configuration loaded (default profile)
+2022-12-28 14:28:35 INFO     429813 [sref:10] Session stopped (Connection was closed cleanly.).
+2022-12-29 12:40:26 INFO     429813 [sref:11] New session started for 127.0.0.1:36568
+2022-12-29 12:40:26 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2022-12-29 12:40:26 INFO     429813 filter configuration loaded (default profile)
+2022-12-29 12:40:26 INFO     429813 httpcc configuration loaded (default profile)
+2022-12-29 12:40:26 INFO     429813 [sref:11] Session stopped (Connection was closed cleanly.).

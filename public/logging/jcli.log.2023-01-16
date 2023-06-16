@@ -1,0 +1,1458 @@
+2023-01-16 12:11:50 INFO     429813 [sref:98] New session started for 127.0.0.1:46176
+2023-01-16 12:11:50 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:11:50 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:11:50 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:11:50 INFO     429813 [sref:98] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:21:14 INFO     429813 [sref:99] New session started for 127.0.0.1:35112
+2023-01-16 12:21:14 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:21:14 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:21:14 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:21:15 INFO     429813 [sref:99] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:21:24 INFO     429813 [sref:100] New session started for 127.0.0.1:35320
+2023-01-16 12:21:24 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:21:24 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:21:24 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:21:24 INFO     429813 [sref:100] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:22:05 INFO     429813 [sref:101] New session started for 127.0.0.1:36162
+2023-01-16 12:22:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:22:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:22:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:22:05 INFO     429813 [sref:101] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:22:06 INFO     429813 [sref:102] New session started for 127.0.0.1:36166
+2023-01-16 12:22:06 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:22:06 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:22:06 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:22:06 INFO     429813 [sref:102] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:22:06 INFO     429813 [sref:103] New session started for 127.0.0.1:36172
+2023-01-16 12:22:06 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:22:06 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:22:06 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:22:06 INFO     429813 [sref:103] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:24:46 INFO     429813 [sref:104] New session started for 127.0.0.1:41396
+2023-01-16 12:24:46 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:24:46 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:24:46 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:24:46 INFO     429813 [sref:104] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:24:46 INFO     429813 [sref:105] New session started for 127.0.0.1:41412
+2023-01-16 12:24:46 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:24:46 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:24:46 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:24:46 INFO     429813 [sref:105] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:24:47 INFO     429813 [sref:106] New session started for 127.0.0.1:41440
+2023-01-16 12:24:47 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:24:47 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:24:47 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:24:47 INFO     429813 [sref:106] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:25:06 INFO     429813 [sref:107] New session started for 127.0.0.1:42212
+2023-01-16 12:25:06 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:25:06 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:25:06 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:27:05 INFO     429813 [sref:107] Session stopped (('Stumped', b'\xec')).
+2023-01-16 12:29:53 INFO     429813 [sref:108] New session started for 127.0.0.1:50490
+2023-01-16 12:29:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:29:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:29:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:29:53 INFO     429813 [sref:108] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:29:55 INFO     429813 [sref:109] New session started for 127.0.0.1:50530
+2023-01-16 12:29:55 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:29:55 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:29:55 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:29:56 INFO     429813 [sref:109] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:29:56 INFO     429813 [sref:110] New session started for 127.0.0.1:50538
+2023-01-16 12:29:56 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:29:56 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:29:56 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:29:56 INFO     429813 [sref:110] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:29:56 INFO     429813 [sref:111] New session started for 127.0.0.1:50550
+2023-01-16 12:29:56 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:29:56 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:29:56 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:29:56 INFO     429813 [sref:111] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:31:47 INFO     429813 [sref:112] New session started for 127.0.0.1:53182
+2023-01-16 12:31:47 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:31:47 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:31:47 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:34:04 INFO     429813 [sref:113] New session started for 127.0.0.1:56200
+2023-01-16 12:34:04 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:34:04 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:34:04 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:34:04 INFO     429813 [sref:113] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:37:01 INFO     429813 [sref:114] New session started for 127.0.0.1:60986
+2023-01-16 12:37:01 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:37:01 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:37:01 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:37:01 INFO     429813 [sref:114] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:38:18 INFO     429813 [sref:115] New session started for 127.0.0.1:34628
+2023-01-16 12:38:18 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:38:18 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:38:18 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:38:18 INFO     429813 [sref:115] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:38:58 INFO     429813 [sref:116] New session started for 127.0.0.1:35612
+2023-01-16 12:38:58 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:38:58 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:38:58 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:38:58 INFO     429813 [sref:116] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:40:10 INFO     429813 [sref:117] New session started for 127.0.0.1:38010
+2023-01-16 12:40:10 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:40:10 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:40:10 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:40:10 INFO     429813 [sref:117] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:40:17 INFO     429813 [sref:118] New session started for 127.0.0.1:38342
+2023-01-16 12:40:17 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:40:17 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:40:17 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:40:17 INFO     429813 [sref:118] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:40:19 INFO     429813 [sref:119] New session started for 127.0.0.1:38418
+2023-01-16 12:40:19 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:40:19 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:40:19 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:40:19 INFO     429813 [sref:119] Session stopped (Connection was closed cleanly.).
+2023-01-16 12:40:21 INFO     429813 [sref:120] New session started for 127.0.0.1:38482
+2023-01-16 12:40:21 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 12:40:21 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 12:40:21 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 12:40:22 INFO     429813 [sref:120] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:03:46 INFO     429813 [sref:121] New session started for 127.0.0.1:56418
+2023-01-16 14:03:46 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:03:46 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:03:46 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:03:47 INFO     429813 [sref:121] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:41:18 INFO     429813 [sref:122] New session started for 127.0.0.1:44242
+2023-01-16 14:41:18 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:41:18 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:41:18 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:41:18 INFO     429813 [sref:122] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:44:59 INFO     429813 [sref:123] New session started for 127.0.0.1:51050
+2023-01-16 14:44:59 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:44:59 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:44:59 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:45:01 INFO     429813 [sref:123] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:46:19 INFO     429813 [sref:124] New session started for 127.0.0.1:53032
+2023-01-16 14:46:19 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:46:19 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:46:19 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:46:22 INFO     429813 [sref:124] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:46:43 INFO     429813 [sref:125] New session started for 127.0.0.1:53632
+2023-01-16 14:46:43 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:46:43 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:46:43 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:46:45 INFO     429813 [sref:125] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:48:37 INFO     429813 [sref:126] New session started for 127.0.0.1:55988
+2023-01-16 14:48:37 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:48:37 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:48:37 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:48:40 INFO     429813 [sref:126] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:49:35 INFO     429813 [sref:127] New session started for 127.0.0.1:58052
+2023-01-16 14:49:35 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:49:35 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:49:35 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:49:37 INFO     429813 [sref:127] Session stopped (Connection was closed cleanly.).
+2023-01-16 14:58:46 INFO     429813 [sref:128] New session started for 127.0.0.1:44650
+2023-01-16 14:58:46 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 14:58:46 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 14:58:46 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 14:58:48 INFO     429813 [sref:128] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:00:27 INFO     429813 [sref:129] New session started for 127.0.0.1:47636
+2023-01-16 15:00:27 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:00:27 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:00:27 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:00:29 INFO     429813 [sref:129] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:00:46 INFO     429813 [sref:130] New session started for 127.0.0.1:48760
+2023-01-16 15:00:46 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:00:46 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:00:46 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:00:48 INFO     429813 [sref:130] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:01:17 INFO     429813 [sref:131] New session started for 127.0.0.1:50684
+2023-01-16 15:01:17 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:01:17 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:01:17 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:01:19 INFO     429813 [sref:131] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:01:36 INFO     429813 [sref:132] New session started for 127.0.0.1:51096
+2023-01-16 15:01:36 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:01:36 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:01:36 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:01:38 INFO     429813 [sref:132] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:03:13 INFO     429813 [sref:133] New session started for 127.0.0.1:53854
+2023-01-16 15:03:13 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:03:13 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:03:13 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:03:16 INFO     429813 [sref:133] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:03:22 INFO     429813 [sref:134] New session started for 127.0.0.1:54258
+2023-01-16 15:03:22 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:03:22 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:03:22 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:03:24 INFO     429813 [sref:134] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:04:18 INFO     429813 [sref:135] New session started for 127.0.0.1:55222
+2023-01-16 15:04:18 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:04:18 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:04:18 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:04:19 INFO     429813 [sref:135] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:04:42 INFO     429813 [sref:136] New session started for 127.0.0.1:56116
+2023-01-16 15:04:42 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:04:42 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:04:42 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:04:43 INFO     429813 [sref:136] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:06:14 INFO     429813 [sref:137] New session started for 127.0.0.1:59190
+2023-01-16 15:06:14 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:06:14 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:06:14 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:06:14 INFO     429813 [sref:137] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:07:47 INFO     429813 [sref:138] New session started for 127.0.0.1:33944
+2023-01-16 15:07:47 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:07:47 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:07:47 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:07:47 INFO     429813 [sref:138] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:09:30 INFO     429813 [sref:139] New session started for 127.0.0.1:36736
+2023-01-16 15:09:30 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:09:30 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:09:30 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:09:30 INFO     429813 [sref:139] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:09:54 INFO     429813 [sref:140] New session started for 127.0.0.1:37186
+2023-01-16 15:09:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:09:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:09:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:09:54 INFO     429813 [sref:140] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:17:09 INFO     429813 [sref:141] New session started for 127.0.0.1:50032
+2023-01-16 15:17:09 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:17:09 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:17:09 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:17:09 INFO     429813 [sref:141] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:17:26 INFO     429813 [sref:142] New session started for 127.0.0.1:50506
+2023-01-16 15:17:26 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:17:26 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:17:26 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:17:27 INFO     429813 [sref:142] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:19:28 INFO     429813 [sref:143] New session started for 127.0.0.1:52722
+2023-01-16 15:19:28 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:19:28 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:19:28 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:19:28 INFO     429813 [sref:143] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:19:31 INFO     429813 [sref:144] New session started for 127.0.0.1:52778
+2023-01-16 15:19:31 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:19:31 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:19:31 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:19:31 INFO     429813 [sref:144] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:19:41 INFO     429813 [sref:145] New session started for 127.0.0.1:52924
+2023-01-16 15:19:41 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:19:41 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:19:41 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:19:42 INFO     429813 [sref:145] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:19:43 INFO     429813 [sref:146] New session started for 127.0.0.1:52966
+2023-01-16 15:19:43 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:19:43 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:19:43 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:19:43 INFO     429813 [sref:146] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:53:06 INFO     429813 [sref:147] New session started for 127.0.0.1:35802
+2023-01-16 15:53:06 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:53:06 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:53:06 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:53:06 INFO     429813 [sref:147] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:53:15 INFO     429813 [sref:148] New session started for 127.0.0.1:35978
+2023-01-16 15:53:15 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:53:15 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:53:15 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:53:15 INFO     429813 [sref:148] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:53:15 INFO     429813 [sref:149] New session started for 127.0.0.1:35982
+2023-01-16 15:53:15 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:53:15 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:53:15 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:53:15 INFO     429813 [sref:149] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:53:15 INFO     429813 [sref:150] New session started for 127.0.0.1:35990
+2023-01-16 15:53:15 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:53:15 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:53:15 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:53:16 INFO     429813 [sref:150] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:53:18 INFO     429813 [sref:151] New session started for 127.0.0.1:36028
+2023-01-16 15:53:18 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:53:18 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:53:18 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:53:18 INFO     429813 [sref:151] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:54:21 INFO     429813 [sref:152] New session started for 127.0.0.1:37750
+2023-01-16 15:54:21 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:54:21 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:54:21 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:54:21 INFO     429813 [sref:152] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:54:51 INFO     429813 [sref:153] New session started for 127.0.0.1:38602
+2023-01-16 15:54:51 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:54:51 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:54:51 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:54:53 INFO     429813 [sref:153] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:54:53 INFO     429813 [sref:154] New session started for 127.0.0.1:38672
+2023-01-16 15:54:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:54:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:54:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:54:53 INFO     429813 [sref:154] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:54:54 INFO     429813 [sref:155] New session started for 127.0.0.1:38694
+2023-01-16 15:54:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:54:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:54:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:54:54 INFO     429813 [sref:155] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:54:55 INFO     429813 [sref:156] New session started for 127.0.0.1:38770
+2023-01-16 15:54:55 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:54:55 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:54:55 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:54:56 INFO     429813 [sref:156] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:54:59 INFO     429813 [sref:157] New session started for 127.0.0.1:38940
+2023-01-16 15:54:59 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:54:59 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:54:59 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:55:00 INFO     429813 [sref:157] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:55:02 INFO     429813 [sref:158] New session started for 127.0.0.1:39086
+2023-01-16 15:55:02 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:55:02 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:55:02 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:55:02 INFO     429813 [sref:158] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:55:53 INFO     429813 [sref:159] New session started for 127.0.0.1:40246
+2023-01-16 15:55:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:55:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:55:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:55:54 INFO     429813 [sref:159] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:55:54 INFO     429813 [sref:160] New session started for 127.0.0.1:40262
+2023-01-16 15:55:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:55:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:55:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:55:54 INFO     429813 [sref:160] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:55:54 INFO     429813 [sref:161] New session started for 127.0.0.1:40274
+2023-01-16 15:55:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:55:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:55:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:55:55 INFO     429813 [sref:161] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:57:01 INFO     429813 [sref:162] New session started for 127.0.0.1:42328
+2023-01-16 15:57:01 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:57:01 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:57:01 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:57:01 INFO     429813 [sref:162] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:57:01 INFO     429813 [sref:163] New session started for 127.0.0.1:42348
+2023-01-16 15:57:01 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:57:01 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:57:01 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:57:01 INFO     429813 [sref:163] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:57:41 INFO     429813 [sref:164] New session started for 127.0.0.1:43360
+2023-01-16 15:57:41 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:57:41 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:57:41 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:57:42 INFO     429813 [sref:164] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:57:44 INFO     429813 [sref:165] New session started for 127.0.0.1:43402
+2023-01-16 15:57:44 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:57:44 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:57:44 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:57:44 INFO     429813 [sref:165] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:57:44 INFO     429813 [sref:166] New session started for 127.0.0.1:43404
+2023-01-16 15:57:44 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:57:44 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:57:44 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:57:44 INFO     429813 [sref:166] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:57:45 INFO     429813 [sref:167] New session started for 127.0.0.1:43412
+2023-01-16 15:57:45 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:57:45 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:57:45 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:57:45 INFO     429813 [sref:167] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:58:07 INFO     429813 [sref:168] New session started for 127.0.0.1:44040
+2023-01-16 15:58:07 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:58:07 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:58:07 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:58:07 INFO     429813 [sref:168] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:58:08 INFO     429813 [sref:169] New session started for 127.0.0.1:44046
+2023-01-16 15:58:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:58:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:58:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:58:08 INFO     429813 [sref:169] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:58:08 INFO     429813 [sref:170] New session started for 127.0.0.1:44064
+2023-01-16 15:58:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:58:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:58:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:58:08 INFO     429813 [sref:170] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:58:54 INFO     429813 [sref:171] New session started for 127.0.0.1:45282
+2023-01-16 15:58:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:58:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:58:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:58:55 INFO     429813 [sref:171] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:58:57 INFO     429813 [sref:172] New session started for 127.0.0.1:45368
+2023-01-16 15:58:57 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:58:57 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:58:57 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:58:57 INFO     429813 [sref:172] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:59:00 INFO     429813 [sref:173] New session started for 127.0.0.1:45472
+2023-01-16 15:59:00 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:59:00 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:59:00 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:59:00 INFO     429813 [sref:173] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:59:03 INFO     429813 [sref:174] New session started for 127.0.0.1:45544
+2023-01-16 15:59:03 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:59:03 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:59:03 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:59:03 INFO     429813 [sref:174] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:59:40 INFO     429813 [sref:175] New session started for 127.0.0.1:46594
+2023-01-16 15:59:40 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:59:40 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:59:40 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:59:40 INFO     429813 [sref:175] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:59:41 INFO     429813 [sref:176] New session started for 127.0.0.1:46616
+2023-01-16 15:59:41 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:59:41 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:59:41 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:59:41 INFO     429813 [sref:176] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:59:41 INFO     429813 [sref:177] New session started for 127.0.0.1:46620
+2023-01-16 15:59:41 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:59:41 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:59:41 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:59:41 INFO     429813 [sref:177] Session stopped (Connection was closed cleanly.).
+2023-01-16 15:59:42 INFO     429813 [sref:178] New session started for 127.0.0.1:46648
+2023-01-16 15:59:42 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 15:59:42 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 15:59:42 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 15:59:42 INFO     429813 [sref:178] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:51 INFO     429813 [sref:179] New session started for 127.0.0.1:49376
+2023-01-16 16:00:51 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:51 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:51 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:51 INFO     429813 [sref:179] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:51 INFO     429813 [sref:180] New session started for 127.0.0.1:49384
+2023-01-16 16:00:51 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:51 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:51 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:51 INFO     429813 [sref:180] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:52 INFO     429813 [sref:181] New session started for 127.0.0.1:49390
+2023-01-16 16:00:52 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:52 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:52 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:52 INFO     429813 [sref:181] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:56 INFO     429813 [sref:182] New session started for 127.0.0.1:49456
+2023-01-16 16:00:56 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:56 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:56 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:56 INFO     429813 [sref:182] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:57 INFO     429813 [sref:183] New session started for 127.0.0.1:49466
+2023-01-16 16:00:57 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:57 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:57 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:57 INFO     429813 [sref:183] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:57 INFO     429813 [sref:184] New session started for 127.0.0.1:49486
+2023-01-16 16:00:57 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:57 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:57 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:57 INFO     429813 [sref:184] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:00:59 INFO     429813 [sref:185] New session started for 127.0.0.1:49522
+2023-01-16 16:00:59 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:00:59 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:00:59 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:00:59 INFO     429813 [sref:185] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:00 INFO     429813 [sref:186] New session started for 127.0.0.1:49530
+2023-01-16 16:01:00 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:00 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:00 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:00 INFO     429813 [sref:186] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:00 INFO     429813 [sref:187] New session started for 127.0.0.1:49548
+2023-01-16 16:01:00 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:00 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:00 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:00 INFO     429813 [sref:187] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:02 INFO     429813 [sref:188] New session started for 127.0.0.1:49584
+2023-01-16 16:01:02 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:02 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:02 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:02 INFO     429813 [sref:188] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:02 INFO     429813 [sref:189] New session started for 127.0.0.1:49598
+2023-01-16 16:01:02 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:02 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:02 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:02 INFO     429813 [sref:189] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:02 INFO     429813 [sref:190] New session started for 127.0.0.1:49612
+2023-01-16 16:01:02 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:02 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:02 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:03 INFO     429813 [sref:190] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:05 INFO     429813 [sref:191] New session started for 127.0.0.1:49638
+2023-01-16 16:01:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:05 INFO     429813 [sref:191] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:05 INFO     429813 [sref:192] New session started for 127.0.0.1:49642
+2023-01-16 16:01:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:05 INFO     429813 [sref:192] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:06 INFO     429813 [sref:193] New session started for 127.0.0.1:49650
+2023-01-16 16:01:06 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:06 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:06 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:06 INFO     429813 [sref:193] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:07 INFO     429813 [sref:194] New session started for 127.0.0.1:49664
+2023-01-16 16:01:07 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:07 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:07 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:07 INFO     429813 [sref:194] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:08 INFO     429813 [sref:195] New session started for 127.0.0.1:49666
+2023-01-16 16:01:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:08 INFO     429813 [sref:195] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:08 INFO     429813 [sref:196] New session started for 127.0.0.1:49684
+2023-01-16 16:01:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:08 INFO     429813 [sref:196] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:29 INFO     429813 [sref:197] New session started for 127.0.0.1:50034
+2023-01-16 16:01:29 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:29 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:29 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:29 INFO     429813 [sref:197] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:31 INFO     429813 [sref:198] New session started for 127.0.0.1:50064
+2023-01-16 16:01:31 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:31 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 [sref:198] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:31 INFO     429813 [sref:199] New session started for 127.0.0.1:50070
+2023-01-16 16:01:31 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:31 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 [sref:200] New session started for 127.0.0.1:50072
+2023-01-16 16:01:31 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:31 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 [sref:199] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:31 INFO     429813 [sref:200] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:31 INFO     429813 [sref:201] New session started for 127.0.0.1:50086
+2023-01-16 16:01:31 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:31 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:31 INFO     429813 [sref:201] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:39 INFO     429813 [sref:202] New session started for 127.0.0.1:50218
+2023-01-16 16:01:39 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:39 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:39 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:39 INFO     429813 [sref:202] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:45 INFO     429813 [sref:203] New session started for 127.0.0.1:50430
+2023-01-16 16:01:45 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:45 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:45 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:45 INFO     429813 [sref:203] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:01:46 INFO     429813 [sref:204] New session started for 127.0.0.1:50444
+2023-01-16 16:01:46 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:01:46 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:01:46 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:01:46 INFO     429813 [sref:204] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:02:02 INFO     429813 [sref:205] New session started for 127.0.0.1:51366
+2023-01-16 16:02:02 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:02:02 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:02:02 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:02:02 INFO     429813 [sref:205] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:02:05 INFO     429813 [sref:206] New session started for 127.0.0.1:51454
+2023-01-16 16:02:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:02:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:02:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:02:06 INFO     429813 [sref:206] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:02:08 INFO     429813 [sref:207] New session started for 127.0.0.1:51594
+2023-01-16 16:02:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:02:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:02:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:02:08 INFO     429813 [sref:207] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:02:14 INFO     429813 [sref:208] New session started for 127.0.0.1:51952
+2023-01-16 16:02:14 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:02:14 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:02:14 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:02:14 INFO     429813 [sref:208] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:03:53 INFO     429813 [sref:209] New session started for 127.0.0.1:54306
+2023-01-16 16:03:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:03:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:03:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:03:54 INFO     429813 [sref:209] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:03:54 INFO     429813 [sref:210] New session started for 127.0.0.1:54326
+2023-01-16 16:03:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:03:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:03:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:03:54 INFO     429813 [sref:210] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:03:57 INFO     429813 [sref:211] New session started for 127.0.0.1:54350
+2023-01-16 16:03:57 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:03:57 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:03:57 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:03:57 INFO     429813 [sref:211] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:03:58 INFO     429813 [sref:212] New session started for 127.0.0.1:54384
+2023-01-16 16:03:58 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:03:58 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:03:58 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:03:58 INFO     429813 [sref:212] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:03:59 INFO     429813 [sref:213] New session started for 127.0.0.1:54388
+2023-01-16 16:03:59 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:03:59 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:03:59 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:03:59 INFO     429813 [sref:213] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:04:39 INFO     429813 [sref:214] New session started for 127.0.0.1:55396
+2023-01-16 16:04:39 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-16 16:04:39 INFO     429813 filter configuration loaded (default profile)
+2023-01-16 16:04:39 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-16 16:04:39 INFO     429813 [sref:214] Session stopped (Connection was closed cleanly.).
+2023-01-16 16:39:07 INFO     429813 [sref:112] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:51:52 INFO     429813 [sref:215] New session started for 127.0.0.1:43252
+2023-01-17 11:51:52 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:51:52 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:51:52 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:51:52 INFO     429813 [sref:215] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:04 INFO     429813 [sref:216] New session started for 127.0.0.1:43384
+2023-01-17 11:52:04 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:04 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:04 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:04 INFO     429813 [sref:216] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:09 INFO     429813 [sref:217] New session started for 127.0.0.1:43450
+2023-01-17 11:52:09 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:09 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:09 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:09 INFO     429813 [sref:217] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:09 INFO     429813 [sref:218] New session started for 127.0.0.1:43458
+2023-01-17 11:52:09 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:09 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:09 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:09 INFO     429813 [sref:218] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:29 INFO     429813 [sref:219] New session started for 127.0.0.1:43810
+2023-01-17 11:52:29 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:29 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:29 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:29 INFO     429813 [sref:219] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:30 INFO     429813 [sref:220] New session started for 127.0.0.1:43824
+2023-01-17 11:52:30 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:30 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:30 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:30 INFO     429813 [sref:220] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:33 INFO     429813 [sref:221] New session started for 127.0.0.1:43848
+2023-01-17 11:52:33 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:33 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:33 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:33 INFO     429813 [sref:221] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:33 INFO     429813 [sref:222] New session started for 127.0.0.1:43852
+2023-01-17 11:52:33 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:33 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:33 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:33 INFO     429813 [sref:222] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:37 INFO     429813 [sref:223] New session started for 127.0.0.1:43930
+2023-01-17 11:52:37 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:37 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:37 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:37 INFO     429813 [sref:223] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:52 INFO     429813 [sref:224] New session started for 127.0.0.1:44466
+2023-01-17 11:52:52 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:52 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:52 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:53 INFO     429813 [sref:224] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:53 INFO     429813 [sref:225] New session started for 127.0.0.1:44472
+2023-01-17 11:52:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:53 INFO     429813 [sref:225] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:52:53 INFO     429813 [sref:226] New session started for 127.0.0.1:44476
+2023-01-17 11:52:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:52:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:52:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:52:53 INFO     429813 [sref:226] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:02 INFO     429813 [sref:227] New session started for 127.0.0.1:44704
+2023-01-17 11:53:02 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:02 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:02 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:03 INFO     429813 [sref:227] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:03 INFO     429813 [sref:228] New session started for 127.0.0.1:44718
+2023-01-17 11:53:03 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:03 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:03 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:03 INFO     429813 [sref:228] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:03 INFO     429813 [sref:229] New session started for 127.0.0.1:44734
+2023-01-17 11:53:03 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:03 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:03 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:03 INFO     429813 [sref:229] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:07 INFO     429813 [sref:230] New session started for 127.0.0.1:44878
+2023-01-17 11:53:07 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:07 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:07 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:07 INFO     429813 [sref:230] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:08 INFO     429813 [sref:231] New session started for 127.0.0.1:44928
+2023-01-17 11:53:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:08 INFO     429813 [sref:231] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:09 INFO     429813 [sref:232] New session started for 127.0.0.1:44942
+2023-01-17 11:53:09 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:09 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:09 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:09 INFO     429813 [sref:232] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:16 INFO     429813 [sref:233] New session started for 127.0.0.1:45036
+2023-01-17 11:53:16 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:16 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:16 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:16 INFO     429813 [sref:233] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:27 INFO     429813 [sref:234] New session started for 127.0.0.1:45154
+2023-01-17 11:53:27 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:27 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:27 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:30 INFO     429813 [sref:234] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:30 INFO     429813 [sref:235] New session started for 127.0.0.1:45178
+2023-01-17 11:53:30 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:30 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:30 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:30 INFO     429813 [sref:235] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:30 INFO     429813 [sref:236] New session started for 127.0.0.1:45192
+2023-01-17 11:53:30 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:30 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:30 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:31 INFO     429813 [sref:236] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:33 INFO     429813 [sref:237] New session started for 127.0.0.1:45228
+2023-01-17 11:53:33 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:33 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:33 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:33 INFO     429813 [sref:237] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:36 INFO     429813 [sref:238] New session started for 127.0.0.1:45256
+2023-01-17 11:53:36 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:36 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:36 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:36 INFO     429813 [sref:238] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:50 INFO     429813 [sref:239] New session started for 127.0.0.1:45398
+2023-01-17 11:53:50 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:50 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:50 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:51 INFO     429813 [sref:239] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:51 INFO     429813 [sref:240] New session started for 127.0.0.1:45410
+2023-01-17 11:53:51 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:51 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:51 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:51 INFO     429813 [sref:240] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:51 INFO     429813 [sref:241] New session started for 127.0.0.1:45418
+2023-01-17 11:53:51 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:51 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:51 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:52 INFO     429813 [sref:241] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:55 INFO     429813 [sref:242] New session started for 127.0.0.1:45472
+2023-01-17 11:53:55 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:55 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:55 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:55 INFO     429813 [sref:242] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:57 INFO     429813 [sref:243] New session started for 127.0.0.1:45506
+2023-01-17 11:53:57 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:57 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:57 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:58 INFO     429813 [sref:243] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:53:58 INFO     429813 [sref:244] New session started for 127.0.0.1:45512
+2023-01-17 11:53:58 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:53:58 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:53:58 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:53:58 INFO     429813 [sref:244] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:54:05 INFO     429813 [sref:245] New session started for 127.0.0.1:45600
+2023-01-17 11:54:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:54:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:54:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:54:05 INFO     429813 [sref:245] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:54:06 INFO     429813 [sref:246] New session started for 127.0.0.1:45612
+2023-01-17 11:54:06 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:54:06 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:54:06 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:54:06 INFO     429813 [sref:246] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:57:53 INFO     429813 [sref:247] New session started for 127.0.0.1:51974
+2023-01-17 11:57:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:57:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:57:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:57:53 INFO     429813 [sref:247] Session stopped (Connection was closed cleanly.).
+2023-01-17 11:57:53 INFO     429813 [sref:248] New session started for 127.0.0.1:51984
+2023-01-17 11:57:53 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 11:57:53 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 11:57:53 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 11:57:53 INFO     429813 [sref:248] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:28:59 INFO     429813 [sref:249] New session started for 127.0.0.1:36926
+2023-01-17 12:28:59 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:28:59 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:28:59 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:29:01 INFO     429813 [sref:249] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:29:24 INFO     429813 [sref:250] New session started for 127.0.0.1:37304
+2023-01-17 12:29:24 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:29:24 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:29:24 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:29:27 INFO     429813 [sref:250] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:30:18 INFO     429813 [sref:251] New session started for 127.0.0.1:39374
+2023-01-17 12:30:18 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:30:18 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:30:18 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:30:20 INFO     429813 [sref:251] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:31:33 INFO     429813 [sref:252] New session started for 127.0.0.1:40894
+2023-01-17 12:31:33 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:31:33 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:31:33 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:31:36 INFO     429813 [sref:252] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:32:10 INFO     429813 [sref:253] New session started for 127.0.0.1:42220
+2023-01-17 12:32:10 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:32:10 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:32:10 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:32:13 INFO     429813 [sref:253] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:33:20 INFO     429813 [sref:254] New session started for 127.0.0.1:48732
+2023-01-17 12:33:20 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:33:20 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:33:20 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:33:22 INFO     429813 [sref:254] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:33:39 INFO     429813 [sref:255] New session started for 127.0.0.1:49900
+2023-01-17 12:33:39 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:33:39 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:33:39 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:35:03 INFO     429813 [sref:256] New session started for 127.0.0.1:52010
+2023-01-17 12:35:03 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:35:03 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:35:03 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:35:06 INFO     429813 [sref:256] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:35:20 INFO     429813 [sref:257] New session started for 127.0.0.1:52400
+2023-01-17 12:35:20 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:35:20 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:35:20 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:35:20 INFO     429813 [sref:257] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:35:20 INFO     429813 [sref:258] New session started for 127.0.0.1:52408
+2023-01-17 12:35:20 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:35:20 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:35:20 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:35:20 INFO     429813 [sref:258] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:35:23 INFO     429813 [sref:259] New session started for 127.0.0.1:52498
+2023-01-17 12:35:23 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:35:23 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:35:23 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:35:23 INFO     429813 [sref:259] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:38:03 INFO     429813 [sref:255] Session stopped (('Stumped', b'\xec')).
+2023-01-17 12:38:08 INFO     429813 [sref:260] New session started for 127.0.0.1:58000
+2023-01-17 12:38:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:38:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:38:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:38:11 INFO     429813 [sref:260] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:38:50 INFO     429813 [sref:261] New session started for 127.0.0.1:59428
+2023-01-17 12:38:50 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:38:50 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:38:50 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:38:51 INFO     429813 [sref:261] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:38:54 INFO     429813 [sref:262] New session started for 127.0.0.1:59486
+2023-01-17 12:38:54 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:38:54 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:38:54 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:38:54 INFO     429813 [sref:262] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:39:04 INFO     429813 [sref:263] New session started for 127.0.0.1:59664
+2023-01-17 12:39:04 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:39:04 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:39:04 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:39:05 INFO     429813 [sref:263] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:39:05 INFO     429813 [sref:264] New session started for 127.0.0.1:59684
+2023-01-17 12:39:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:39:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:39:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:39:05 INFO     429813 [sref:264] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:08 INFO     429813 [sref:265] New session started for 127.0.0.1:38728
+2023-01-17 12:43:08 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:08 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:08 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:08 INFO     429813 [sref:265] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:10 INFO     429813 [sref:266] New session started for 127.0.0.1:38746
+2023-01-17 12:43:10 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:10 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:10 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:10 INFO     429813 [sref:266] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:10 INFO     429813 [sref:267] New session started for 127.0.0.1:38752
+2023-01-17 12:43:10 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:10 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:10 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:11 INFO     429813 [sref:267] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:11 INFO     429813 [sref:268] New session started for 127.0.0.1:38766
+2023-01-17 12:43:11 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:11 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:11 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:11 INFO     429813 [sref:268] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:20 INFO     429813 [sref:269] New session started for 127.0.0.1:39142
+2023-01-17 12:43:20 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:20 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:20 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:21 INFO     429813 [sref:269] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:21 INFO     429813 [sref:270] New session started for 127.0.0.1:39170
+2023-01-17 12:43:21 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:21 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:21 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:21 INFO     429813 [sref:270] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:21 INFO     429813 [sref:271] New session started for 127.0.0.1:39192
+2023-01-17 12:43:21 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:21 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:21 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:21 INFO     429813 [sref:271] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:23 INFO     429813 [sref:272] New session started for 127.0.0.1:39274
+2023-01-17 12:43:23 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:23 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:23 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:23 INFO     429813 [sref:272] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:23 INFO     429813 [sref:273] New session started for 127.0.0.1:39292
+2023-01-17 12:43:23 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:23 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:23 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:23 INFO     429813 [sref:273] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:26 INFO     429813 [sref:274] New session started for 127.0.0.1:39464
+2023-01-17 12:43:26 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:26 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:26 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:27 INFO     429813 [sref:274] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:27 INFO     429813 [sref:275] New session started for 127.0.0.1:39492
+2023-01-17 12:43:27 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:27 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:27 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:27 INFO     429813 [sref:275] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:43:28 INFO     429813 [sref:276] New session started for 127.0.0.1:39516
+2023-01-17 12:43:28 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:43:28 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:43:28 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:43:28 INFO     429813 [sref:276] Session stopped (Connection was closed cleanly.).
+2023-01-17 12:58:38 INFO     429813 [sref:277] New session started for 127.0.0.1:34672
+2023-01-17 12:58:38 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 12:58:38 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 12:58:38 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 12:58:38 INFO     429813 [sref:277] Session stopped (Connection was closed cleanly.).
+2023-01-17 14:03:24 INFO     429813 [sref:278] New session started for 127.0.0.1:41150
+2023-01-17 14:03:24 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:03:24 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:03:24 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:03:24 INFO     429813 [sref:278] Session stopped (Connection was closed cleanly.).
+2023-01-17 14:03:26 INFO     429813 [sref:279] New session started for 127.0.0.1:41196
+2023-01-17 14:03:26 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:03:26 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:03:26 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:03:26 INFO     429813 [sref:279] Session stopped (Connection was closed cleanly.).
+2023-01-17 14:03:29 INFO     429813 [sref:280] New session started for 127.0.0.1:41244
+2023-01-17 14:03:29 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:03:29 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:03:29 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:03:29 INFO     429813 [sref:280] Session stopped (Connection was closed cleanly.).
+2023-01-17 14:07:52 INFO     429813 [sref:281] New session started for 127.0.0.1:46864
+2023-01-17 14:07:52 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:07:52 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:07:52 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:15:05 INFO     429813 [sref:282] New session started for 127.0.0.1:55176
+2023-01-17 14:15:05 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:15:05 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:15:05 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:15:05 INFO     429813 [sref:282] Session stopped (Connection was closed cleanly.).
+2023-01-17 14:29:25 INFO     429813 [sref:283] New session started for 127.0.0.1:44056
+2023-01-17 14:29:25 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:29:25 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:29:25 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:29:26 INFO     429813 [sref:283] Session stopped (Connection was closed cleanly.).
+2023-01-17 14:30:41 INFO     429813 [sref:284] New session started for 127.0.0.1:45844
+2023-01-17 14:30:41 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 14:30:41 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 14:30:41 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 14:30:42 INFO     429813 [sref:284] Session stopped (Connection was closed cleanly.).
+2023-01-17 16:43:36 INFO     429813 [sref:281] Session stopped (Connection was closed cleanly.).
+2023-01-17 18:53:37 INFO     429813 [sref:285] New session started for 127.0.0.1:49714
+2023-01-17 18:53:37 INFO     429813 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 18:53:37 INFO     429813 filter configuration loaded (default profile)
+2023-01-17 18:53:37 INFO     429813 httpcc configuration loaded (default profile)
+2023-01-17 18:59:51 INFO     429813 [sref:285] Session stopped (Connection to the other side was lost in a non-clean fashion: Connection lost.).
+2023-01-17 18:59:52 INFO     2805403 Waiting for AMQP to get ready
+2023-01-17 18:59:52 INFO     2805403 [sref:1] New session started for 192.168.1.1:54321
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 18:59:52 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 18:59:52 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 18:59:52 INFO     2805403 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 18:59:52 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 18:59:52 INFO     2805403 mtrouter configuration loaded.
+2023-01-17 18:59:52 INFO     2805403 filter configuration loaded.
+2023-01-17 18:59:52 INFO     2805403 httpcc configuration loaded.
+2023-01-17 18:59:53 INFO     2805403 morouter configuration loaded.
+2023-01-17 18:59:53 INFO     2805403 smppcc configuration loaded.
+2023-01-17 18:59:53 INFO     2805403 group configuration loaded.
+2023-01-17 18:59:53 INFO     2805403 user configuration loaded.
+2023-01-17 18:59:53 INFO     2805403 [sref:1] Session stopped.
+2023-01-17 19:00:57 INFO     2805403 [sref:2] New session started for 127.0.0.1:59462
+2023-01-17 19:00:57 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:00:57 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:00:57 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:33 INFO     2805403 [sref:3] New session started for 127.0.0.1:37910
+2023-01-17 19:06:33 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:33 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:33 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:33 INFO     2805403 [sref:3] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:34 INFO     2805403 [sref:4] New session started for 127.0.0.1:37932
+2023-01-17 19:06:34 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:34 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:34 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:35 INFO     2805403 [sref:4] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:35 INFO     2805403 [sref:5] New session started for 127.0.0.1:37952
+2023-01-17 19:06:35 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:35 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:35 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:35 INFO     2805403 [sref:6] New session started for 127.0.0.1:37954
+2023-01-17 19:06:35 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:35 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:35 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:35 INFO     2805403 [sref:6] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:36 INFO     2805403 [sref:5] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:36 INFO     2805403 [sref:7] New session started for 127.0.0.1:37972
+2023-01-17 19:06:36 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:36 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:36 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:36 INFO     2805403 [sref:7] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:38 INFO     2805403 [sref:8] New session started for 127.0.0.1:38008
+2023-01-17 19:06:38 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:38 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:38 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:39 INFO     2805403 [sref:8] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:39 INFO     2805403 [sref:9] New session started for 127.0.0.1:38030
+2023-01-17 19:06:39 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:39 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:39 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:40 INFO     2805403 [sref:9] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:41 INFO     2805403 [sref:10] New session started for 127.0.0.1:38050
+2023-01-17 19:06:41 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:41 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:41 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:41 INFO     2805403 [sref:10] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:43 INFO     2805403 [sref:11] New session started for 127.0.0.1:38068
+2023-01-17 19:06:43 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:43 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:43 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:43 INFO     2805403 [sref:11] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:43 INFO     2805403 [sref:12] New session started for 127.0.0.1:38084
+2023-01-17 19:06:43 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:43 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:43 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:43 INFO     2805403 [sref:13] New session started for 127.0.0.1:38086
+2023-01-17 19:06:43 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:43 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:43 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 [sref:13] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:44 INFO     2805403 [sref:12] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:44 INFO     2805403 [sref:14] New session started for 127.0.0.1:38112
+2023-01-17 19:06:44 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:44 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 [sref:15] New session started for 127.0.0.1:38114
+2023-01-17 19:06:44 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:44 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 [sref:16] New session started for 127.0.0.1:38116
+2023-01-17 19:06:44 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:44 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 [sref:17] New session started for 127.0.0.1:38128
+2023-01-17 19:06:44 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:44 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:44 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 [sref:14] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:45 INFO     2805403 [sref:16] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:45 INFO     2805403 [sref:17] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:45 INFO     2805403 [sref:15] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:45 INFO     2805403 [sref:18] New session started for 127.0.0.1:38148
+2023-01-17 19:06:45 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:45 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 [sref:19] New session started for 127.0.0.1:38152
+2023-01-17 19:06:45 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:45 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 [sref:20] New session started for 127.0.0.1:38156
+2023-01-17 19:06:45 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:45 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 [sref:21] New session started for 127.0.0.1:38164
+2023-01-17 19:06:45 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:45 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 [sref:19] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:45 INFO     2805403 [sref:22] New session started for 127.0.0.1:38170
+2023-01-17 19:06:45 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:45 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:45 INFO     2805403 [sref:20] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:45 INFO     2805403 [sref:21] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:46 INFO     2805403 [sref:22] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:46 INFO     2805403 [sref:18] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:46 INFO     2805403 [sref:23] New session started for 127.0.0.1:38188
+2023-01-17 19:06:46 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:46 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:46 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:46 INFO     2805403 [sref:24] New session started for 127.0.0.1:38190
+2023-01-17 19:06:46 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:46 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:46 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:46 INFO     2805403 [sref:25] New session started for 127.0.0.1:38200
+2023-01-17 19:06:46 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:46 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:46 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:46 INFO     2805403 [sref:24] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:46 INFO     2805403 [sref:25] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:47 INFO     2805403 [sref:23] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:47 INFO     2805403 [sref:26] New session started for 127.0.0.1:38216
+2023-01-17 19:06:47 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:47 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 [sref:27] New session started for 127.0.0.1:38218
+2023-01-17 19:06:47 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:47 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 [sref:28] New session started for 127.0.0.1:38219
+2023-01-17 19:06:47 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:47 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 [sref:29] New session started for 127.0.0.1:38230
+2023-01-17 19:06:47 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:47 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:47 INFO     2805403 [sref:28] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:47 INFO     2805403 [sref:27] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:47 INFO     2805403 [sref:29] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:47 INFO     2805403 [sref:26] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:48 INFO     2805403 [sref:30] New session started for 127.0.0.1:38270
+2023-01-17 19:06:48 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:48 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 [sref:31] New session started for 127.0.0.1:38272
+2023-01-17 19:06:48 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:48 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 [sref:32] New session started for 127.0.0.1:38274
+2023-01-17 19:06:48 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:48 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 [sref:33] New session started for 127.0.0.1:38282
+2023-01-17 19:06:48 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:48 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:48 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 [sref:32] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:34] New session started for 127.0.0.1:38286
+2023-01-17 19:06:49 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:49 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 [sref:31] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:33] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:34] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:30] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:35] New session started for 127.0.0.1:38300
+2023-01-17 19:06:49 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:49 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 [sref:36] New session started for 127.0.0.1:38302
+2023-01-17 19:06:49 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:49 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 [sref:36] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:37] New session started for 127.0.0.1:38312
+2023-01-17 19:06:49 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:49 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 [sref:35] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:37] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:06:49 INFO     2805403 [sref:38] New session started for 127.0.0.1:38332
+2023-01-17 19:06:49 INFO     2805403 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:06:49 INFO     2805403 filter configuration loaded (default profile)
+2023-01-17 19:06:49 INFO     2805403 httpcc configuration loaded (default profile)
+2023-01-17 19:06:50 INFO     2805403 [sref:38] Session stopped (Connection was closed cleanly.).
+2023-01-17 19:14:26 INFO     2805403 [sref:2] Session stopped (Connection to the other side was lost in a non-clean fashion: Connection lost.).
+2023-01-17 19:14:27 INFO     2806391 Waiting for AMQP to get ready
+2023-01-17 19:14:27 INFO     2806391 [sref:1] New session started for 192.168.1.1:54321
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:14:27 INFO     2806391 filter configuration loaded (default profile)
+2023-01-17 19:14:27 INFO     2806391 httpcc configuration loaded (default profile)
+2023-01-17 19:14:27 INFO     2806391 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:14:27 INFO     2806391 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:14:27 INFO     2806391 mtrouter configuration loaded.
+2023-01-17 19:14:27 INFO     2806391 filter configuration loaded.
+2023-01-17 19:14:27 INFO     2806391 httpcc configuration loaded.
+2023-01-17 19:14:27 INFO     2806391 morouter configuration loaded.
+2023-01-17 19:14:27 INFO     2806391 smppcc configuration loaded.
+2023-01-17 19:14:28 INFO     2806391 group configuration loaded.
+2023-01-17 19:14:28 INFO     2806391 user configuration loaded.
+2023-01-17 19:14:28 INFO     2806391 [sref:1] Session stopped.
+2023-01-17 19:46:22 INFO     2806391 [sref:2] New session started for 127.0.0.1:59430
+2023-01-17 19:46:22 INFO     2806391 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:46:22 INFO     2806391 filter configuration loaded (default profile)
+2023-01-17 19:46:22 INFO     2806391 httpcc configuration loaded (default profile)
+2023-01-17 19:54:55 INFO     2806391 [sref:2] Session stopped (Connection to the other side was lost in a non-clean fashion: Connection lost.).
+2023-01-17 19:54:56 INFO     2808682 Waiting for AMQP to get ready
+2023-01-17 19:54:56 INFO     2808682 [sref:1] New session started for 192.168.1.1:54321
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:54:56 INFO     2808682 filter configuration loaded (default profile)
+2023-01-17 19:54:56 INFO     2808682 httpcc configuration loaded (default profile)
+2023-01-17 19:54:56 INFO     2808682 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:54:56 INFO     2808682 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:54:56 INFO     2808682 mtrouter configuration loaded.
+2023-01-17 19:54:56 INFO     2808682 filter configuration loaded.
+2023-01-17 19:54:56 INFO     2808682 httpcc configuration loaded.
+2023-01-17 19:54:57 INFO     2808682 morouter configuration loaded.
+2023-01-17 19:54:57 INFO     2808682 smppcc configuration loaded.
+2023-01-17 19:54:57 INFO     2808682 group configuration loaded.
+2023-01-17 19:54:57 INFO     2808682 user configuration loaded.
+2023-01-17 19:54:57 INFO     2808682 [sref:1] Session stopped.
+2023-01-17 19:55:29 INFO     2808742 Waiting for AMQP to get ready
+2023-01-17 19:55:29 INFO     2808742 [sref:1] New session started for 192.168.1.1:54321
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:55:29 INFO     2808742 filter configuration loaded (default profile)
+2023-01-17 19:55:29 INFO     2808742 httpcc configuration loaded (default profile)
+2023-01-17 19:55:29 INFO     2808742 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:55:29 INFO     2808742 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:55:29 INFO     2808742 mtrouter configuration loaded.
+2023-01-17 19:55:29 INFO     2808742 filter configuration loaded.
+2023-01-17 19:55:29 INFO     2808742 httpcc configuration loaded.
+2023-01-17 19:55:29 INFO     2808742 morouter configuration loaded.
+2023-01-17 19:55:29 INFO     2808742 smppcc configuration loaded.
+2023-01-17 19:55:29 INFO     2808742 group configuration loaded.
+2023-01-17 19:55:29 INFO     2808742 user configuration loaded.
+2023-01-17 19:55:30 INFO     2808742 [sref:1] Session stopped.
+2023-01-17 19:56:44 INFO     2808823 Waiting for AMQP to get ready
+2023-01-17 19:56:44 INFO     2808823 [sref:1] New session started for 192.168.1.1:54321
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:56:44 INFO     2808823 filter configuration loaded (default profile)
+2023-01-17 19:56:44 INFO     2808823 httpcc configuration loaded (default profile)
+2023-01-17 19:56:44 INFO     2808823 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 19:56:44 INFO     2808823 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:56:44 INFO     2808823 mtrouter configuration loaded.
+2023-01-17 19:56:44 INFO     2808823 filter configuration loaded.
+2023-01-17 19:56:44 INFO     2808823 httpcc configuration loaded.
+2023-01-17 19:56:44 INFO     2808823 morouter configuration loaded.
+2023-01-17 19:56:44 INFO     2808823 smppcc configuration loaded.
+2023-01-17 19:56:44 INFO     2808823 group configuration loaded.
+2023-01-17 19:56:45 INFO     2808823 user configuration loaded.
+2023-01-17 19:56:45 INFO     2808823 [sref:1] Session stopped.
+2023-01-17 19:57:28 INFO     2808823 [sref:2] New session started for 127.0.0.1:45426
+2023-01-17 19:57:28 INFO     2808823 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 19:57:28 INFO     2808823 filter configuration loaded (default profile)
+2023-01-17 19:57:28 INFO     2808823 httpcc configuration loaded (default profile)
+2023-01-17 20:25:06 INFO     2808823 [sref:2] Session stopped (Connection was closed cleanly.).
+2023-01-17 20:53:49 INFO     2812209 Waiting for AMQP to get ready
+2023-01-17 20:53:49 INFO     2812209 [sref:1] New session started for 192.168.1.1:54321
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 20:53:49 INFO     2812209 filter configuration loaded (default profile)
+2023-01-17 20:53:49 INFO     2812209 httpcc configuration loaded (default profile)
+2023-01-17 20:53:49 INFO     2812209 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-17 20:53:49 INFO     2812209 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-17 20:53:49 INFO     2812209 mtrouter configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 filter configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 httpcc configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 morouter configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 smppcc configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 group configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 user configuration loaded.
+2023-01-17 20:53:49 INFO     2812209 [sref:1] Session stopped.
+2023-01-18 11:38:56 INFO     2812209 [sref:2] New session started for 127.0.0.1:54718
+2023-01-18 11:38:56 INFO     2812209 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 11:38:56 INFO     2812209 filter configuration loaded (default profile)
+2023-01-18 11:38:56 INFO     2812209 httpcc configuration loaded (default profile)
+2023-01-18 11:40:09 INFO     2812209 [sref:2] Session stopped (Connection to the other side was lost in a non-clean fashion: Connection lost.).
+2023-01-18 11:40:10 INFO     2864486 Waiting for AMQP to get ready
+2023-01-18 11:40:10 INFO     2864486 [sref:1] New session started for 192.168.1.1:54321
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 11:40:10 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 11:40:10 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 11:40:10 INFO     2864486 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-18 11:40:10 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 11:40:10 INFO     2864486 mtrouter configuration loaded.
+2023-01-18 11:40:10 INFO     2864486 filter configuration loaded.
+2023-01-18 11:40:10 INFO     2864486 httpcc configuration loaded.
+2023-01-18 11:40:11 INFO     2864486 morouter configuration loaded.
+2023-01-18 11:40:11 INFO     2864486 smppcc configuration loaded.
+2023-01-18 11:40:11 INFO     2864486 group configuration loaded.
+2023-01-18 11:40:11 INFO     2864486 user configuration loaded.
+2023-01-18 11:40:11 INFO     2864486 [sref:1] Session stopped.
+2023-01-18 12:20:01 INFO     2864486 [sref:2] New session started for 127.0.0.1:53768
+2023-01-18 12:20:01 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 12:20:01 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 12:20:01 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 13:22:55 INFO     2864486 [sref:2] Session stopped (Connection was closed cleanly.).
+2023-01-18 20:00:05 INFO     2864486 [sref:3] New session started for 127.0.0.1:60120
+2023-01-18 20:00:05 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 20:00:05 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 20:00:05 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 20:00:05 INFO     2864486 [sref:3] Session stopped (Connection was closed cleanly.).
+2023-01-18 20:00:06 INFO     2864486 [sref:4] New session started for 127.0.0.1:60144
+2023-01-18 20:00:06 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 20:00:06 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 20:00:06 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 20:00:06 INFO     2864486 [sref:4] Session stopped (Connection was closed cleanly.).
+2023-01-18 20:00:06 INFO     2864486 [sref:5] New session started for 127.0.0.1:60170
+2023-01-18 20:00:06 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 20:00:06 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 20:00:06 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 20:00:06 INFO     2864486 [sref:5] Session stopped (Connection was closed cleanly.).
+2023-01-18 20:00:30 INFO     2864486 [sref:6] New session started for 127.0.0.1:33940
+2023-01-18 20:00:30 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 20:00:30 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 20:00:30 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 20:00:30 INFO     2864486 [sref:6] Session stopped (Connection was closed cleanly.).
+2023-01-18 20:00:34 INFO     2864486 [sref:7] New session started for 127.0.0.1:34198
+2023-01-18 20:00:34 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-18 20:00:34 INFO     2864486 filter configuration loaded (default profile)
+2023-01-18 20:00:34 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-18 20:00:35 INFO     2864486 [sref:7] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:13:26 INFO     2864486 [sref:8] New session started for 127.0.0.1:33290
+2023-01-19 12:13:26 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:13:26 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:13:26 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:13:26 INFO     2864486 [sref:8] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:13:38 INFO     2864486 [sref:9] New session started for 127.0.0.1:33648
+2023-01-19 12:13:38 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:13:38 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:13:38 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:39 INFO     2864486 [sref:10] New session started for 127.0.0.1:37912
+2023-01-19 12:15:39 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:39 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:39 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:39 INFO     2864486 [sref:10] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:48 INFO     2864486 [sref:11] New session started for 127.0.0.1:38066
+2023-01-19 12:15:48 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:48 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:48 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:48 INFO     2864486 [sref:11] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:48 INFO     2864486 [sref:12] New session started for 127.0.0.1:38078
+2023-01-19 12:15:48 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:48 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:48 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:48 INFO     2864486 [sref:12] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:49 INFO     2864486 [sref:13] New session started for 127.0.0.1:38098
+2023-01-19 12:15:49 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:49 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:49 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:49 INFO     2864486 [sref:13] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:50 INFO     2864486 [sref:14] New session started for 127.0.0.1:38178
+2023-01-19 12:15:50 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:50 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:50 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:50 INFO     2864486 [sref:14] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:51 INFO     2864486 [sref:15] New session started for 127.0.0.1:38196
+2023-01-19 12:15:51 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:51 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:51 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:51 INFO     2864486 [sref:15] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:58 INFO     2864486 [sref:16] New session started for 127.0.0.1:38414
+2023-01-19 12:15:58 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:58 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:58 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:59 INFO     2864486 [sref:16] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:15:59 INFO     2864486 [sref:17] New session started for 127.0.0.1:38418
+2023-01-19 12:15:59 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:15:59 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:15:59 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:15:59 INFO     2864486 [sref:17] Session stopped (Connection was closed cleanly.).
+2023-01-19 12:16:00 INFO     2864486 [sref:18] New session started for 127.0.0.1:38428
+2023-01-19 12:16:00 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 12:16:00 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 12:16:00 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 12:16:00 INFO     2864486 [sref:18] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:10:05 INFO     2864486 [sref:19] New session started for 127.0.0.1:59054
+2023-01-19 19:10:05 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:10:05 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:10:05 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:10:06 INFO     2864486 [sref:19] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:10:59 INFO     2864486 [sref:20] New session started for 127.0.0.1:60370
+2023-01-19 19:10:59 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:10:59 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:10:59 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:10:59 INFO     2864486 [sref:20] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:11:02 INFO     2864486 [sref:21] New session started for 127.0.0.1:60470
+2023-01-19 19:11:02 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:11:02 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:11:02 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:11:02 INFO     2864486 [sref:21] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:11:04 INFO     2864486 [sref:22] New session started for 127.0.0.1:60514
+2023-01-19 19:11:04 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:11:04 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:11:04 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:11:04 INFO     2864486 [sref:22] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:11:16 INFO     2864486 [sref:23] New session started for 127.0.0.1:60670
+2023-01-19 19:11:16 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:11:16 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:11:16 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:11:16 INFO     2864486 [sref:23] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:11:16 INFO     2864486 [sref:24] New session started for 127.0.0.1:60674
+2023-01-19 19:11:16 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:11:16 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:11:16 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:11:16 INFO     2864486 [sref:24] Session stopped (Connection was closed cleanly.).
+2023-01-19 19:11:17 INFO     2864486 [sref:25] New session started for 127.0.0.1:60684
+2023-01-19 19:11:17 INFO     2864486 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-19 19:11:17 INFO     2864486 filter configuration loaded (default profile)
+2023-01-19 19:11:17 INFO     2864486 httpcc configuration loaded (default profile)
+2023-01-19 19:11:17 INFO     2864486 [sref:25] Session stopped (Connection was closed cleanly.).
+2023-01-20 01:44:38 INFO     2864486 [sref:9] Session stopped (Connection was closed cleanly.).
+2023-01-20 16:22:47 INFO     3061959 Waiting for AMQP to get ready
+2023-01-20 16:22:47 INFO     3061959 [sref:1] New session started for 192.168.1.1:54321
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:22:47 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:22:47 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:22:47 INFO     3061959 OnStart loading configuration default profile with username: 'jcliadmin'
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [groups] from v0.10.13 to v0.10.13 by calling group_status(data)
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [users] from v0.10.13 to v0.10.13 by calling user_status(data)
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [users] from v0.10.13 to v0.10.13 by calling fix_users_09rc24(data)
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [mtroutes] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [smppccs] from v0.10.13 to v0.10.13 by calling fix_users_and_smppccs_09rc23(data)
+2023-01-20 16:22:47 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:22:47 INFO     3061959 mtrouter configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 filter configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 httpcc configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 morouter configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 smppcc configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 group configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 user configuration loaded.
+2023-01-20 16:22:47 INFO     3061959 [sref:1] Session stopped.
+2023-01-20 16:23:17 INFO     3061959 [sref:2] New session started for 127.0.0.1:38866
+2023-01-20 16:23:17 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:23:17 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:23:17 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:23:35 INFO     3061959 [sref:3] New session started for 127.0.0.1:39336
+2023-01-20 16:23:35 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:23:35 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:23:35 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:23:35 INFO     3061959 [sref:3] Session stopped (Connection was closed cleanly.).
+2023-01-20 16:24:55 INFO     3061959 [sref:4] New session started for 127.0.0.1:41172
+2023-01-20 16:24:55 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:24:55 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:24:55 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:24:55 INFO     3061959 [sref:4] Session stopped (Connection was closed cleanly.).
+2023-01-20 16:25:32 INFO     3061959 [sref:5] New session started for 127.0.0.1:42336
+2023-01-20 16:25:32 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:25:32 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:25:32 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:25:33 INFO     3061959 [sref:5] Session stopped (Connection was closed cleanly.).
+2023-01-20 16:26:13 INFO     3061959 [sref:6] New session started for 127.0.0.1:42832
+2023-01-20 16:26:13 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:26:13 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:26:13 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:26:13 INFO     3061959 [sref:6] Session stopped (Connection was closed cleanly.).
+2023-01-20 16:27:04 INFO     3061959 [sref:7] New session started for 127.0.0.1:43420
+2023-01-20 16:27:04 INFO     3061959 Migrating old data [filters] from v0.10.13 to v0.10.13 by calling tagfilters_casting(data)
+2023-01-20 16:27:04 INFO     3061959 filter configuration loaded (default profile)
+2023-01-20 16:27:04 INFO     3061959 httpcc configuration loaded (default profile)
+2023-01-20 16:27:05 INFO     3061959 [sref:7] Session stopped (Connection was closed cleanly.).
+2023-01-20 17:27:53 INFO     3061959 [sref:2] Session stopped (Connection was closed cleanly.).

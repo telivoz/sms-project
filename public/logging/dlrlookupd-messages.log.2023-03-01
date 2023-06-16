@@ -1,0 +1,4 @@
+2023-03-01 14:05:31 INFO     1092670 DLR [cid:testserver] [smpp-msgid:A35D0C30-ECFD-4C15-8437-3F43E0773040] [status:DELIVRD] [submit date:2303011404] [done date:2303011405] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-01 14:12:46 INFO     1092670 DLR [cid:testserver] [smpp-msgid:E2EBFD11-5F80-4E68-828C-4C1B3729613E] [status:DELIVRD] [submit date:2303011405] [done date:2303011412] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-01 14:25:14 INFO     1092670 DLR [cid:testserver] [smpp-msgid:64F24B89-82CF-4B19-A43D-16DF2E254031] [status:DELIVRD] [submit date:2303011421] [done date:2303011425] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-01 14:33:03 INFO     1092670 DLR [cid:testserver] [smpp-msgid:DD928EAD-ECE6-4E36-AC56-90A9B8F47386] [status:DELIVRD] [submit date:2303011421] [done date:2303011433] [sub/dlvrd messages:ND/ND] [err:000] [content:'']

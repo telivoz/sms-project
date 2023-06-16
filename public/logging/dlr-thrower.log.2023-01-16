@@ -1,0 +1,32 @@
+2023-01-17 18:59:52 INFO     2805404 Thrower configured and ready.
+2023-01-17 18:59:52 INFO     2805404 Added a perspectivebroker access to SMPPServerFactory
+2023-01-17 18:59:52 INFO     2805404 Added amqpBroker
+2023-01-17 18:59:52 INFO     2805404 Consuming from routing key: dlr_thrower.*
+2023-01-17 19:14:27 INFO     2806392 Thrower configured and ready.
+2023-01-17 19:14:27 INFO     2806392 Added a perspectivebroker access to SMPPServerFactory
+2023-01-17 19:14:27 INFO     2806392 Added amqpBroker
+2023-01-17 19:14:27 INFO     2806392 Consuming from routing key: dlr_thrower.*
+2023-01-17 19:54:56 INFO     2808683 Thrower configured and ready.
+2023-01-17 19:54:56 INFO     2808683 Added a perspectivebroker access to SMPPServerFactory
+2023-01-17 19:54:56 INFO     2808683 Added amqpBroker
+2023-01-17 19:54:56 INFO     2808683 Consuming from routing key: dlr_thrower.*
+2023-01-17 19:55:28 INFO     2808743 Thrower configured and ready.
+2023-01-17 19:55:28 INFO     2808743 Added a perspectivebroker access to SMPPServerFactory
+2023-01-17 19:55:28 INFO     2808743 Added amqpBroker
+2023-01-17 19:55:28 INFO     2808743 Consuming from routing key: dlr_thrower.*
+2023-01-17 19:56:43 INFO     2808824 Thrower configured and ready.
+2023-01-17 19:56:43 INFO     2808824 Added a perspectivebroker access to SMPPServerFactory
+2023-01-17 19:56:43 INFO     2808824 Added amqpBroker
+2023-01-17 19:56:43 INFO     2808824 Consuming from routing key: dlr_thrower.*
+2023-01-17 20:53:48 INFO     2812210 Thrower configured and ready.
+2023-01-17 20:53:48 INFO     2812210 Added a perspectivebroker access to SMPPServerFactory
+2023-01-17 20:53:48 INFO     2812210 Added amqpBroker
+2023-01-17 20:53:48 INFO     2812210 Consuming from routing key: dlr_thrower.*
+2023-01-18 11:40:10 INFO     2864487 Thrower configured and ready.
+2023-01-18 11:40:10 INFO     2864487 Added a perspectivebroker access to SMPPServerFactory
+2023-01-18 11:40:10 INFO     2864487 Added amqpBroker
+2023-01-18 11:40:10 INFO     2864487 Consuming from routing key: dlr_thrower.*
+2023-01-20 16:22:46 INFO     3061960 Thrower configured and ready.
+2023-01-20 16:22:46 INFO     3061960 Added a perspectivebroker access to SMPPServerFactory
+2023-01-20 16:22:46 INFO     3061960 Added amqpBroker
+2023-01-20 16:22:46 INFO     3061960 Consuming from routing key: dlr_thrower.*

@@ -7,7 +7,9 @@
 @extends('layouts.master')
 @section('content')
 <h1>Customer Rates</h1>
+@if (auth()->user()->profile == 1)
 <a href="/rates-customer/add" ype="button" class="btn btn-primary">Add Rate</a>
+@endif
 <table class="table">
   <thead>
     <tr>
@@ -26,7 +28,8 @@
       <td>{{ $rate->destination }}</td>
       <td> <?php $customer = DB::table('customers')->where('id', "$rate->company")->value('name'); echo $customer;?></td>
       <td>{{ $rate->cost }}</td>
-      <td>
+     @if (auth()->user()->profile == 1)
+	 <td>
           <a href="/rates-customer/edit/{{ $rate->id}}" class="bi bi-pencil-square"></a>
           <form action="/rates-customer/delete/{{ $rate->id }}" method="POST">
           @csrf
@@ -34,6 +37,7 @@
           <button type="submit" style="color:red;" class="bi bi-trash3"></button>
           </form>
       </td>
+	@endif
     </tr>
 @endforeach
   </tbody>

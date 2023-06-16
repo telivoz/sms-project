@@ -24,6 +24,14 @@
     <input type="password" class="form-control" id="password" placeholder="Enter Password" name="password">
 	 <input type="checkbox" onclick="myFunction()"> Show Password 
   </div>
+    <div class="form-group">
+    <label for="pwd">Provider:</label>
+        <select class="form-select" id="provider" name="provider">
+        @foreach($providers as $provider)
+                <option value="{{ $provider->id }}">{{ $provider->name }}<option>
+        @endforeach
+        </select>
+  </div>
   <div class="form-group">
     <label for="pwd">TPS:</label>
     <input type="number" class="form-control" id="tps" placeholder="Throughput Per Second" name="tps">
@@ -31,7 +39,10 @@
   <button type="submit" class="btn btn-success">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/connector" ype="button" class="btn btn-default">Cancel</a>
 </form>
 <?php
-        $connInfo = explode("\n", $conn);
+foreach ($providerId as $test) {
+	$providerID = $test->provider;
+}
+$connInfo = explode("\n", $conn);
 	foreach ($connInfo as $key => $value) {
 		if(strpos($value, 'port') !== false){
 			$port = explode(" ",$value);
@@ -74,7 +85,8 @@
         	document.getElementById('port').value = '$port';
 	        document.getElementById('username').value = '$username';
         	document.getElementById('password').value = '$password';
-        	document.getElementById('tps').value = '$tps';
-                        </script>";
+		document.getElementById('tps').value = '$tps';
+        	document.getElementById('provider').value = '$providerID';
+			</script>";
 ?>
 @endsection

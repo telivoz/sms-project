@@ -1,0 +1,249 @@
+ 
+ 
+***************** sms_logger *****************
+*** Staring sms_logger, DB drive: PostgreSQL
+**********************************************
+*** Connected to broker, authenticating: guest
+*** Authenticated. Ready to receive messages
+*** Pooling 20 connections
+*** Connected to psql
+:
+  File "/usr/lib/python3/dist-packages/twisted/internet/defer.py", line 700, in errback
+    self._startRunCallbacks(fail)
+  File "/usr/lib/python3/dist-packages/twisted/internet/defer.py", line 763, in _startRunCallbacks
+    self._runCallbacks()
+  File "/usr/lib/python3/dist-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/usr/lib/python3/dist-packages/twisted/internet/defer.py", line 1750, in gotResult
+    current_context.run(_inlineCallbacks, r, gen, status)
+--- <exception caught here> ---
+  File "/usr/lib/python3/dist-packages/twisted/internet/defer.py", line 1656, in _inlineCallbacks
+    result = current_context.run(
+  File "/usr/lib/python3/dist-packages/twisted/python/failure.py", line 489, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/opt/jasmin/consumer/sms_logger.py", line 64, in gotConnection
+    yield chan.queue_bind(queue="sms_logger_queue", exchange="messaging", routing_key='submit.sm.*')
+  File "/usr/lib/python3/dist-packages/twisted/internet/defer.py", line 1656, in _inlineCallbacks
+    result = current_context.run(
+  File "/usr/lib/python3/dist-packages/twisted/python/failure.py", line 489, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.10/dist-packages/txamqp/protocol.py", line 102, in invoke
+    self._raise_closed(self.reason)
+  File "/usr/local/lib/python3.10/dist-packages/txamqp/protocol.py", line 123, in _raise_closed
+    raise ChannelClosed(reason)
+txamqp.client.ChannelClosed: Method(name=close, id=40) (404, "NOT_FOUND - no exchange 'messaging' in vhost '/'", 50, 20) content = None
+
+htt
+submit.sm.
+submit.sm.tests
+Passou
+submit.sm.
+submit.sm.resp.
+SUBMIT RESP
+11686f4f-3bf8-4806-bb29-4b1e5eedbb75 b'1234' 0.0 1 0.0 b'55489880344304' b'Teste' <enum 'CommandStatus'> mario 2023-03-19 13:53:36.775586 b'5465737465' testserver httpapi 2023-03-19 13:53:36.775586
+--- mario ---  419.787999999999 1
+---PROVIDER testserver ---  -0.012 1
+55489880344304 None
+5548988034430 None
+554898803443 None
+55489880344 None
+5548988034 None
+554898803 None
+55489880 None
+5548988 None
+554898 None
+55489 None
+5548 None
+554 None
+55 (0.004, 'Brazil')
+ACHOU RATE  0.004 Brazil
+419.78399999999897
+55489880344304 None
+5548988034430 None
+554898803443 None
+55489880344 None
+5548988034 None
+554898803 None
+55489880 None
+5548988 None
+554898 None
+55489 None
+5548 None
+554 None
+55 ('0.006', 'Brazil')
+ACHOU RATE  0.006 Brazil
+-0.018000000000000002
+dlr_throwe
+dlr_thrower.htt
+dlr_throwe
+dlr_thrower.htt
+submit.sm.
+submit.sm.tests
+Passou
+submit.sm.
+submit.sm.resp.
+SUBMIT RESP
+728d657e-cc36-4a8b-875d-a707d4563f3d b'1234' 0.0 1 0.0 b'5548988034304' b'Teste' <enum 'CommandStatus'> mario 2023-03-24 13:07:47.270388 b'5465737465' testserver httpapi 2023-03-24 13:07:47.270388
+--- mario ---  419.78399999999897 1
+---PROVIDER testserver ---  -0.018000000000000002 1
+5548988034304 None
+554898803430 None
+55489880343 None
+5548988034 None
+554898803 None
+55489880 None
+5548988 None
+554898 None
+55489 None
+5548 None
+554 None
+55 (0.004, 'Brazil')
+ACHOU RATE  0.004 Brazil
+419.77999999999895
+5548988034304 None
+554898803430 None
+55489880343 None
+5548988034 None
+554898803 None
+55489880 None
+5548988 None
+554898 None
+55489 None
+5548 None
+554 None
+55 ('0.006', 'Brazil')
+ACHOU RATE  0.006 Brazil
+-0.024
+dlr_throwe
+dlr_thrower.htt
+dlr_throwe
+dlr_thrower.htt
+
+dlr_thrower.smp
+dlr_throwe
+dlr_thrower.htt
+dlr_throwe
+dlr_thrower.smp
+submit.sm.
+submit.sm.tests
+Passou
+submit.sm.
+submit.sm.resp.
+SUBMIT RESP
+1562a16f-bd51-4306-9167-fed272bdbafe b'000' 0.0 1 0.0 b'923135005050' b'msg2' <enum 'CommandStatus'> client_1 2023-03-18 12:38:38.812685 b'6d736732' testserver smppsapi 2023-03-18 12:38:38.812685
+--- client_1 ---  0.94 4
+---PROVIDER testserver ---  0.0000 4
+923135005050 None
+92313500505 None
+9231350050 None
+923135005 None
+92313500 None
+9231350 None
+923135 None
+92313 None
+9231 None
+923 None
+92 (0.004, 'Paquistan')
+ACHOU RATE  0.004 Paquistan
+0.9359999999999999
+923135005050 None
+92313500505 None
+9231350050 None
+923135005 None
+92313500 None
+9231350 None
+923135 None
+92313 None
+9231 None
+923 None
+92 None
+9 None
+r smppsapi 2023-03-15 19:22:27.917276
+--- client_1 ---  0.972 4
+5548988034304 None
+554898803430 None
+55489880343 None
+5548988034 None
+554898803 None
+55489880 None
+5548988 None
+554898 None
+55489 None
+5548 None
+554 None
+55 (0.004, 'Brazil')
+ACHOU RATE  0.004 Brazil
+0.968
+dlr_throwe
+dlr_thrower.smp
+submit.sm.
+submit.sm.tests
+Passou
+submit.sm.
+submit.sm.resp.
+c16868f9-4960-412a-8299-579452bce137 b'1234545454' 0.0 1 0.0 b'5548988034304' b'msg5' <enum 'CommandStatus'> client_1 2023-03-15 19:26:58.049397 b'6d736735' testserver smppsapi 2023-03-15 19:26:58.049397
+--- client_1 ---  0.968 4
+5548988034304 None
+554898803430 None
+55489880343 None
+5548988034 None
+554898803 None
+55489880 None
+5548988 None
+554898 None
+55489 None
+5548 None
+554 None
+55 (0.004, 'Brazil')
+ACHOU RATE  0.004 Brazil
+0.964
+dlr_throwe
+dlr_thrower.smp
+dlr_throwe
+dlr_thrower.smp
+dlr_throwe
+dlr_thrower.smp
+submit.sm.
+submit.sm.tests
+Passou
+submit.sm.
+submit.sm.resp.
+66483aa6-d15b-4d06-a9ae-d9fc5a247d5f b'1234' 0.0 1 0.0 b'923135005050' b'msg1' <enum 'CommandStatus'> client_1 2023-03-15 19:38:07.996347 b'6d736731' testserver smppsapi 2023-03-15 19:38:07.996347
+--- client_1 ---  0.964 4
+923135005050 None
+92313500505 None
+9231350050 None
+923135005 None
+92313500 None
+9231350 None
+923135 None
+92313 None
+9231 None
+923 None
+92 (0.004, 'Paquistan')
+ACHOU RATE  0.004 Paquistan
+0.96
+submit.sm.
+submit.sm.tests
+Passou
+submit.sm.
+submit.sm.resp.
+6c731566-fcb1-47de-b152-360177a035dd b'1234' 0.0 1 0.0 b'923135005050' b'msg1' <enum 'CommandStatus'> client_1 2023-03-15 19:41:40.474492 b'6d736731' testserver smppsapi 2023-03-15 19:41:40.474492
+--- client_1 ---  0.96 4
+923135005050 None
+92313500505 None
+9231350050 None
+923135005 None
+92313500 None
+9231350 None
+923135 None
+92313 None
+9231 None
+923 None
+92 (0.004, 'Paquistan')
+ACHOU RATE  0.004 Paquistan
+0.956
+dlr_throwe
+dlr_thrower.smp
+dlr_throwe
+dlr_thrower.smp

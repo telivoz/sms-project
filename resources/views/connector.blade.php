@@ -18,11 +18,13 @@ tbody tr:hover {
     </tr>
   </thead>
   <tbody>
+	
   @foreach ($connectores as $connector)      
   @if ($connector != "")
 	<tr><td>{{$connector}}</td>
-	<td><?php $status = shell_exec("python3 /opt/jasmin/cli/getConnectorStatus.py | grep $connector");
-		echo $status;?></td>
+	<td><?php /*$status = shell_exec("python3 /opt/jasmin/cli/getConnectorStatus.py | grep $connector");
+echo $status;*/
+echo $connectorsStatus[$loop->index]; ?></td>
 	<td><a href="/connector/start/{{ $connector }}" class="bi bi-play-circle-fill"></a>&ensp;&ensp;<a  href="/connector/stop/{{ $connector }}" class="bi bi-pause-circle"></a></td>
 	<td>
 	  <a href="/connector/edit/{{ $connector }}" class="bi bi-pencil-square"></a>

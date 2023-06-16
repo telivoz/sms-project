@@ -1,0 +1,8 @@
+2022-12-21 15:00:44 INFO     429813 SMPP Client manager configured and ready.
+2022-12-21 15:00:44 INFO     429813 Added amqpBroker to SMPPClientManagerPB
+2022-12-21 15:00:44 INFO     429813 Added Redis Client to SMPPClientManagerPB
+2022-12-21 15:00:44 INFO     429813 Added RouterPB to SMPPClientManagerPB
+2022-12-21 15:00:44 INFO     429813 Loading/Activating [jcli-prod] profile configuration from //etc/jasmin//store//jcli-prod.smppccs
+2022-12-21 15:00:44 ERROR    429813 Cannot load configuration from //etc/jasmin//store//jcli-prod.smppccs: [Errno 2] No such file or directory: '//etc/jasmin//store//jcli-prod.smppccs'
+2022-12-21 15:29:59 INFO     429813 Returning a list of 0 connectors
+2022-12-23 18:41:01 INFO     429813 Returning a list of 0 connectors

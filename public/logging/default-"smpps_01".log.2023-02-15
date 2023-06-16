@@ -1,0 +1,2 @@
+2023-02-15 11:36:18 WARNING  1092668 SMPP connection established from 162.254.201.189 to port 2775
+2023-02-15 11:36:18 INFO     1092668 Added CommandId.bind_transceiver bind for 'mario'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.

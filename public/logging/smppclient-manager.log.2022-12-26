@@ -1,0 +1,13 @@
+2022-12-28 12:32:07 INFO     429813 Returning a list of 0 connectors
+2022-12-28 12:35:48 INFO     429813 Returning a list of 0 connectors
+2022-12-28 14:27:38 INFO     429813 Returning a list of 0 connectors
+2022-12-28 14:28:26 INFO     429813 Binding submit.sm.testserver queue to submit.sm.testserver route_key
+2022-12-28 14:28:26 INFO     429813 Added a new connector: testserver
+2022-12-28 14:28:26 INFO     429813 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2022-12-28 14:28:27 INFO     429813 Returning a list of 1 connectors
+2022-12-28 14:28:34 ERROR    429813 Connector [testserver] is already stopped.
+2022-12-28 14:28:34 INFO     429813 SMPPClientFactory-testserver is consuming from queue: submit.sm.testserver
+2022-12-28 14:28:34 INFO     429813 Started connector [testserver]
+2022-12-28 14:28:34 INFO     429813 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2022-12-28 14:28:35 INFO     429813 Returning a list of 1 connectors
+2022-12-29 12:40:26 INFO     429813 Returning a list of 1 connectors

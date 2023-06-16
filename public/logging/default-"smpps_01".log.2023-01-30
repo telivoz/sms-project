@@ -1,0 +1,7 @@
+2023-01-30 09:42:21 WARNING  3061959 SMPP connection established from 147.78.47.58 to port 2775
+2023-01-30 09:42:31 CRITICAL 3061959 PDU read timed out. Buffer is now considered corrupt
+2023-01-30 09:42:31 CRITICAL 3061959 Connection is corrupt!!! Shutting down...
+2023-01-30 09:42:31 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-30 09:42:31 WARNING  3061959 Disconnecting...
+2023-01-30 09:42:31 WARNING  3061959 SMPP 147.78.47.58 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]

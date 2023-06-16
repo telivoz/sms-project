@@ -1,0 +1,114 @@
+2023-02-14 14:22:10 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:22:10 INFO     3061959 Reconnecting after 10 seconds ...
+2023-02-14 14:22:11 INFO     1092144 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:22:11 INFO     1092145 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:22:11 INFO     1092144 Connection made to 127.0.0.1:5672
+2023-02-14 14:22:11 INFO     1092144 Successfull authentication
+2023-02-14 14:22:11 INFO     1092144 Got channel
+2023-02-14 14:22:11 INFO     1092144 The channel is open
+2023-02-14 14:22:11 INFO     1092144 A new queue has been successfully declared [dlr_thrower]
+2023-02-14 14:22:11 INFO     1092145 Connection made to 127.0.0.1:5672
+2023-02-14 14:22:11 INFO     1092145 Successfull authentication
+2023-02-14 14:22:11 INFO     1092145 Got channel
+2023-02-14 14:22:11 INFO     1092145 The channel is open
+2023-02-14 14:22:11 INFO     1092145 A new queue has been successfully declared [DLRLookup-dlrlookupd-01]
+2023-02-14 14:22:11 INFO     1092143 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:22:12 INFO     1092143 Connection made to 127.0.0.1:5672
+2023-02-14 14:22:12 INFO     1092143 Successfull authentication
+2023-02-14 14:22:12 INFO     1092143 Got channel
+2023-02-14 14:22:12 INFO     1092143 The channel is open
+2023-02-14 14:22:12 INFO     1092143 A new queue has been successfully declared [RouterPB_deliver_sm_all]
+2023-02-14 14:22:12 INFO     1092143 A new queue has been successfully declared [RouterPB_bill_request_submit_sm_resp_all]
+2023-02-14 14:22:12 INFO     1092143 A new queue has been successfully declared [deliver_sm_thrower]
+2023-02-14 14:22:12 INFO     1092143 A new queue has been successfully declared [submit.sm.testserver]
+2023-02-14 14:24:27 ERROR    1092144 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:24:27 INFO     1092144 Reconnecting after 10 seconds ...
+2023-02-14 14:24:27 ERROR    1092145 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:24:27 INFO     1092145 Reconnecting after 10 seconds ...
+2023-02-14 14:24:27 ERROR    1092143 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:24:27 INFO     1092143 Reconnecting after 10 seconds ...
+2023-02-14 14:24:28 INFO     1092306 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:24:28 INFO     1092307 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:24:28 INFO     1092306 Connection made to 127.0.0.1:5672
+2023-02-14 14:24:28 INFO     1092306 Successfull authentication
+2023-02-14 14:24:28 INFO     1092306 Got channel
+2023-02-14 14:24:28 INFO     1092306 The channel is open
+2023-02-14 14:24:28 INFO     1092306 A new queue has been successfully declared [dlr_thrower]
+2023-02-14 14:24:28 INFO     1092307 Connection made to 127.0.0.1:5672
+2023-02-14 14:24:28 INFO     1092307 Successfull authentication
+2023-02-14 14:24:28 INFO     1092307 Got channel
+2023-02-14 14:24:28 INFO     1092307 The channel is open
+2023-02-14 14:24:28 INFO     1092307 A new queue has been successfully declared [DLRLookup-dlrlookupd-01]
+2023-02-14 14:24:28 INFO     1092305 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:24:28 INFO     1092305 Connection made to 127.0.0.1:5672
+2023-02-14 14:24:28 INFO     1092305 Successfull authentication
+2023-02-14 14:24:28 INFO     1092305 Got channel
+2023-02-14 14:24:28 INFO     1092305 The channel is open
+2023-02-14 14:24:28 INFO     1092305 A new queue has been successfully declared [RouterPB_deliver_sm_all]
+2023-02-14 14:24:28 INFO     1092305 A new queue has been successfully declared [RouterPB_bill_request_submit_sm_resp_all]
+2023-02-14 14:24:28 INFO     1092305 A new queue has been successfully declared [deliver_sm_thrower]
+2023-02-14 14:24:28 INFO     1092305 A new queue has been successfully declared [submit.sm.testserver]
+2023-02-14 14:29:08 ERROR    1092306 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:29:08 INFO     1092306 Reconnecting after 10 seconds ...
+2023-02-14 14:29:08 ERROR    1092307 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:29:08 INFO     1092307 Reconnecting after 10 seconds ...
+2023-02-14 14:29:09 ERROR    1092305 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:29:09 INFO     1092305 Reconnecting after 10 seconds ...
+2023-02-14 14:29:09 INFO     1092558 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:29:09 INFO     1092559 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:29:09 INFO     1092558 Connection made to 127.0.0.1:5672
+2023-02-14 14:29:09 INFO     1092558 Successfull authentication
+2023-02-14 14:29:09 INFO     1092558 Got channel
+2023-02-14 14:29:09 INFO     1092558 The channel is open
+2023-02-14 14:29:09 INFO     1092558 A new queue has been successfully declared [dlr_thrower]
+2023-02-14 14:29:09 INFO     1092559 Connection made to 127.0.0.1:5672
+2023-02-14 14:29:09 INFO     1092559 Successfull authentication
+2023-02-14 14:29:09 INFO     1092559 Got channel
+2023-02-14 14:29:09 INFO     1092559 The channel is open
+2023-02-14 14:29:09 INFO     1092559 A new queue has been successfully declared [DLRLookup-dlrlookupd-01]
+2023-02-14 14:29:09 INFO     1092557 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:29:09 INFO     1092557 Connection made to 127.0.0.1:5672
+2023-02-14 14:29:09 INFO     1092557 Successfull authentication
+2023-02-14 14:29:09 INFO     1092557 Got channel
+2023-02-14 14:29:09 INFO     1092557 The channel is open
+2023-02-14 14:29:09 INFO     1092557 A new queue has been successfully declared [RouterPB_deliver_sm_all]
+2023-02-14 14:29:09 INFO     1092557 A new queue has been successfully declared [RouterPB_bill_request_submit_sm_resp_all]
+2023-02-14 14:29:09 INFO     1092557 A new queue has been successfully declared [deliver_sm_thrower]
+2023-02-14 14:29:09 INFO     1092557 A new queue has been successfully declared [submit.sm.testserver]
+2023-02-14 14:30:38 ERROR    1092558 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:30:38 INFO     1092558 Reconnecting after 10 seconds ...
+2023-02-14 14:30:38 ERROR    1092559 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:30:38 INFO     1092559 Reconnecting after 10 seconds ...
+2023-02-14 14:30:38 ERROR    1092557 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-02-14 14:30:38 INFO     1092557 Reconnecting after 10 seconds ...
+2023-02-14 14:30:39 INFO     1092669 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:30:39 INFO     1092670 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:30:39 INFO     1092669 Connection made to 127.0.0.1:5672
+2023-02-14 14:30:39 INFO     1092669 Successfull authentication
+2023-02-14 14:30:39 INFO     1092669 Got channel
+2023-02-14 14:30:39 INFO     1092669 The channel is open
+2023-02-14 14:30:39 INFO     1092669 A new queue has been successfully declared [dlr_thrower]
+2023-02-14 14:30:39 INFO     1092670 Connection made to 127.0.0.1:5672
+2023-02-14 14:30:39 INFO     1092670 Successfull authentication
+2023-02-14 14:30:39 INFO     1092670 Got channel
+2023-02-14 14:30:39 INFO     1092670 The channel is open
+2023-02-14 14:30:39 INFO     1092670 A new queue has been successfully declared [DLRLookup-dlrlookupd-01]
+2023-02-14 14:30:39 INFO     1092668 Connecting to IPv4Address(type='TCP', host='127.0.0.1', port=5672) ...
+2023-02-14 14:30:39 INFO     1092668 Connection made to 127.0.0.1:5672
+2023-02-14 14:30:39 INFO     1092668 Successfull authentication
+2023-02-14 14:30:39 INFO     1092668 Got channel
+2023-02-14 14:30:39 INFO     1092668 The channel is open
+2023-02-14 14:30:39 INFO     1092668 A new queue has been successfully declared [RouterPB_deliver_sm_all]
+2023-02-14 14:30:39 INFO     1092668 A new queue has been successfully declared [RouterPB_bill_request_submit_sm_resp_all]
+2023-02-14 14:30:39 INFO     1092668 A new queue has been successfully declared [deliver_sm_thrower]
+2023-02-14 14:30:39 INFO     1092668 A new queue has been successfully declared [submit.sm.testserver]

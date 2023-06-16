@@ -1,0 +1,3 @@
+2023-03-19 13:22:24 INFO     222 DLR [cid:testserver] [smpp-msgid:536BB384-95F6-442F-AD49-2A470E59E671] [status:UNDELIV] [submit date:2303191315] [done date:2303191322] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-19 13:29:55 INFO     222 DLR [cid:testserver] [smpp-msgid:86EB47A2-00A0-4748-ABC3-319E9EA95396] [status:UNDELIV] [submit date:2303191329] [done date:2303191329] [sub/dlvrd messages:ND/ND] [err:000] [content:'']
+2023-03-19 14:00:58 INFO     222 DLR [cid:testserver] [smpp-msgid:8EE45A26-C0D6-4195-A039-CEB5290C9845] [status:UNDELIV] [submit date:2303191353] [done date:2303191400] [sub/dlvrd messages:ND/ND] [err:000] [content:'']

@@ -1,0 +1,66 @@
+2023-01-17 18:59:51 WARNING  429813 SMPP 162.254.201.189 disconnected from port 33994: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 18:59:51 ERROR    429813 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 18:59:51 INFO     429813 Reconnecting after 10 seconds ...
+2023-01-17 18:59:52 INFO     2805403 Establishing TCP connection to 162.254.201.189:4775
+2023-01-17 18:59:52 INFO     2805403 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-17 18:59:52 WARNING  2805403 SMPP connection established from 162.254.201.189 to port 39346
+2023-01-17 18:59:52 INFO     2805403 Connection made to 162.254.201.189:4775
+2023-01-17 18:59:52 WARNING  2805403 Requesting bind as transceiver
+2023-01-17 18:59:53 WARNING  2805403 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-17 19:14:26 WARNING  2805403 SMPP 162.254.201.189 disconnected from port 39346: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:14:26 ERROR    2805403 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:14:26 INFO     2805403 Reconnecting after 10 seconds ...
+2023-01-17 19:14:27 INFO     2806391 Establishing TCP connection to 162.254.201.189:4775
+2023-01-17 19:14:27 INFO     2806391 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-17 19:14:27 WARNING  2806391 SMPP connection established from 162.254.201.189 to port 57262
+2023-01-17 19:14:27 INFO     2806391 Connection made to 162.254.201.189:4775
+2023-01-17 19:14:27 WARNING  2806391 Requesting bind as transceiver
+2023-01-17 19:14:27 WARNING  2806391 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-17 19:54:55 WARNING  2806391 SMPP 162.254.201.189 disconnected from port 57262: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:54:55 ERROR    2806391 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:54:55 INFO     2806391 Reconnecting after 10 seconds ...
+2023-01-17 19:54:56 INFO     2808682 Establishing TCP connection to 162.254.201.189:4775
+2023-01-17 19:54:56 INFO     2808682 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-17 19:54:56 WARNING  2808682 SMPP connection established from 162.254.201.189 to port 53562
+2023-01-17 19:54:56 INFO     2808682 Connection made to 162.254.201.189:4775
+2023-01-17 19:54:56 WARNING  2808682 Requesting bind as transceiver
+2023-01-17 19:54:56 WARNING  2808682 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-17 19:55:27 WARNING  2808682 SMPP 162.254.201.189 disconnected from port 53562: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:55:27 ERROR    2808682 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:55:27 INFO     2808682 Reconnecting after 10 seconds ...
+2023-01-17 19:55:29 INFO     2808742 Establishing TCP connection to 162.254.201.189:4775
+2023-01-17 19:55:29 INFO     2808742 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-17 19:55:29 WARNING  2808742 SMPP connection established from 162.254.201.189 to port 53994
+2023-01-17 19:55:29 INFO     2808742 Connection made to 162.254.201.189:4775
+2023-01-17 19:55:29 WARNING  2808742 Requesting bind as transceiver
+2023-01-17 19:55:29 WARNING  2808742 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-17 19:56:43 WARNING  2808742 SMPP 162.254.201.189 disconnected from port 53994: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:56:43 ERROR    2808742 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 19:56:43 INFO     2808742 Reconnecting after 10 seconds ...
+2023-01-17 19:56:44 INFO     2808823 Establishing TCP connection to 162.254.201.189:4775
+2023-01-17 19:56:44 INFO     2808823 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-17 19:56:44 WARNING  2808823 SMPP connection established from 162.254.201.189 to port 55226
+2023-01-17 19:56:44 INFO     2808823 Connection made to 162.254.201.189:4775
+2023-01-17 19:56:44 WARNING  2808823 Requesting bind as transceiver
+2023-01-17 19:56:44 WARNING  2808823 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-17 20:53:48 WARNING  2808823 SMPP 162.254.201.189 disconnected from port 55226: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 20:53:48 ERROR    2808823 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-01-17 20:53:48 INFO     2808823 Reconnecting after 10 seconds ...
+2023-01-17 20:53:49 INFO     2812209 Establishing TCP connection to 162.254.201.189:4775
+2023-01-17 20:53:49 INFO     2812209 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-17 20:53:49 WARNING  2812209 SMPP connection established from 162.254.201.189 to port 37424
+2023-01-17 20:53:49 INFO     2812209 Connection made to 162.254.201.189:4775
+2023-01-17 20:53:49 WARNING  2812209 Requesting bind as transceiver
+2023-01-17 20:53:49 WARNING  2812209 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

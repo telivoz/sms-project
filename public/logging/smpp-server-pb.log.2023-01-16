@@ -1,0 +1,24 @@
+2023-01-17 18:59:52 INFO     2805403 SmppServerPB configured and ready.
+2023-01-17 18:59:52 INFO     2805403 Added SMPP Server: smpps_01
+2023-01-17 18:59:55 INFO     2805403 Authenticated Avatar: smppsadmin
+2023-01-17 19:14:27 INFO     2806391 SmppServerPB configured and ready.
+2023-01-17 19:14:27 INFO     2806391 Added SMPP Server: smpps_01
+2023-01-17 19:14:30 INFO     2806391 Authenticated Avatar: smppsadmin
+2023-01-17 19:54:56 INFO     2808682 SmppServerPB configured and ready.
+2023-01-17 19:54:56 INFO     2808682 Added SMPP Server: smpps_01
+2023-01-17 19:55:00 INFO     2808682 Authenticated Avatar: smppsadmin
+2023-01-17 19:55:29 INFO     2808742 SmppServerPB configured and ready.
+2023-01-17 19:55:29 INFO     2808742 Added SMPP Server: smpps_01
+2023-01-17 19:55:31 INFO     2808742 Authenticated Avatar: smppsadmin
+2023-01-17 19:56:44 INFO     2808823 SmppServerPB configured and ready.
+2023-01-17 19:56:44 INFO     2808823 Added SMPP Server: smpps_01
+2023-01-17 19:56:46 INFO     2808823 Authenticated Avatar: smppsadmin
+2023-01-17 20:53:49 INFO     2812209 SmppServerPB configured and ready.
+2023-01-17 20:53:49 INFO     2812209 Added SMPP Server: smpps_01
+2023-01-17 20:53:52 INFO     2812209 Authenticated Avatar: smppsadmin
+2023-01-18 11:40:10 INFO     2864486 SmppServerPB configured and ready.
+2023-01-18 11:40:10 INFO     2864486 Added SMPP Server: smpps_01
+2023-01-18 11:40:13 INFO     2864486 Authenticated Avatar: smppsadmin
+2023-01-20 16:22:47 INFO     3061959 SmppServerPB configured and ready.
+2023-01-20 16:22:47 INFO     3061959 Added SMPP Server: "smpps_01"
+2023-01-20 16:22:49 INFO     3061959 Authenticated Avatar: smppsadmin

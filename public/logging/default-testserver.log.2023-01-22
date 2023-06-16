@@ -1,0 +1,71 @@
+2023-01-22 11:52:03 ERROR    3061959 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 4920, command_status: CommandStatus.ESME_ROK
+]
+2023-01-22 11:52:03 WARNING  3061959 Shutdown requested...unbinding
+2023-01-22 11:52:03 INFO     3061959 Waiting for in-progress transactions to finish...
+2023-01-22 11:52:03 ERROR    3061959 Unbind received
+2023-01-22 11:52:03 ERROR    3061959 Unbind received
+2023-01-22 11:52:03 ERROR    3061959 Unbind received
+2023-01-22 11:52:03 WARNING  3061959 Issuing unbind request
+2023-01-22 11:52:03 WARNING  3061959 Disconnecting...
+2023-01-22 11:52:03 WARNING  3061959 SMPP 162.254.201.189 disconnected from port 48582: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-22 11:52:03 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-22 11:52:03 INFO     3061959 Reconnecting after 10 seconds ...
+2023-01-22 11:52:13 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-22 11:52:13 WARNING  3061959 SMPP connection established from 162.254.201.189 to port 37570
+2023-01-22 11:52:13 INFO     3061959 Connection made to 162.254.201.189:4775
+2023-01-22 11:52:13 WARNING  3061959 Requesting bind as transceiver
+2023-01-22 11:52:13 WARNING  3061959 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-22 11:52:33 ERROR    3061959 Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 4924, command_status: CommandStatus.ESME_ROK
+]
+2023-01-22 11:52:33 ERROR    3061959 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 4924, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-01-22 11:52:33 WARNING  3061959 Disconnecting...
+2023-01-22 11:52:33 WARNING  3061959 Disconnecting...
+2023-01-22 11:52:33 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-22 11:52:33 WARNING  3061959 Disconnecting...
+2023-01-22 13:25:21 ERROR    3061959 Request timed out after 120 secs: PDU [command: CommandId.enquire_link, sequence_number: 172, command_status: CommandStatus.ESME_ROK
+]
+2023-01-22 13:25:21 WARNING  3061959 Shutdown requested...unbinding
+2023-01-22 13:25:21 INFO     3061959 Waiting for in-progress transactions to finish...
+2023-01-22 13:25:21 ERROR    3061959 Unbind received
+2023-01-22 13:25:21 ERROR    3061959 Unbind received
+2023-01-22 13:25:21 ERROR    3061959 Unbind received
+2023-01-22 13:25:21 WARNING  3061959 Issuing unbind request
+2023-01-22 13:25:21 WARNING  3061959 Disconnecting...
+2023-01-22 13:25:21 WARNING  3061959 SMPP 162.254.201.189 disconnected from port 37570: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-22 13:25:21 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-22 13:25:21 INFO     3061959 Reconnecting after 10 seconds ...
+2023-01-22 13:25:31 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-22 13:25:51 ERROR    3061959 Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 176, command_status: CommandStatus.ESME_ROK
+]
+2023-01-22 13:25:51 ERROR    3061959 Unbind failed [[Failure instance: Traceback (failure with no frames): <class 'smpp.pdu.error.SMPPRequestTimoutError'>: Request timed out after 30 secs: PDU [command: CommandId.unbind, sequence_number: 176, command_status: CommandStatus.ESME_ROK
+]
+]]. Disconnecting...
+2023-01-22 13:25:51 WARNING  3061959 Disconnecting...
+2023-01-22 13:25:51 WARNING  3061959 Disconnecting...
+2023-01-22 13:25:51 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-22 13:25:51 WARNING  3061959 Disconnecting...
+2023-01-22 13:26:01 ERROR    3061959 Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+]
+2023-01-22 13:26:01 INFO     3061959 Reconnecting after 10 seconds ...
+2023-01-22 13:26:11 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-22 13:26:14 WARNING  3061959 SMPP connection established from 162.254.201.189 to port 53926
+2023-01-22 13:26:14 INFO     3061959 Connection made to 162.254.201.189:4775
+2023-01-22 13:26:14 WARNING  3061959 Requesting bind as transceiver
+2023-01-22 13:26:14 WARNING  3061959 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-22 13:28:27 WARNING  3061959 Disconnecting...
+2023-01-22 13:28:27 WARNING  3061959 SMPP 162.254.201.189 disconnected from port 53926: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-22 13:28:27 ERROR    3061959 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-22 13:28:27 INFO     3061959 Reconnecting after 10 seconds ...
+2023-01-22 13:28:37 INFO     3061959 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-22 13:28:37 WARNING  3061959 SMPP connection established from 162.254.201.189 to port 57118
+2023-01-22 13:28:37 INFO     3061959 Connection made to 162.254.201.189:4775
+2023-01-22 13:28:37 WARNING  3061959 Requesting bind as transceiver
+2023-01-22 13:28:37 WARNING  3061959 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

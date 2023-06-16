@@ -13,10 +13,10 @@
     <input type="text" class="form-control" id="destination" placeholder="Enter Destination name" name="destination" value="{{ $rate->destination }}">
   </div>
   <div class="form-group">
-    <label for="company">COMPANY:</label>
+    <label for="company">COMPANY UID:</label>
         <select class="form-select" id="company" name="company">
 @foreach($customers as $customer)
-                <option value="<?php echo $customer->id?>"><?php echo $customer->name?></option>
+                <option value="<?php echo $customer->id?>"><?php echo $customer->name . "-" .$customer->uid?></option>
 @endforeach
         </select>
         <script>

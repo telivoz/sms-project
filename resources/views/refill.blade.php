@@ -21,10 +21,12 @@
       <td>{{ $customer->name }}</td>
       <td>{{ $customer->company }}</td>
       <td>{{$customer->balance}}</td>
+@if (auth()->user()->profile == 1)
       <td>
           <a href="/refill/add/{{ $customer->id }}" class="fa fa-dollar"></a>
           </form>
       </td>
+@endif
     </tr>
     @endforeach
   </tbody>

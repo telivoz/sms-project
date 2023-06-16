@@ -1,0 +1,31 @@
+2023-03-18 12:27:52 INFO     222 SMS-MT [uid:client_1] [cid:testserver] [msgid:958191b2-b8e6-4c34-a25d-f48909ebd506] [prio:1] [from:b'000'] [to:b'55489880344304'] [content:b'msg1']
+2023-03-18 12:27:57 INFO     222 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-18 12:27:57 WARNING  222 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-18 12:28:18 INFO     220 Added Interceptor to SMPPServerFactory
+2023-03-18 12:28:27 WARNING  220 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-18 12:28:27 INFO     220 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-18 12:36:52 INFO     220 SMS-MT [uid:client_1] [cid:testserver] [msgid:6bf4f82d-e8d0-4ef5-b936-71143a13d8f1] [prio:1] [from:b'000'] [to:b'55489880344304'] [content:b'msg2']
+2023-03-18 12:36:52 INFO     220 DELIVER_SM [uid:client_1] [from:b'55489880344304'] [to:b'0'] [content:b'id:6bf4f82d-e8d0-4ef5-b936-71143a13d8f1 submit date:2303181236 done date:2303181236 stat:ACCEPTD err:99']
+2023-03-18 12:37:13 INFO     220 DELIVER_SM [uid:client_1] [from:b'55489880344304'] [to:b'0'] [content:b'id:6bf4f82d-e8d0-4ef5-b936-71143a13d8f1 submit date:2303181236 done date:2303181237 stat:UNDELIV err:000']
+2023-03-18 12:38:38 INFO     220 SMS-MT [uid:client_1] [cid:testserver] [msgid:1562a16f-bd51-4306-9167-fed272bdbafe] [prio:1] [from:b'000'] [to:b'923135005050'] [content:b'msg2']
+2023-03-18 12:38:38 INFO     220 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:1562a16f-bd51-4306-9167-fed272bdbafe submit date:2303181238 done date:2303181238 stat:ACCEPTD err:99']
+2023-03-18 12:39:41 INFO     220 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:1562a16f-bd51-4306-9167-fed272bdbafe submit date:2303181238 done date:2303181239 stat:DELIVRD err:000']
+2023-03-18 12:40:47 INFO     220 SMS-MT [uid:client_1] [cid:testserver] [msgid:4a2b9fe4-9a9d-4731-be0a-ddc395c8e362] [prio:1] [from:b'000'] [to:b'923135005050'] [content:b'msg3']
+2023-03-18 12:40:47 INFO     220 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:4a2b9fe4-9a9d-4731-be0a-ddc395c8e362 submit date:2303181240 done date:2303181240 stat:ACCEPTD err:99']
+2023-03-18 12:43:50 INFO     220 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:4a2b9fe4-9a9d-4731-be0a-ddc395c8e362 submit date:2303181240 done date:2303181243 stat:DELIVRD err:000']
+2023-03-18 12:57:40 ERROR    220 Interceptor script returned 254 smpp_status error.
+2023-03-18 12:58:00 ERROR    220 Interceptor script returned 254 smpp_status error.
+2023-03-18 13:06:00 INFO     220 SMS-MT [uid:client_1] [cid:testserver] [msgid:18458817-e01c-438f-9a7a-ff9978fc5897] [prio:1] [from:b'000'] [to:b'55489880344304'] [content:b'msg9']
+2023-03-18 13:06:00 INFO     220 DELIVER_SM [uid:client_1] [from:b'55489880344304'] [to:b'0'] [content:b'id:18458817-e01c-438f-9a7a-ff9978fc5897 submit date:2303181306 done date:2303181306 stat:ACCEPTD err:99']
+2023-03-18 13:09:51 INFO     220 DELIVER_SM [uid:client_1] [from:b'55489880344304'] [to:b'0'] [content:b'id:18458817-e01c-438f-9a7a-ff9978fc5897 submit date:2303181306 done date:2303181309 stat:UNDELIV err:000']
+2023-03-18 18:14:18 WARNING  220 SMPP connection established from 179.43.191.90 to port 2775
+2023-03-18 18:14:46 WARNING  220 SMPP 179.43.191.90 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+]
+2023-03-18 18:19:58 WARNING  220 SMPP connection established from 179.43.191.90 to port 2775
+2023-03-18 18:20:08 CRITICAL 220 PDU read timed out. Buffer is now considered corrupt
+2023-03-18 18:20:08 CRITICAL 220 Connection is corrupt!!! Shutting down...
+2023-03-18 18:20:08 WARNING  220 Shutdown requested...disconnecting
+2023-03-18 18:20:08 WARNING  220 Disconnecting...
+2023-03-18 18:20:08 WARNING  220 SMPP 179.43.191.90 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]

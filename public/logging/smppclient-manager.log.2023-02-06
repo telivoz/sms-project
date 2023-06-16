@@ -1,0 +1,21 @@
+2023-02-09 12:27:53 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 12:28:44 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 12:30:42 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 14:16:45 INFO     3061959 Stopped connector [testserver]
+2023-02-09 14:16:45 ERROR    3061959 Connector [testserver] cannot be started when in session_state: SMPPSessionStates.UNBIND_PENDING
+2023-02-09 14:16:48 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 14:16:50 INFO     3061959 SMPPClientFactory-testserver is consuming from queue: submit.sm.testserver
+2023-02-09 14:16:50 INFO     3061959 Started connector [testserver]
+2023-02-09 14:17:10 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 14:17:34 INFO     3061959 Stopped connector [testserver]
+2023-02-09 14:17:34 INFO     3061959 SMPPClientFactory-testserver is consuming from queue: submit.sm.testserver
+2023-02-09 14:17:34 INFO     3061959 Started connector [testserver]
+2023-02-09 14:17:34 ERROR    3061959 Connector [testserver] is already running.
+2023-02-09 14:17:34 INFO     3061959 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-02-09 14:17:34 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 15:00:47 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 15:04:32 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 15:17:59 INFO     3061959 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-02-09 17:09:37 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 17:53:55 INFO     3061959 Returning a list of 1 connectors
+2023-02-09 17:57:05 INFO     3061959 Returning a list of 1 connectors

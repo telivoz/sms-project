@@ -1,0 +1,10 @@
+2023-03-27 08:11:20 WARNING  233 SMPP 162.254.201.189 disconnected from port 39628: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 08:11:20 ERROR    233 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-27 08:11:20 INFO     233 Reconnecting after 10 seconds ...
+2023-03-27 08:11:30 INFO     233 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-27 08:11:30 WARNING  233 SMPP connection established from 162.254.201.189 to port 35428
+2023-03-27 08:11:30 INFO     233 Connection made to 162.254.201.189:4775
+2023-03-27 08:11:30 WARNING  233 Requesting bind as transceiver
+2023-03-27 08:11:30 WARNING  233 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

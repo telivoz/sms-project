@@ -1,0 +1,135 @@
+2023-03-21 17:32:58 INFO     220 Returning a list of 1 connectors
+2023-03-22 11:07:09 INFO     220 Returning a list of 1 connectors
+2023-03-23 19:33:16 INFO     220 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-24 12:20:39 INFO     220 Returning a list of 1 connectors
+2023-03-24 12:20:55 INFO     220 Returning a list of 1 connectors
+2023-03-24 12:21:11 INFO     220 Returning a list of 1 connectors
+2023-03-24 12:21:15 INFO     220 Returning a list of 1 connectors
+2023-03-24 12:22:02 INFO     220 Returning a list of 1 connectors
+2023-03-24 12:58:59 INFO     220 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-24 12:59:32 INFO     220 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-24 13:29:18 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:31:04 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:31:17 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:33:44 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:33:44 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:34:19 INFO     220 Binding submit.sm.teste2 queue to submit.sm.teste2 route_key
+2023-03-24 13:34:19 INFO     220 Added a new connector: teste2
+2023-03-24 13:34:19 INFO     220 SMPPClientFactory-teste2 is consuming from queue: submit.sm.teste2
+2023-03-24 13:34:19 INFO     220 Started connector [teste2]
+2023-03-24 13:34:19 INFO     220 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-24 13:34:20 INFO     220 Returning a list of 2 connectors
+2023-03-24 13:34:20 INFO     220 Returning a list of 2 connectors
+2023-03-24 13:34:21 INFO     220 Returning a list of 2 connectors
+2023-03-24 13:34:34 ERROR    220 Connector [teste2] is already stopped.
+2023-03-24 13:34:34 INFO     220 Removed connector [teste2]
+2023-03-24 13:34:34 INFO     220 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-24 13:34:35 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:34:35 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:36:28 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:36:28 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:37:04 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:37:05 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:38:31 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:38:32 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:38:48 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:38:48 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:39:10 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:39:10 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:41:16 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:41:17 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:41:33 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:41:33 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:46:39 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:46:39 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:09 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:09 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:31 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:31 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:43 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:43 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:47 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:47 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:56 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:47:56 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:51:46 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:51:46 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:51:50 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:51:50 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:46 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:46 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:48 INFO     220 Stopped connector [testserver]
+2023-03-24 13:52:48 ERROR    220 Connector [testserver] is already stopped.
+2023-03-24 13:52:49 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:49 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:52 INFO     220 SMPPClientFactory-testserver is consuming from queue: submit.sm.testserver
+2023-03-24 13:52:52 INFO     220 Started connector [testserver]
+2023-03-24 13:52:52 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:53 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:57 INFO     220 Returning a list of 1 connectors
+2023-03-24 13:52:57 INFO     220 Returning a list of 1 connectors
+2023-03-24 14:50:17 INFO     220 Returning a list of 1 connectors
+2023-03-24 14:50:17 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:09:58 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:09:59 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:10:05 ERROR    220 Connector [testserver] is already running.
+2023-03-24 15:10:06 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:10:06 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:10:09 INFO     220 Stopped connector [testserver]
+2023-03-24 15:10:10 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:10:10 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:10:13 INFO     220 SMPPClientFactory-testserver is consuming from queue: submit.sm.testserver
+2023-03-24 15:10:13 INFO     220 Started connector [testserver]
+2023-03-24 15:10:13 INFO     220 Returning a list of 1 connectors
+2023-03-24 15:10:14 INFO     220 Returning a list of 1 connectors
+2023-03-24 16:28:10 INFO     220 Returning a list of 1 connectors
+2023-03-24 16:28:10 INFO     220 Returning a list of 1 connectors
+2023-03-24 16:29:22 INFO     220 Returning a list of 1 connectors
+2023-03-24 16:29:22 INFO     220 Returning a list of 1 connectors
+2023-03-24 16:45:05 INFO     220 Returning a list of 1 connectors
+2023-03-24 16:45:06 INFO     220 Returning a list of 1 connectors
+2023-03-24 17:17:55 INFO     220 Returning a list of 1 connectors
+2023-03-24 17:17:56 INFO     220 Returning a list of 1 connectors
+2023-03-24 17:18:59 INFO     220 Returning a list of 1 connectors
+2023-03-24 17:18:59 INFO     220 Returning a list of 1 connectors
+2023-03-24 17:36:58 INFO     220 Returning a list of 1 connectors
+2023-03-24 17:36:59 INFO     220 Returning a list of 1 connectors
+2023-03-25 11:06:30 INFO     220 Returning a list of 1 connectors
+2023-03-25 11:06:31 INFO     220 Returning a list of 1 connectors
+2023-03-25 11:06:48 INFO     220 Binding submit.sm.testeProvider2 queue to submit.sm.testeProvider2 route_key
+2023-03-25 11:06:48 INFO     220 Added a new connector: testeProvider2
+2023-03-25 11:06:48 INFO     220 SMPPClientFactory-testeProvider2 is consuming from queue: submit.sm.testeProvider2
+2023-03-25 11:06:48 INFO     220 Started connector [testeProvider2]
+2023-03-25 11:06:48 INFO     220 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-25 11:06:49 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:06:49 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:06:49 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:19:07 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:19:08 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:19:08 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:19:08 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:19:09 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:19:09 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:34:07 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:34:07 INFO     220 Returning a list of 2 connectors
+2023-03-25 11:34:07 INFO     220 Returning a list of 2 connectors
+2023-03-25 12:27:18 INFO     233 SMPP Client manager configured and ready.
+2023-03-25 12:27:18 INFO     233 Added amqpBroker to SMPPClientManagerPB
+2023-03-25 12:27:18 INFO     233 Added Redis Client to SMPPClientManagerPB
+2023-03-25 12:27:18 INFO     233 Added RouterPB to SMPPClientManagerPB
+2023-03-25 12:27:18 INFO     233 Added interceptorpb_client to SMPPClientManagerPB
+2023-03-25 12:27:18 INFO     233 Loading/Activating [jcli-prod] profile configuration from //etc/jasmin//store//jcli-prod.smppccs
+2023-03-25 12:27:18 INFO     233 Binding submit.sm.testserver queue to submit.sm.testserver route_key
+2023-03-25 12:27:18 INFO     233 Added a new connector: testserver
+2023-03-25 12:27:18 INFO     233 SMPPClientFactory-testserver is consuming from queue: submit.sm.testserver
+2023-03-25 12:27:18 INFO     233 Started connector [testserver]
+2023-03-25 12:27:18 INFO     233 Binding submit.sm.testeProvider2 queue to submit.sm.testeProvider2 route_key
+2023-03-25 12:27:18 INFO     233 Added a new connector: testeProvider2
+2023-03-25 12:27:18 INFO     233 SMPPClientFactory-testeProvider2 is consuming from queue: submit.sm.testeProvider2
+2023-03-25 12:27:18 INFO     233 Started connector [testeProvider2]
+2023-03-26 09:51:21 INFO     233 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-26 09:52:26 INFO     233 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-26 09:54:38 INFO     233 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-26 09:57:44 INFO     233 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-26 09:59:33 INFO     233 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs
+2023-03-26 10:07:12 INFO     233 Persisting current configuration to [jcli-prod] profile in //etc/jasmin//store//jcli-prod.smppccs

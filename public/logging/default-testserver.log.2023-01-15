@@ -1,0 +1,29 @@
+2023-01-15 01:35:35 ERROR    429813 Unbind received
+2023-01-15 01:35:35 ERROR    429813 Unbind received
+2023-01-15 01:35:35 ERROR    429813 Unbind received
+2023-01-15 01:35:35 WARNING  429813 Disconnecting...
+2023-01-15 01:35:35 WARNING  429813 SMPP 162.254.201.189 disconnected from port 54642: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-15 01:35:35 ERROR    429813 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-15 01:35:35 INFO     429813 Reconnecting after 10 seconds ...
+2023-01-15 01:35:45 INFO     429813 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-15 01:36:15 ERROR    429813 Connection failed. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+]
+2023-01-15 01:36:15 INFO     429813 Reconnecting after 10 seconds ...
+2023-01-15 01:36:25 INFO     429813 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-15 01:36:40 WARNING  429813 SMPP connection established from 162.254.201.189 to port 58892
+2023-01-15 01:36:40 INFO     429813 Connection made to 162.254.201.189:4775
+2023-01-15 01:36:40 WARNING  429813 Requesting bind as transceiver
+2023-01-15 01:36:40 WARNING  429813 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX
+2023-01-15 01:38:53 WARNING  429813 Disconnecting...
+2023-01-15 01:38:53 WARNING  429813 SMPP 162.254.201.189 disconnected from port 58892: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-15 01:38:53 ERROR    429813 Connection lost. Reason: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-15 01:38:53 INFO     429813 Reconnecting after 10 seconds ...
+2023-01-15 01:39:03 INFO     429813 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-01-15 01:39:03 WARNING  429813 SMPP connection established from 162.254.201.189 to port 33994
+2023-01-15 01:39:03 INFO     429813 Connection made to 162.254.201.189:4775
+2023-01-15 01:39:03 WARNING  429813 Requesting bind as transceiver
+2023-01-15 01:39:04 WARNING  429813 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

@@ -1,0 +1,40 @@
+2023-01-31 00:16:07 WARNING  3061959 SMPP connection established from 213.225.240.77 to port 2775
+2023-01-31 00:16:07 WARNING  3061959 SMPP connection established from 213.225.240.77 to port 2775
+2023-01-31 00:16:07 WARNING  3061959 SMPP connection established from 213.225.240.77 to port 2775
+2023-01-31 00:16:07 WARNING  3061959 SMPP connection established from 213.225.240.77 to port 2775
+2023-01-31 00:16:12 WARNING  3061959 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-31 00:16:12 WARNING  3061959 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-31 00:16:12 WARNING  3061959 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-31 00:16:12 WARNING  3061959 SMPP 213.225.240.77 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-01-31 00:16:17 CRITICAL 3061959 PDU read timed out. Buffer is now considered corrupt
+2023-01-31 00:16:17 CRITICAL 3061959 Connection is corrupt!!! Shutting down...
+2023-01-31 00:16:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:16:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:16:17 CRITICAL 3061959 PDU read timed out. Buffer is now considered corrupt
+2023-01-31 00:16:17 CRITICAL 3061959 Connection is corrupt!!! Shutting down...
+2023-01-31 00:16:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:16:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:16:17 CRITICAL 3061959 PDU read timed out. Buffer is now considered corrupt
+2023-01-31 00:16:17 CRITICAL 3061959 Connection is corrupt!!! Shutting down...
+2023-01-31 00:16:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:16:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:16:17 CRITICAL 3061959 PDU read timed out. Buffer is now considered corrupt
+2023-01-31 00:16:17 CRITICAL 3061959 Connection is corrupt!!! Shutting down...
+2023-01-31 00:16:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:16:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:21:17 CRITICAL 3061959 Inactivity timer expired...shutting down
+2023-01-31 00:21:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:21:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:21:17 CRITICAL 3061959 Inactivity timer expired...shutting down
+2023-01-31 00:21:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:21:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:21:17 CRITICAL 3061959 Inactivity timer expired...shutting down
+2023-01-31 00:21:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:21:17 WARNING  3061959 Disconnecting...
+2023-01-31 00:21:17 CRITICAL 3061959 Inactivity timer expired...shutting down
+2023-01-31 00:21:17 WARNING  3061959 Shutdown requested...disconnecting
+2023-01-31 00:21:17 WARNING  3061959 Disconnecting...

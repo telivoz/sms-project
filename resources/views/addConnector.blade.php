@@ -25,7 +25,7 @@
   </div>
     <div class="form-group">
     <label for="pwd">Provider:</label>
-	<select class="form-select" id="provider" name="provider">
+	<select required class="form-select" id="provider" name="provider">
 	@foreach($providers as $provider)
 		<option value="{{ $provider->id }}">{{ $provider->name }}<option>
 	@endforeach

@@ -1,0 +1,6 @@
+2023-03-02 12:31:50 INFO     372 Establishing TCP connection to 162.254.201.189:4775
+2023-03-02 12:31:50 INFO     372 Connecting to IPv4Address(type='TCP', host='162.254.201.189', port=4775) ...
+2023-03-02 12:31:50 WARNING  372 SMPP connection established from 162.254.201.189 to port 57898
+2023-03-02 12:31:50 INFO     372 Connection made to 162.254.201.189:4775
+2023-03-02 12:31:50 WARNING  372 Requesting bind as transceiver
+2023-03-02 12:31:51 WARNING  372 Bind succeeded...now in state SMPPSessionStates.BOUND_TRX

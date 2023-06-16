@@ -18,6 +18,20 @@
                     <a href="/dashboard">
                         <i class="fas fa-tachometer-alt"></i>Dashboard</a>
 		</li>
+		<li>
+                <li class="active has-sub">
+                    <a class="js-arrow" href="#">
+			<i class="fas fa-th-list"></i>Summary<i class="bi bi-sort-down"></i></a>
+                	<ul class="list-unstyled navbar__sub-list js-sub-list">
+                        <li>
+			    <a href="/summary-customer">Customers</a>
+
+                        <li>
+                            <a href="/summary-provider">Providers</a>
+                        </li>
+                    </ul>
+
+                </li>
                 <li>
                 <a href="/sendSMS">
                         <i class="fa fa-envelope-open-o"></i>Send SMS</a>
@@ -26,10 +40,12 @@
 		<li class="active has-sub">
                     <a class="js-arrow" href="#">
                         <i class="bi bi-receipt-cutoff"></i>Reports <i class="bi bi-sort-down"></i></a>
-                    <ul class="list-unstyled navbar__sub-list js-sub-list">
+		    <ul class="list-unstyled navbar__sub-list js-sub-list">
+			@if ((auth()->user()->profile == 3) || (auth()->user()->profile == 4))
                         <li>
                             <a href="/reports-customer">Customers Reports</a>
 			</li>
+			@endif
 			@if ((auth()->user()->profile == 1) || (auth()->user()->profile == 2))
 			<li>
 			    <a href="/reports">All Reports</a>

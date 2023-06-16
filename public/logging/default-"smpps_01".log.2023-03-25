@@ -1,0 +1,14 @@
+2023-03-25 11:50:54 INFO     220 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-25 11:50:54 WARNING  220 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+]
+2023-03-25 11:52:33 WARNING  220 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-25 11:52:33 INFO     220 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-25 11:53:11 INFO     220 SMS-MT [uid:client_1] [cid:testserver] [msgid:b39e0e25-d103-47f7-9ea7-c906519eb8de] [prio:1] [from:b'000'] [to:b'923135005050'] [content:b'test msg 1']
+2023-03-25 11:53:11 INFO     220 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:b39e0e25-d103-47f7-9ea7-c906519eb8de submit date:2303251153 done date:2303251153 stat:ACCEPTD err:99']
+2023-03-25 11:53:15 INFO     220 DELIVER_SM [uid:client_1] [from:b'923135005050'] [to:b'0'] [content:b'id:b39e0e25-d103-47f7-9ea7-c906519eb8de submit date:2303251153 done date:2303251153 stat:DELIVRD err:000']
+2023-03-25 12:26:51 INFO     220 Dropped CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 0, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.
+2023-03-25 12:26:51 WARNING  220 SMPP 162.254.201.189 disconnected from port 2775: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2023-03-25 12:27:18 INFO     233 Added Interceptor to SMPPServerFactory
+2023-03-25 12:27:19 WARNING  233 SMPP connection established from 162.254.201.189 to port 2775
+2023-03-25 12:27:19 INFO     233 Added CommandId.bind_transceiver bind for 'client_1'. Active binds: CommandId.bind_transceiver: 1, CommandId.bind_transmitter: 0, CommandId.bind_receiver: 0.

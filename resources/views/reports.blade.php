@@ -35,7 +35,13 @@ tfoot input {
       <td>{{ $report->source_connector }}</td>
       <td>{{ $report->source_addr }}</td>
       <td>{{ $report->destination_addr }}</td>
-      <td>{{ $report->short_message }}</td>
+<?php 
+$msg = substr($report->short_message, 2);
+	if (trim($msg, '0..9A..Fa..f') == '') {
+		$hex=hex2bin($msg);
+	}
+?>
+      <td>{{ $hex }}</td>
       <td>{{ $report->status }}</td>
     </tr>
     @endforeach
@@ -46,7 +52,6 @@ tfoot input {
 </div>
 <center><a>{{ $reports->count() }} of {{ $reports->total() }}</a></center>
 @endsection
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
 <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
